@@ -1,0 +1,694 @@
+[
+  {
+    "source_row": 13,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 121,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 180,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 199,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 212,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 554,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 574,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 771,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 777,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 793,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 804,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 815,
+    "title": "Classical World",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 816,
+    "title": "Classical World",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 824,
+    "title": "Classical World",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 827,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 843,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 854,
+    "title": "THE PAPERS OF THE BIBLIOGRAPHICAL SOCIETY OF AMERICA",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 855,
+    "title": "THE PAPERS OF THE BIBLIOGRAPHICAL SOCIETY OF AMERICA",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 856,
+    "title": "The Papers of the Bibliographical Society of America",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 858,
+    "title": "Notes: Quarterly Journal of the Music Library Association",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 860,
+    "title": "The Papers of the Bibliographical Society of America",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 876,
+    "title": "The Papers of the Bibliographical Society of America",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 980,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1025,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1272,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1279,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1282,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1283,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1347,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1542,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1543,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1596,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1718,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1740,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1825,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1895,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1945,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 1968,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2058,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2081,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2156,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2163,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2167,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2184,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2263,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2273,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2291,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2312,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2315,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2389,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2394,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2422,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2471,
+    "title": "The Papers of the Bibliographical Society of America",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 2479,
+    "title": "College & Research Libraries News",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 2482,
+    "title": "The Papers of the Bibliographical Society of America",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 2483,
+    "title": "The Papers of the Bibliographical Society of America",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 2597,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2598,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2654,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2718,
+    "title": "Scripta Classica Israelica",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 2719,
+    "title": "Scripta Classica Israelica",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 2720,
+    "title": "Scripta Classica Israelica",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 2721,
+    "title": "Scripta Classica Israelica",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 2737,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 2738,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3012,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3029,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3067,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3191,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3216,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3357,
+    "title": "Scripta Classica Israelica",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3361,
+    "title": "The Jewish Quarterly Review",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3362,
+    "title": "The Jewish Quarterly Review",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3454,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3460,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3465,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3504,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3515,
+    "title": "Proceedings of the Cambridge Philological Society",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3524,
+    "title": "Classical World",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3525,
+    "title": "Classical World",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3526,
+    "title": "Classical World",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3527,
+    "title": "Classical Journal",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3528,
+    "title": "Classical World",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3529,
+    "title": "Classical Association of the Atlantic States Journal",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3530,
+    "title": "The Classical Outlook",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3533,
+    "title": "ARTIVM",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3534,
+    "title": "The Classical World",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3535,
+    "title": "Classical Association of the Atlantic States",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3536,
+    "title": "The Gorgonic Archer: Danger of Sight in Euripides' Heracles",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3537,
+    "title": "Classical Journal",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3538,
+    "title": "Paedagogus",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3539,
+    "title": "Classical World",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3540,
+    "title": "Textbooks in Greek and Latin: 1988 Survey",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3541,
+    "title": "Classical World",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3542,
+    "title": "Classical Association of the Atlantic States",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3543,
+    "title": "The Classical World",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3545,
+    "title": "Classical Atlases",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3546,
+    "title": "Paedagogus",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3547,
+    "title": "Classical Association of the Atlantic States Journal",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3548,
+    "title": "Classical Association of the Atlantic States",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3549,
+    "title": "The Classical Outlook",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3551,
+    "title": "Classical World",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3552,
+    "title": "Classical Association of the Atlantic States, Volume 80 No. 4",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3553,
+    "title": "Paedagogus",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3554,
+    "title": "Proceedings of the Cambridge Philological Society",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3559,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3560,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3562,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3563,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3577,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3604,
+    "title": "Quarterly Journal of the Music Library Association",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3663,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3721,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3748,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3769,
+    "title": "The Journal of Hellenic Studies",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3770,
+    "title": "The Journal of Hellenic Studies",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3771,
+    "title": "The Journal of Hellenic Studies",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3777,
+    "title": "The Journal of Hellenic Studies",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3778,
+    "title": "The Journal of Hellenic Studies",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3792,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3818,
+    "title": "Notes: Quarterly Journal of the Music Library Association",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3831,
+    "title": "דושת שביעית",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 3971,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 3977,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 4063,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 4100,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 4141,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 4196,
+    "title": "Philological Quarterly",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 4197,
+    "title": "Studies in Greek Lyric Poetry: 1975-1985",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 4198,
+    "title": "The Fictions of Patriarchy in Terence's Hecyra",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 4199,
+    "title": "Proceedings of the Cambridge Philological Society",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 4204,
+    "title": "THE PAPERS OF THE BIBLIOGRAPHICAL SOCIETY OF AMERICA",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 4207,
+    "title": "Proceedings of the Cambridge Philological Society",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 4212,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 4274,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 4362,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 4426,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 4578,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 4660,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 4900,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 5652,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 6025,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 6089,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 6424,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 6457,
+    "reason": "Missing title"
+  },
+  {
+    "source_row": 6523,
+    "title": "Abraham Geiger & Liberal Judaism",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 6861,
+    "title": "Bibliographia Karaitica: An Annotated Bibliography of Karaites and Karaism",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 6873,
+    "title": "Early Jewish Education Between the Yeshiva World and Modern Orthodoxy",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 6896,
+    "title": "Studies in Maimonides",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 6897,
+    "title": "THE CAMBRIDGE COMPANION TO THE TALMUD AND RABBINIC",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 6913,
+    "title": "Contraception and Abortion from the Ancient World to the Renaissance",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 6915,
+    "title": "Bernard Revel: Builder of American Jewish Orthodoxy",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 6918,
+    "title": "Between the Yeshiva World and Modern Orthodoxy",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 6920,
+    "title": "Jews in the Caribbean",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  },
+  {
+    "source_row": 6943,
+    "title": "The Venture of Islam",
+    "reason": "duplicate key value violates unique constraint \"books_sku_key\""
+  }
+]

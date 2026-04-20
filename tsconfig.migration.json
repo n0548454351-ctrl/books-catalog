@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "lib": ["es2017"],
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": ".migration-dist"
+  },
+  "include": ["migration/**/*.ts"],
+  "exclude": ["node_modules"]
+}

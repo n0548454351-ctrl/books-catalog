@@ -1,0 +1,7 @@
+.next/
+node_modules/
+.env.local
+.env
+.migration-dist/
+migration/books-legacy.json
+*.log
