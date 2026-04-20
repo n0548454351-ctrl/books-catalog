@@ -10,9 +10,26 @@ export function slugify(text: string): string {
     .slice(0, 100);
 }
 
-export function getBookCoverUrl(book: { images?: { is_cover: boolean; image_url: string }[] }): string {
-  const cover = book.images?.find((i) => i.is_cover);
-  return cover?.image_url ?? "/placeholder-book.svg";
+export function getBookCoverUrl(book: any): string {
+  const fallback = "/placeholder-book.png";
+
+  const raw =
+    book?.images?.find((img: any) => img.is_cover)?.image_url ||
+    book?.images?.[0]?.image_url ||
+    fallback;
+
+  if (!raw || raw === fallback) return fallback;
+
+  const fileId =
+    raw.match(/\/file\/d\/([a-zA-Z0-9_-]+)/)?.[1] ||
+    raw.match(/[?&]id=([a-zA-Z0-9_-]+)/)?.[1] ||
+    raw.match(/\/d\/([a-zA-Z0-9_-]+)/)?.[1];
+
+  if (fileId) {
+    return `https://drive.google.com/thumbnail?id=${fileId}&sz=w1000`;
+  }
+
+  return raw;
 }
 
 export function formatPrice(price?: number | null): string {
