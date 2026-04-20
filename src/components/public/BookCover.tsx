@@ -8,9 +8,16 @@ type Props = {
   alt: string;
   fill?: boolean;
   className?: string;
+  sizes?: string;
 };
 
-export default function BookCover({ src, alt, fill, className }: Props) {
+export default function BookCover({
+  src,
+  alt,
+  fill,
+  className,
+  sizes,
+}: Props) {
   const [imgSrc, setImgSrc] = useState(src || "/placeholder-book.png");
 
   return (
@@ -19,7 +26,7 @@ export default function BookCover({ src, alt, fill, className }: Props) {
       alt={alt}
       fill={fill}
       className={className}
-      sizes="(max-width: 768px) 80vw, 320px"
+      sizes={sizes}
       unoptimized
       onError={() => setImgSrc("/placeholder-book.png")}
     />
