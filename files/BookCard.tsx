@@ -1,7 +1,7 @@
 import Link from "next/link";
 import BookCover from "@/components/public/BookCover";
 import type { Book } from "@/types";
-import { getBookCoverUrl, stockLabel } from "@/lib/utils";
+import { getBookCoverUrl, stockLabel, formatPrice } from "@/lib/utils";
 
 const wa = process.env.NEXT_PUBLIC_WHATSAPP ?? "972583208868";
 
@@ -9,6 +9,8 @@ export default function BookCard({ book }: { book: Book }) {
   const cover = getBookCoverUrl(book);
   const stock = stockLabel(book);
   const showBadge = stock.text !== "במלאי";
+  const price = formatPrice(book.price);
+
   const waMsg = encodeURIComponent(
     `שלום, אני מתעניין/ת בספר: "${book.title_he ?? book.title}" (${book.author})`
   );
@@ -32,6 +34,13 @@ export default function BookCard({ book }: { book: Book }) {
           </div>
         )}
 
+        {price && (
+          <div className="absolute bottom-3 left-3">
+            <span className="bg-black/70 text-white text-xs font-bold px-2 py-1 rounded-md backdrop-blur-sm">
+              {price}
+            </span>
+          </div>
+        )}
       </Link>
 
       {/* פרטים */}
@@ -70,6 +79,7 @@ export default function BookCard({ book }: { book: Book }) {
             target="_blank"
             rel="noreferrer"
             className="flex-1 text-center text-xs font-medium bg-green-600 text-white rounded-lg py-2 hover:bg-green-700 transition-colors"
+            onClick={(e) => e.stopPropagation()}
           >
             💬 פנייה
           </a>

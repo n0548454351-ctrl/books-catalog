@@ -144,3 +144,11 @@ Supabase Storage (bucket: book-images, ציבורי)
 ```
 
 **עקרון מרכזי:** שינוי ב-admin = מיד גלוי באתר הציבורי. אין export, אין build נוסף.
+---
+
+## 🔬 Pipeline v2 — עיבוד ספרים מתמונות
+
+למערכת החדשה של זיהוי ספרים מתמונות (Claude + Google Books):
+
+ראה:
+README-pipeline.md

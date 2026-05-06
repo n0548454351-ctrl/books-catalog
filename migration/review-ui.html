@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>Book Review Queue</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f5f0e8; color: #222; }
+
+  header {
+    background: #6b1626; color: #fcd97b; padding: 1rem 2rem;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  header h1 { font-size: 1.3rem; }
+  header .stats { font-size: 0.85rem; opacity: 0.8; }
+
+  .container { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+
+  .toolbar { display: flex; gap: 1rem; margin-bottom: 1.5rem; align-items: center; flex-wrap: wrap; }
+  .toolbar input[type=file] { font-size: 0.9rem; }
+  .toolbar select, .toolbar input[type=text] {
+    padding: 0.4rem 0.8rem; border: 1px solid #ccc; border-radius: 4px; font-size: 0.9rem;
+  }
+  .btn {
+    padding: 0.4rem 1rem; border: none; border-radius: 4px; cursor: pointer;
+    font-size: 0.85rem; font-weight: 600;
+  }
+  .btn-primary { background: #6b1626; color: #fcd97b; }
+  .btn-success { background: #2e7d32; color: white; }
+  .btn-warn    { background: #e65100; color: white; }
+  .btn-gray    { background: #999; color: white; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.5rem; }
+
+  .card {
+    background: white; border-radius: 8px; overflow: hidden;
+    box-shadow: 0 2px 8px rgba(107,22,38,0.1);
+    display: flex; flex-direction: column;
+  }
+  .card-header {
+    background: #f8f3e8; padding: 0.6rem 1rem;
+    display: flex; justify-content: space-between; align-items: center;
+    border-bottom: 1px solid #e5ddd0; font-size: 0.8rem; color: #666;
+  }
+  .score-badge {
+    padding: 0.2rem 0.5rem; border-radius: 99px; font-weight: 700; font-size: 0.75rem;
+  }
+  .score-high   { background: #c8e6c9; color: #1b5e20; }
+  .score-medium { background: #fff9c4; color: #e65100; }
+  .score-low    { background: #ffcdd2; color: #b71c1c; }
+
+  .card-body { padding: 1rem; flex: 1; }
+  .cover-img {
+    width: 80px; height: 110px; object-fit: cover; border-radius: 4px;
+    float: left; margin-left: 1rem; margin-bottom: 0.5rem;
+    border: 1px solid #ddd;
+  }
+  .field { margin-bottom: 0.5rem; }
+  .field label { display: block; font-size: 0.7rem; color: #888; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+  .field input, .field textarea {
+    width: 100%; border: 1px solid #ddd; border-radius: 4px;
+    padding: 0.3rem 0.5rem; font-size: 0.85rem; font-family: inherit;
+    background: #fafafa;
+  }
+  .field input:focus, .field textarea:focus {
+    outline: none; border-color: #6b1626; background: white;
+  }
+  .field textarea { resize: vertical; min-height: 60px; }
+
+  .raw-section {
+    background: #f0f0f0; border-radius: 4px; padding: 0.5rem 0.7rem;
+    font-size: 0.75rem; color: #555; margin-top: 0.5rem; font-family: monospace;
+    max-height: 80px; overflow-y: auto;
+  }
+  .raw-label { font-weight: 700; color: #888; }
+
+  .card-footer {
+    padding: 0.7rem 1rem; border-top: 1px solid #eee;
+    display: flex; gap: 0.5rem; justify-content: flex-end;
+  }
+
+  .reason-tag {
+    display: inline-block; background: #fff3e0; color: #e65100;
+    border-radius: 4px; padding: 0.1rem 0.4rem; font-size: 0.7rem;
+    border: 1px solid #ffe0b2; margin-bottom: 0.4rem;
+  }
+
+  .empty { text-align: center; padding: 4rem; color: #999; font-size: 1.2rem; }
+
+  .summary-bar {
+    background: white; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1.5rem;
+    display: flex; gap: 2rem; flex-wrap: wrap; box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .summary-item { text-align: center; }
+  .summary-item .num { font-size: 2rem; font-weight: 700; color: #6b1626; }
+  .summary-item .lbl { font-size: 0.8rem; color: #888; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📚 Book Review Queue</h1>
+  <div class="stats" id="headerStats">טען קובץ JSON להתחלה</div>
+</header>
+
+<div class="container">
+  <div class="toolbar">
+    <label>
+      <strong>טען needs-review.json:</strong><br>
+      <input type="file" accept=".json" onchange="loadFile(event)">
+    </label>
+    <select onchange="filterStatus(this.value)" id="filterSelect">
+      <option value="all">הכל</option>
+      <option value="needs_review">דורש בדיקה</option>
+      <option value="failed">נכשל</option>
+    </select>
+    <input type="text" placeholder="חיפוש כותרת..." oninput="filterSearch(this.value)" style="width:200px">
+    <button class="btn btn-success" onclick="exportApproved()">💾 ייצא מאושרים</button>
+    <button class="btn btn-gray" onclick="exportAll()">📥 ייצא הכל</button>
+  </div>
+
+  <div class="summary-bar" id="summaryBar" style="display:none">
+    <div class="summary-item"><div class="num" id="s-total">0</div><div class="lbl">סה"כ</div></div>
+    <div class="summary-item"><div class="num" id="s-approved" style="color:#2e7d32">0</div><div class="lbl">אושרו</div></div>
+    <div class="summary-item"><div class="num" id="s-skipped" style="color:#e65100">0</div><div class="lbl">דולגו</div></div>
+    <div class="summary-item"><div class="num" id="s-pending" style="color:#999">0</div><div class="lbl">ממתינים</div></div>
+  </div>
+
+  <div class="grid" id="grid">
+    <div class="empty">טען קובץ JSON לתחילת הסקירה</div>
+  </div>
+</div>
+
+<script>
+let allBooks = [];
+let decisions = {}; // id → {approved: bool, fields: {...}}
+let currentFilter = 'all';
+let searchQuery = '';
+
+function loadFile(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = ev => {
+    allBooks = JSON.parse(ev.target.result);
+    render();
+    document.getElementById('summaryBar').style.display = 'flex';
+    updateStats();
+  };
+  reader.readAsText(file);
+}
+
+function scoreClass(score) {
+  if (score >= 0.75) return 'score-high';
+  if (score >= 0.50) return 'score-medium';
+  return 'score-low';
+}
+
+function getImageUrl(book) {
+  if (!book.drive_file_id && !book.image_url) return '';
+  if (book.image_url?.includes('lh3.googleusercontent.com')) return book.image_url;
+  if (book.drive_file_id) return `https://lh3.googleusercontent.com/d/${book.drive_file_id}=s300`;
+  const m = book.image_url?.match(/[?&]id=([a-zA-Z0-9_-]{10,})/);
+  if (m) return `https://lh3.googleusercontent.com/d/${m[1]}=s300`;
+  return book.image_url || '';
+}
+
+function render() {
+  const filtered = allBooks.filter(b => {
+    if (currentFilter !== 'all' && b.status !== currentFilter) return false;
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      return (b.verified_title||b.raw_title||'').toLowerCase().includes(q) ||
+             (b.verified_author||b.raw_author||'').toLowerCase().includes(q);
+    }
+    return true;
+  });
+
+  if (!filtered.length) {
+    document.getElementById('grid').innerHTML = '<div class="empty">אין ספרים להצגה</div>';
+    return;
+  }
+
+  document.getElementById('headerStats').textContent =
+    `${filtered.length} מתוך ${allBooks.length} ספרים`;
+
+  document.getElementById('grid').innerHTML = filtered.map(book => {
+    const d = decisions[book.id] || {};
+    const fields = d.fields || {};
+    const imgUrl = getImageUrl(book);
+    const score = book.match_score || 0;
+    const scoreLabel = Math.round(score * 100) + '%';
+
+    const reasons = (book.review_reason || '').split(';').filter(Boolean);
+
+    return `
+    <div class="card" id="card-${book.id}">
+      <div class="card-header">
+        <span>ID: ${book.id}</span>
+        <span class="score-badge ${scoreClass(score)}">${scoreLabel}</span>
+        <span>${book.verified_source || 'vision_only'}</span>
+      </div>
+      <div class="card-body">
+        ${imgUrl ? `<img class="cover-img" src="${imgUrl}" alt="כריכה" onerror="this.style.display='none'">` : ''}
+
+        ${reasons.map(r => `<span class="reason-tag">${r.trim()}</span>`).join('')}
+
+        <div class="field">
+          <label>כותרת</label>
+          <input type="text" value="${esc(fields.verified_title ?? book.verified_title ?? book.raw_title ?? '')}"
+            onchange="setField('${book.id}','verified_title',this.value)">
+        </div>
+        <div class="field">
+          <label>מחבר</label>
+          <input type="text" value="${esc(fields.verified_author ?? book.verified_author ?? book.raw_author ?? '')}"
+            onchange="setField('${book.id}','verified_author',this.value)">
+        </div>
+        <div class="field">
+          <label>הוצאה</label>
+          <input type="text" value="${esc(fields.verified_publisher ?? book.verified_publisher ?? '')}"
+            onchange="setField('${book.id}','verified_publisher',this.value)">
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem">
+          <div class="field">
+            <label>שנה</label>
+            <input type="text" value="${esc(fields.verified_year ?? book.verified_year ?? '')}"
+              onchange="setField('${book.id}','verified_year',this.value)">
+          </div>
+          <div class="field">
+            <label>שפה</label>
+            <input type="text" value="${esc(fields.verified_language ?? book.verified_language ?? '')}"
+              onchange="setField('${book.id}','verified_language',this.value)">
+          </div>
+        </div>
+        <div class="field">
+          <label>ISBN</label>
+          <input type="text" value="${esc(fields.verified_isbn13 ?? book.verified_isbn13 ?? book.verified_isbn10 ?? '')}"
+            onchange="setField('${book.id}','verified_isbn13',this.value)">
+        </div>
+        <div class="field">
+          <label>קטגוריה</label>
+          <input type="text" value="${esc(fields.verified_category ?? book.verified_category ?? '')}"
+            onchange="setField('${book.id}','verified_category',this.value)">
+        </div>
+
+        <div class="raw-section">
+          <span class="raw-label">Vision saw: </span>${esc(book.raw_visible_text || '').slice(0, 150)}
+        </div>
+      </div>
+      <div class="card-footer">
+        <button class="btn btn-gray" onclick="skip('${book.id}')">דלג</button>
+        <button class="btn btn-success" onclick="approve('${book.id}')">✓ אשר</button>
+      </div>
+    </div>`;
+  }).join('');
+
+  updateStats();
+}
+
+function esc(s) {
+  return String(s).replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function setField(id, field, value) {
+  if (!decisions[id]) decisions[id] = { approved: false, skipped: false, fields: {} };
+  decisions[id].fields[field] = value;
+}
+
+function approve(id) {
+  if (!decisions[id]) decisions[id] = { approved: false, skipped: false, fields: {} };
+  decisions[id].approved = true;
+  decisions[id].skipped  = false;
+  const card = document.getElementById(`card-${id}`);
+  if (card) { card.style.opacity = '0.5'; card.style.border = '2px solid #2e7d32'; }
+  updateStats();
+}
+
+function skip(id) {
+  if (!decisions[id]) decisions[id] = { approved: false, skipped: false, fields: {} };
+  decisions[id].skipped  = true;
+  decisions[id].approved = false;
+  const card = document.getElementById(`card-${id}`);
+  if (card) { card.style.opacity = '0.3'; }
+  updateStats();
+}
+
+function updateStats() {
+  const total    = allBooks.length;
+  const approved = Object.values(decisions).filter(d => d.approved).length;
+  const skipped  = Object.values(decisions).filter(d => d.skipped).length;
+  const pending  = total - approved - skipped;
+  document.getElementById('s-total').textContent    = total;
+  document.getElementById('s-approved').textContent = approved;
+  document.getElementById('s-skipped').textContent  = skipped;
+  document.getElementById('s-pending').textContent  = pending;
+}
+
+function filterStatus(v) { currentFilter = v; render(); }
+function filterSearch(v) { searchQuery = v; render(); }
+
+function exportApproved() {
+  const output = allBooks
+    .filter(b => decisions[b.id]?.approved)
+    .map(b => ({ ...b, ...decisions[b.id]?.fields, status: 'done', needs_review: false }));
+  download(output, 'approved-books.json');
+}
+
+function exportAll() {
+  const output = allBooks.map(b => {
+    const d = decisions[b.id] || {};
+    return {
+      ...b,
+      ...(d.fields || {}),
+      status:      d.approved ? 'done' : d.skipped ? 'skipped' : b.status,
+      needs_review:!d.approved,
+    };
+  });
+  download(output, 'reviewed-books.json');
+}
+
+function download(data, filename) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
+}
+</script>
+</body>
+</html>
