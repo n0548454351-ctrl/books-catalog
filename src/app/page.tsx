@@ -22,14 +22,17 @@ export default async function HomePage() {
       {/* ── Hero ── */}
       <section className="bg-burgundy-900 text-white py-20 px-4 text-center" dir="rtl">
         <p className="text-gold-400 text-xs font-semibold uppercase tracking-[0.3em] mb-4">
-          קטלוג אקדמי · אוסף נדיר
+          קטלוג אקדמי · אוסף אספני נדיר
         </p>
         <h1 className="font-serif text-4xl md:text-5xl font-bold mb-5 leading-tight max-w-2xl mx-auto">
           ספרים אקדמיים ואספניים נדירים
         </h1>
-        <p className="text-burgundy-200 max-w-xl mx-auto mb-8 leading-relaxed text-sm md:text-base">
-          אלפי ספרים מעזבונו של חוקר גדול — פילוסופיה, מדעי הדת,
-          היסטוריה, יהדות ועוד. משלוח לכל העולם.
+        <p className="text-burgundy-200 max-w-2xl mx-auto mb-3 leading-relaxed text-sm md:text-base">
+          אוסף ייחודי של ספרים ללימודים קלאסיים, היסטוריה, פילוסופיה, פילולוגיה,
+          יהדות ומדעי הרוח — מתאים לחוקרים, סטודנטים, אספנים ומוסדות.
+        </p>
+        <p className="text-burgundy-300 max-w-xl mx-auto mb-8 text-xs md:text-sm">
+          לפרטים נוספים על ספר מסוים — ניתן לפנות ישירות בוואטסאפ או בטופס יצירת קשר.
         </p>
         <div className="flex flex-wrap gap-4 justify-center">
           <Link
@@ -40,11 +43,10 @@ export default async function HomePage() {
           </Link>
           <a
             href={`https://wa.me/${wa}`}
-            target="_blank"
-            rel="noreferrer"
+            target="_blank" rel="noreferrer"
             className="border border-burgundy-500 text-white px-7 py-3 rounded-sm hover:bg-burgundy-800 transition-colors text-sm"
           >
-            💬 יצירת קשר WhatsApp
+            💬 יצירת קשר בוואטסאפ
           </a>
         </div>
       </section>
@@ -54,7 +56,7 @@ export default async function HomePage() {
         <div className="max-w-4xl mx-auto px-4 grid grid-cols-3 gap-4 text-center text-sm" dir="rtl">
           {[
             ["🌍", "משלוח לכל העולם"],
-            ["✈️",  "FedEx Express"],
+            ["✈️", "FedEx Express"],
             ["💬", "שירות אישי"],
           ].map(([icon, label]) => (
             <div key={label} className="flex flex-col items-center gap-1">
@@ -62,6 +64,29 @@ export default async function HomePage() {
               <span className="font-medium text-gray-700 text-xs md:text-sm">{label}</span>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* ── לימודים קלאסיים ── */}
+      <section className="bg-white py-12 px-4 border-b border-parchment-200" dir="rtl">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-xs font-semibold tracking-widest text-burgundy-600 uppercase mb-3">
+            תחומי מחקר מרכזיים
+          </p>
+          <h2 className="font-serif text-2xl font-bold text-burgundy-900 mb-4">
+            לימודים קלאסיים ומדעי הרוח
+          </h2>
+          <p className="text-gray-600 leading-relaxed text-sm md:text-base">
+            האוסף כולל ספרים רבים בתחומי הלימודים הקלאסיים: יוון ורומא העתיקה,
+            לטינית ויוונית, פילולוגיה, היסטוריה עתיקה, פילוסופיה קלאסית
+            וספרות מחקרית — לצד יהדות, מיסטיקה, תיאולוגיה ומדעי הדת.
+          </p>
+          <Link
+            href="/catalog"
+            className="mt-6 inline-block text-sm font-medium text-burgundy-700 border border-burgundy-300 px-5 py-2.5 rounded-sm hover:bg-burgundy-900 hover:text-white hover:border-burgundy-900 transition-colors"
+          >
+            עיון בקטלוג המלא
+          </Link>
         </div>
       </section>
 
@@ -86,8 +111,11 @@ export default async function HomePage() {
       {categories.length > 0 && (
         <section className="bg-parchment-100 py-14 px-4" dir="rtl">
           <div className="max-w-7xl mx-auto">
+            <p className="text-xs font-semibold tracking-widest text-burgundy-600 uppercase mb-2 text-center">
+              תחומי מחקר
+            </p>
             <h2 className="font-serif text-2xl font-bold text-burgundy-900 mb-6 text-center">
-              קטגוריות
+              עיון לפי נושא
             </h2>
             <div className="flex flex-wrap gap-3 justify-center">
               {categories.map((c) => (
@@ -110,13 +138,13 @@ export default async function HomePage() {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-serif text-3xl font-bold mb-6 text-gold-300">אודות האוסף</h2>
           <p className="text-burgundy-200 leading-relaxed mb-4 text-sm md:text-base">
-            זהו אוסף יוצא דופן — פרי עבודתו ולקטה של חוקר שהקדיש חייו לאסוף לעורת
-            ולתעד ספרים אקדמיים מקצועיים נדירים: פלאוגרפיה ודתות עתיקות ועד מדעי הטבע,
-            מלשונות עתיקות עד ספרות כלכלה.
+            אוסף זה הוא פרי עבודתו ולקטנותו של חוקר שהקדיש חייו לאיסוף, תיעוד
+            ולמידה של ספרים אקדמיים נדירים: פלאוגרפיה ודתות עתיקות, מדעי הטבע,
+            לשונות עתיקות, פילוסופיה וספרות מחקרית מרחבי העולם.
           </p>
           <p className="text-burgundy-300 leading-relaxed text-sm md:text-base">
-            הפריטים מוצעים לאספנים ורצינות ולתת לספרים אלה מקום חדש —
-            לחקור ולהמשיך לחיות בידי חוקרים, ספרנים ואספנים ברחבי העולם.
+            הפריטים מוצעים לחוקרים, סטודנטים, אספנים ומוסדות — כדי שספרים אלה
+            ימשיכו לחיות ולשמש בידי מי שיעריכם.
           </p>
           <div className="grid grid-cols-3 gap-4 mt-10 max-w-md mx-auto">
             {[
@@ -139,12 +167,10 @@ export default async function HomePage() {
         <h2 className="font-serif text-3xl font-bold text-burgundy-900 text-center mb-8">
           צור קשר
         </h2>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
           <a
             href={`https://wa.me/${wa}`}
-            target="_blank"
-            rel="noreferrer"
+            target="_blank" rel="noreferrer"
             className="card p-5 text-center group hover:-translate-y-0.5 transition-transform"
           >
             <span className="text-4xl block mb-2">💬</span>
@@ -160,7 +186,6 @@ export default async function HomePage() {
             <p className="text-xs text-gray-400 mt-1">{mail}</p>
           </a>
         </div>
-
         <div className="bg-white rounded-lg shadow-book p-6 md:p-8">
           <h3 className="font-semibold text-gray-800 mb-5">שלח הודעה</h3>
           <ContactForm />
