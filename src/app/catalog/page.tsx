@@ -11,9 +11,9 @@ import { getCategories } from "@/lib/db/categories";
 import type { BookFilters } from "@/types";
 
 export const metadata: Metadata = {
-  title: "קטלוג ספרים אקדמיים ואספניים",
+  title: "קטלוג ספרים אקדמי ואספני",
   description:
-    "אוסף ייחודי של ספרים ללימודים קלאסיים, היסטוריה, פילוסופיה, פילולוגיה, יהדות ומדעי הרוח. מתאים לחוקרים, סטודנטים, אספנים ומוסדות.",
+    "אוסף רחב של ספרים בתחומי הלימודים הקלאסיים, היסטוריה, פילוסופיה, פילולוגיה, יהדות, שפות ומדעי הרוח. מיועד לחוקרים, סטודנטים, אספנים ומוסדות.",
 };
 
 interface Props {
@@ -43,7 +43,7 @@ export default async function CatalogPage({ searchParams }: Props) {
     sort:     (sp.sort as BookFilters["sort"]) ?? "created_at",
     order:    "desc",
     page:     sp.page ? Number(sp.page) : 1,
-    limit:    96,  // ← שונה מ-24
+    limit:    48,
   };
 
   const [result, categories] = await Promise.all([
@@ -54,9 +54,8 @@ export default async function CatalogPage({ searchParams }: Props) {
   const { data: books, total, totalPages, page } = result;
   const hasFilters = !!(sp.search || sp.category || sp.language || sp.in_stock);
 
-  // שם קטגוריה פעילה לתצוגה
   const activeCategoryName = sp.category
-    ? categories.find((c) => c.id === sp.category)?.name_he ?? ""
+    ? (categories.find((c) => c.id === sp.category)?.name_he ?? "")
     : "";
 
   function pageUrl(p: number) {
@@ -74,27 +73,33 @@ export default async function CatalogPage({ searchParams }: Props) {
     <>
       <Header />
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10" dir="rtl">
+      <main className="max-w-[1280px] mx-auto px-6 sm:px-8 lg:px-20 py-10" dir="rtl">
 
         {/* ── כותרת ── */}
-        <section className="mb-6 rounded-2xl bg-white/80 border border-burgundy-100 shadow-sm px-6 py-6 sm:px-8">
-          <p className="text-xs font-semibold tracking-[0.22em] text-burgundy-600 uppercase mb-2">
+        <section className="mb-8 border-b border-outline-variant pb-8">
+          <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-accent-gold mb-3">
             Academic &amp; Collectible Books
           </p>
-          <h1 className="font-serif text-3xl sm:text-4xl font-bold text-burgundy-900 mb-2">
-            {activeCategoryName ? activeCategoryName : "קטלוג הספרים"}
-          </h1>
-          <p className="text-gray-500 text-sm mb-0">
-            עיינו באוסף לפי תחומי עניין: לימודים קלאסיים, פילולוגיה, היסטוריה, פילוסופיה, יהדות ומדעי הרוח.
-          </p>
-          {hasFilters && (
-            <a
-              href="/catalog"
-              className="inline-flex items-center gap-1 text-xs text-burgundy-600 hover:underline mt-3"
-            >
-              <span>×</span> נקה סינון
-            </a>
-          )}
+          <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-3">
+            <div>
+              <h1 className="font-serif text-4xl font-bold text-primary mb-2">
+                {activeCategoryName || "קטלוג הספרים"}
+              </h1>
+              <p className="text-on-surface-variant text-sm">
+                {hasFilters
+                  ? `${total.toLocaleString()} תוצאות נמצאו`
+                  : `עיינו באוסף לפי תחומי מחקר מרכזיים ומצאו ספרים המתאימים למחקר, הוראה ואספנות · ${total.toLocaleString()} ספרים`}
+              </p>
+            </div>
+            {hasFilters && (
+              <a
+                href="/catalog"
+                className="text-xs font-bold text-accent-gold hover:underline flex items-center gap-1"
+              >
+                × נקה סינון
+              </a>
+            )}
+          </div>
         </section>
 
         {/* ── CategoryExplorer ── */}
@@ -103,7 +108,7 @@ export default async function CatalogPage({ searchParams }: Props) {
         </Suspense>
 
         {/* ── חיפוש ופילטרים ── */}
-        <section className="mb-8 rounded-2xl bg-white border border-gray-100 shadow-sm p-4 sm:p-5">
+        <section className="mb-8 border border-outline-variant bg-surface p-5">
           <div className="space-y-4">
             <Suspense>
               <SearchBar defaultValue={sp.search ?? ""} />
@@ -116,21 +121,23 @@ export default async function CatalogPage({ searchParams }: Props) {
 
         {/* ── ריק ── */}
         {books.length === 0 ? (
-          <section className="text-center py-24 rounded-2xl bg-white border border-gray-100 shadow-sm">
-            <p className="text-5xl mb-4">📚</p>
-            <p className="text-lg font-medium text-gray-500">לא נמצאו ספרים</p>
-            <p className="text-sm text-gray-400 mt-1">נסה לשנות את הפילטרים או את מילות החיפוש</p>
-            <a href="/catalog" className="mt-4 inline-block text-burgundy-700 hover:underline text-sm font-medium">
+          <section className="text-center py-24 border border-outline-variant bg-surface">
+            <p className="text-4xl mb-4 text-accent-gold/40">◈</p>
+            <p className="font-serif text-xl font-semibold text-primary mb-2">לא נמצאו ספרים</p>
+            <p className="text-sm text-on-surface-variant mb-6">
+              מחפשים ספר מסוים? ניתן לפנות ישירות לגבי כל ספר בקטלוג.
+            </p>
+            <a href="/catalog" className="text-sm font-bold text-accent-gold hover:underline">
               הצג את כל הקטלוג
             </a>
           </section>
         ) : (
           <>
-            <p className="text-sm text-gray-400 mb-4">
+            <p className="text-xs text-on-surface-variant/60 mb-5">
               מציג {books.length.toLocaleString()} מתוך {total.toLocaleString()} ספרים
             </p>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 lg:gap-5">
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
               {books.map((book) => (
                 <BookCard key={book.id} book={book} />
               ))}
@@ -140,26 +147,26 @@ export default async function CatalogPage({ searchParams }: Props) {
 
         {/* ── עימוד ── */}
         {totalPages > 1 && (
-          <nav className="mt-12 flex justify-center gap-2 flex-wrap" aria-label="עמודים" dir="ltr">
+          <nav className="mt-14 flex justify-center gap-2 flex-wrap" aria-label="עמודים" dir="ltr">
             {page > 1 && (
-              <a href={pageUrl(page - 1)} aria-label="עמוד קודם"
-                className="w-10 h-10 flex items-center justify-center rounded-xl border border-gray-200 bg-white hover:border-burgundy-400 text-sm text-gray-600 shadow-sm">
+              <a href={pageUrl(page - 1)}
+                className="w-10 h-10 flex items-center justify-center border border-outline-variant bg-surface hover:border-accent-gold text-sm text-on-surface-variant transition-colors">
                 ‹
               </a>
             )}
             {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
               <a key={p} href={pageUrl(p)} aria-current={p === page ? "page" : undefined}
-                className={`w-10 h-10 flex items-center justify-center rounded-xl text-sm font-medium border transition-colors shadow-sm
+                className={`w-10 h-10 flex items-center justify-center text-sm font-bold border transition-colors
                   ${p === page
-                    ? "bg-burgundy-900 text-white border-burgundy-900"
-                    : "bg-white border-gray-200 hover:border-burgundy-400 text-gray-600"
+                    ? "bg-primary text-white border-primary"
+                    : "bg-surface border-outline-variant hover:border-accent-gold text-on-surface-variant"
                   }`}>
                 {p}
               </a>
             ))}
             {page < totalPages && (
-              <a href={pageUrl(page + 1)} aria-label="עמוד הבא"
-                className="w-10 h-10 flex items-center justify-center rounded-xl border border-gray-200 bg-white hover:border-burgundy-400 text-sm text-gray-600 shadow-sm">
+              <a href={pageUrl(page + 1)}
+                className="w-10 h-10 flex items-center justify-center border border-outline-variant bg-surface hover:border-accent-gold text-sm text-on-surface-variant transition-colors">
                 ›
               </a>
             )}
