@@ -27,10 +27,10 @@ export default async function HomePage() {
           <div className="md:col-span-7 flex flex-col items-start gap-8">
             <div>
               <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-accent-gold mb-4">
-                קטלוג אקדמי · אוסף אספני
+                קטלוג אקדמי · אוסף מדעי
               </p>
               <h1 className="font-serif text-5xl lg:text-6xl text-primary leading-[1.1] font-bold">
-                קטלוג ספרים<br />אקדמי ואספני
+                קטלוג ספרים<br />אקדמי ומדעי
               </h1>
             </div>
 
@@ -39,11 +39,11 @@ export default async function HomePage() {
             <p className="text-[17px] text-on-surface-variant leading-relaxed max-w-lg">
               אוסף רחב של ספרים בתחומי הלימודים הקלאסיים, היסטוריה, פילוסופיה,
               פילולוגיה, יהדות, שפות ומדעי הרוח. הקטלוג מיועד לחוקרים, סטודנטים,
-              אספנים ומוסדות המחפשים ספרים פיזיים בעלי ערך מחקרי.
+               ומוסדות המחפשים ספרים פיזיים בעלי ערך מחקרי.
             </p>
 
             <p className="text-sm text-on-surface-variant/70 leading-relaxed max-w-lg border-r-2 border-accent-gold/40 pr-4">
-              האוסף משלב ספרות מחקרית, כתבים קלאסיים וספרים בעלי ערך אקדמי ואספני.
+              האוסף משלב ספרות מחקרית, כתבים קלאסיים וספרים בעלי ערך אקדמי ומדעי.
               חלק מהספרים כוללים מהדורות מחקר נדירות שאינן זמינות בקלות כיום.
             </p>
 
