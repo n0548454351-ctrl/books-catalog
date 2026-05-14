@@ -11,9 +11,7 @@ const GOOGLE_KEY = process.env.GOOGLE_BOOKS_API_KEY ?? "";
 const INPUT_FILE = process.env.INPUT_FILE ?? path.join(__dirname, "input-images.json");
 const STATE_FILE = path.join(__dirname, "enrichment-state.json");
 const OUTPUT_FILE = path.join(__dirname, "enriched-books.json");
-const CACHE_FILE   = path.join(__dirname, "api-cache.json");
-const REPORT_DIR   = path.join(__dirname, "reports");
-const REPORT_FILE  = path.join(REPORT_DIR, "false-google-books-candidates.csv");
+const CACHE_FILE = path.join(__dirname, "api-cache.json");
 
 const BATCH_SIZE = parseInt(process.env.BATCH_SIZE ?? "20");
 const DELAY_MS = parseInt(process.env.DELAY_MS ?? "3000");
@@ -91,7 +89,6 @@ interface BookRecord extends InputBook, RawFields {
   verified_source: string;
 
   match_score: number;
-  enrichment_trust: "high" | "medium" | "low";
   needs_review: boolean;
   review_reason: string;
   status: RecordStatus;
@@ -706,154 +703,31 @@ function pick(...vals: (string | undefined | null)[]): string {
   return vals.find((v) => v && String(v).trim() && !["null", "undefined"].includes(String(v))) ?? "";
 }
 
-// ─── Google Books trust evaluation ───────────────────────────────────────────
-//
-// Key insight from data analysis:
-//   GOOD: raw is substring of gb_title OR gb_title is substring of raw
-//         e.g. "Black Athena" ← "Black Athena: The Afroasiatic..."  ✅
-//              "Greek: A History..." → "Greek"                       ✅
-//   BAD:  neither contains the other AND length ratio > 1.5
-//         e.g. "Phoenix" → "The Phoenix Project"                     ❌
-//              "Azure"   → "Azure Cloud Projects"                    ❌
-//
-function normForContains(s: string): string {
-  return (s || "")
-    .toLowerCase()
-    .replace(/[^a-z0-9֐-׿\s]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function titleContainsRelation(rawTitle: string, gbTitle: string): boolean {
-  if (!rawTitle || !gbTitle) return false;
-  const r = normForContains(rawTitle);
-  const g = normForContains(gbTitle);
-  if (!r || !g) return false;
-  // At least 5 chars to avoid trivial matches ("A" inside everything)
-  if (r.length >= 5 && g.includes(r)) return true;
-  if (g.length >= 5 && r.includes(g)) return true;
-  return false;
-}
-
-type TrustLevel = "high" | "medium" | "low";
-
-interface TrustResult {
-  trust: TrustLevel;
-  reasons: string[];
-}
-
-function evaluateGoogleBooksTrust(
-  rawTitle: string,
-  rawAuthor: string,
-  gbTitle: string,
-  gbAuthor: string,
-  gbIsbn13: string,
-  gbIsbn10: string,
-  titleSim: number,
-  authorSim: number
-): TrustResult {
-  const trustReasons: string[] = [];
-  const hasIsbn = !!(gbIsbn13 || gbIsbn10);
-
-  const rawNorm = normForContains(rawTitle);
-  const gbNorm  = normForContains(gbTitle);
-
-  const lenRatio = rawNorm.length && gbNorm.length
-    ? Math.max(rawNorm.length, gbNorm.length) / Math.min(rawNorm.length, gbNorm.length)
-    : 99;
-
-  const containsOk = titleContainsRelation(rawTitle, gbTitle);
-
-  // ── Title mismatch detection ──────────────────────────────────
-  let titleFlagged = false;
-
-  if (!containsOk && lenRatio > 1.5) {
-    trustReasons.push(`google_books_title_length_mismatch(ratio=${lenRatio.toFixed(2)})`);
-    titleFlagged = true;
-  }
-
-  if (!containsOk && titleSim < 0.90) {
-    trustReasons.push(`google_books_title_similarity_low(${titleSim.toFixed(2)})`);
-    titleFlagged = true;
-  }
-
-  // Short ambiguous raw title (≤10 chars) that got a longer google_books result
-  if (rawNorm.length <= 10 && !containsOk) {
-    trustReasons.push(`raw_title_too_short_for_match`);
-    titleFlagged = true;
-  }
-
-  // ── Author mismatch ───────────────────────────────────────────
-  const rawAuthorKnown = rawAuthor && rawAuthor.toLowerCase() !== "unknown" && rawAuthor.trim().length > 1;
-  let authorFlagged = false;
-  if (rawAuthorKnown && authorSim < 0.75) {
-    trustReasons.push(`google_books_author_mismatch(${authorSim.toFixed(2)})`);
-    authorFlagged = true;
-  }
-
-  // ── Trust level ───────────────────────────────────────────────
-  let trust: TrustLevel;
-
-  if (!titleFlagged && !authorFlagged && hasIsbn) {
-    trust = "high";
-  } else if (!titleFlagged && !authorFlagged && !hasIsbn) {
-    trust = "medium";       // good title match but no ISBN
-  } else if (titleFlagged || authorFlagged) {
-    trust = "low";
-  } else {
-    trust = "medium";
-  }
-
-  return { trust, reasons: trustReasons };
-}
-
 function buildRecord(input: InputBook, raw: RawFields, gb: any, ol: any): BookRecord {
-  // ── Compute raw similarity scores ─────────────────────────────
-  const gbTitleSim  = gb ? strSim(raw.raw_title || input.existing_title || "", gb.google_books_title) : 0;
-  const gbAuthorSim = gb ? strSim(raw.raw_author || "", gb.google_books_author) : 0;
-
-  // ── Evaluate Google Books trust ───────────────────────────────
-  const gbTrust = gb
-    ? evaluateGoogleBooksTrust(
-        raw.raw_title || input.existing_title || "",
-        raw.raw_author || "",
-        gb.google_books_title,
-        gb.google_books_author,
-        gb.google_books_isbn13,
-        gb.google_books_isbn10,
-        gbTitleSim,
-        gbAuthorSim
-      )
-    : { trust: "low" as TrustLevel, reasons: [] };
-
-  // ── Build candidate list ──────────────────────────────────────
   const candidates: Array<{ score: number; source: string; d: any }> = [];
 
   if (gb) {
-    // For low-trust GB results, cap the score so they can't reach SCORE_AUTO alone
-    const rawScore = gbTitleSim * 0.75 + gbAuthorSim * 0.25;
-    const boosted  = Math.min(1, rawScore + 0.03);
-    const capped   = gbTrust.trust === "low" ? Math.min(boosted, SCORE_REVIEW - 0.01) : boosted;
-    candidates.push({ score: capped, source: "google_books", d: gb });
+    const s = strSim(raw.raw_title, gb.google_books_title) * 0.75 +
+      strSim(raw.raw_author, gb.google_books_author) * 0.25;
+    candidates.push({ score: Math.min(1, s + 0.03), source: "google_books", d: gb });
   }
 
   if (ol) {
-    const s = strSim(raw.raw_title || input.existing_title || "", ol.openlibrary_title) * 0.75 +
-      strSim(raw.raw_author || "", ol.openlibrary_author) * 0.25;
+    const s = strSim(raw.raw_title, ol.openlibrary_title) * 0.75 +
+      strSim(raw.raw_author, ol.openlibrary_author) * 0.25;
     candidates.push({ score: s * 0.9, source: "open_library", d: ol });
   }
 
-  const reasons: string[] = [...gbTrust.reasons];
+  const reasons: string[] = [];
   if (raw.confidence_title === "none") reasons.push("Title not readable");
   if (raw.confidence_author === "none") reasons.push("Author not readable");
 
-  const best  = candidates.sort((a, b) => b.score - a.score)[0];
+  const best = candidates.sort((a, b) => b.score - a.score)[0];
   const score = best?.score ?? 0;
 
   if (process.env.DEBUG_SCORE) {
     process.stdout.write(
-      `\n    [DEBUG] raw="${raw.raw_title}" | gb="${gb?.google_books_title}" | ` +
-      `gb_trust=${gbTrust.trust} | score=${score} | reasons=${gbTrust.reasons.join(",")}\n`
+      `\n    [DEBUG] raw_title="${raw.raw_title}" | raw_author="${raw.raw_author}" | gb_title="${gb?.google_books_title}" | gb_author="${gb?.google_books_author}" | ol_title="${ol?.openlibrary_title}" | score=${score}\n`
     );
   }
 
@@ -865,56 +739,12 @@ function buildRecord(input: InputBook, raw: RawFields, gb: any, ol: any): BookRe
   const year =
     (pick(d.google_books_year, d.openlibrary_year).match(/\b(1[0-9]{3}|20[0-2][0-9])\b/) ?? [])[0] ?? "";
 
-  // ── Determine enrichment_trust ────────────────────────────────
-  // Overall trust = best source trust
-  let enrichmentTrust: TrustLevel;
-  if (best?.source === "google_books") {
-    enrichmentTrust = gbTrust.trust;
-  } else if (best?.source === "open_library") {
-    enrichmentTrust = score >= SCORE_AUTO ? "medium" : "low";
-  } else {
-    enrichmentTrust = "low";  // vision_only
-  }
-
-  // ── Determine status ──────────────────────────────────────────
-  // Only "high" trust + score >= SCORE_AUTO → done without review
-  // "medium" trust → done but needs_review
-  // "low" trust → needs_review regardless of score
-  const isVisionOnly = !best || best.source === "vision_only";
-  const hasVerifiedTitle = !!(pick(gb?.google_books_title, ol?.openlibrary_title, raw.raw_title));
-
-  let status: RecordStatus;
-  let forceReview = enrichmentTrust !== "high";
-
-  if (score >= SCORE_AUTO && enrichmentTrust === "high") {
-    status = "done";
-  } else if (score >= SCORE_AUTO && enrichmentTrust === "medium") {
-    status = "done";
-    reasons.push("medium_trust_needs_review");
-  } else if (score >= SCORE_REVIEW) {
-    status = "needs_review";
-  } else if (isVisionOnly && hasVerifiedTitle && score === 0) {
-    status = "done";
-    forceReview = true;
-    reasons.push("vision_only_no_external_match");
-  } else {
-    status = "failed";
-  }
+  const status: RecordStatus =
+    score >= SCORE_AUTO ? "done" : score >= SCORE_REVIEW ? "needs_review" : "failed";
 
   if (!pick(d.google_books_isbn13, d.google_books_isbn10, d.openlibrary_isbn)) {
     reasons.push("No ISBN found");
   }
-
-  // For verified_title: prefer raw_title when GB trust is low (don't overwrite with wrong title)
-  const useGbTitle  = gb && gbTrust.trust !== "low";
-  const useOlTitle  = ol;
-  const verTitle = useGbTitle
-    ? pick(d.google_books_title, useOlTitle ? d.openlibrary_title : "", raw.raw_title)
-    : pick(useOlTitle ? d.openlibrary_title : "", raw.raw_title);
-
-  const verAuthor = useGbTitle
-    ? pick(d.google_books_author, useOlTitle ? d.openlibrary_author : "", raw.raw_author)
-    : pick(useOlTitle ? d.openlibrary_author : "", raw.raw_author);
 
   return {
     ...input,
@@ -940,8 +770,8 @@ function buildRecord(input: InputBook, raw: RawFields, gb: any, ol: any): BookRe
     openlibrary_subjects: ol?.openlibrary_subjects ?? "",
     openlibrary_publisher: ol?.openlibrary_publisher ?? "",
 
-    verified_title: verTitle,
-    verified_author: verAuthor,
+    verified_title: pick(d.google_books_title, d.openlibrary_title, raw.raw_title),
+    verified_author: pick(d.google_books_author, d.openlibrary_author, raw.raw_author),
     verified_publisher: pick(d.google_books_publisher, d.openlibrary_publisher),
     verified_year: year,
     verified_isbn10: pick(d.google_books_isbn10),
@@ -952,13 +782,12 @@ function buildRecord(input: InputBook, raw: RawFields, gb: any, ol: any): BookRe
       d.openlibrary_subjects?.split(",")?.[0]?.trim()
     ),
     verified_subjects: pick(d.google_books_categories, d.openlibrary_subjects),
-    verified_description: useGbTitle ? pick(d.google_books_description) : "",
+    verified_description: pick(d.google_books_description),
     verified_page_count: pick(d.google_books_page_count),
     verified_source: best?.source ?? "vision_only",
 
     match_score: Math.round(score * 100) / 100,
-    enrichment_trust: enrichmentTrust,
-    needs_review: forceReview || score < SCORE_AUTO,
+    needs_review: score < SCORE_AUTO,
     review_reason: reasons.join("; "),
     status,
     attempt_count: 0,
@@ -1013,7 +842,6 @@ function emptyRecord(input: InputBook, err: string): BookRecord {
     verified_page_count: "",
     verified_source: "",
     match_score: 0,
-    enrichment_trust: "low",
     needs_review: true,
     review_reason: err,
     status: "failed",
@@ -1139,19 +967,14 @@ async function main() {
 
   console.log("─".repeat(65));
 
-  // Run-level counters
   let ok = 0;
   let review = 0;
   let fail = 0;
-  let skipped = 0;
 
   for (let b = 0; b < pending.length; b += BATCH_SIZE) {
     const batch = pending.slice(b, b + BATCH_SIZE);
     const bNum = Math.floor(b / BATCH_SIZE) + 1;
     const bTotal = Math.ceil(pending.length / BATCH_SIZE);
-
-    // Batch-level counters
-    let bOk = 0, bReview = 0, bFail = 0, bSkip = 0;
 
     console.log(`\n  ── Batch ${bNum}/${bTotal} ─────────────────────────────\n`);
 
@@ -1163,83 +986,28 @@ async function main() {
       const status = await processBook(book, state, cache);
       const rec = state.get(book.id)!;
 
-      // Count by status
-      if (status === "done")         { ok++;     bOk++; }
-      else if (status === "needs_review") { review++; bReview++; }
-      else if (status === "failed")  { fail++;   bFail++; }
-      else                           { skipped++; bSkip++; }
+      if (status === "done") ok++;
+      if (status === "needs_review") review++;
+      if (status === "failed") fail++;
 
-      // Icon: ✅ done, 🟡 needs_review, ⏭ skipped/cached, ❌ failed
-      const icon =
-        status === "done"         ? "✅" :
-        status === "needs_review" ? "🟡" :
-        status === "pending"      ? "⏭" : "❌";
-
+      const icon = status === "done" ? "✅" : status === "needs_review" ? "🟡" : "❌";
       const title = (rec.verified_title || rec.raw_title || "—").slice(0, 36);
-      const scoreStr = rec.match_score ? ` (${Math.round(rec.match_score * 100)}%)` : "";
+      const score = rec.match_score ? ` (${Math.round(rec.match_score * 100)}%)` : "";
+      const err = status === "failed" ? ` [${rec.error_log.slice(0, 40)}]` : "";
+      process.stdout.write(` ${icon} ${title}${score}${err}\n`);
 
-      // For failures: show specific error type, not just ❌
-      let errStr = "";
-      if (status === "failed") {
-        const msg = rec.error_log ?? "";
-        if (msg.includes("429") || msg === "RATE_LIMIT" || msg.includes("rate limit")) {
-          errStr = " [⚠️ Rate limit — will retry]";
-        } else if (msg.includes("quota") || msg.includes("QUOTA")) {
-          errStr = " [⚠️ Quota exceeded]";
-        } else if (msg.includes("API_KEY") || msg.includes("403") || msg.includes("401")) {
-          errStr = " [⚠️ API key error]";
-        } else if (msg.includes("No image")) {
-          errStr = " [no image]";
-        } else {
-          errStr = ` [${msg.slice(0, 45)}]`;
-        }
-      }
-
-      process.stdout.write(` ${icon} ${title}${scoreStr}${errStr}\n`);
+      saveState(state);
+      saveCache(cache);
 
       if (j < batch.length - 1) await sleep(DELAY_MS);
     }
 
-    // ── Save after every batch ──────────────────────────────────
-    const allNow = [...state.values()];
-    const saveTime = new Date().toLocaleTimeString();
-
-    saveState(state);
-    saveCache(cache);
-    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(allNow, null, 2));
-
-    const reviewFile = path.join(__dirname, "needs-review.json");
-    fs.writeFileSync(
-      reviewFile,
-      JSON.stringify(allNow.filter((r) => r.status !== "done"), null, 2)
-    );
-
-    console.log(`\n  ✔ Batch saved (${saveTime})`);
-
-    // ── Batch summary ───────────────────────────────────────────
-    const totalDone   = [...state.values()].filter(r => r.status === "done").length;
-    const totalReview = [...state.values()].filter(r => r.status === "needs_review").length;
-    const totalFailed = [...state.values()].filter(r => r.status === "failed").length;
-    const totalPend   = inputs.length - totalDone - totalReview - totalFailed;
-
-    console.log(`  ┌─ This batch ───────────────────────────┐`);
-    console.log(`  │  ✅ done       : ${String(bOk).padStart(5)}                 │`);
-    console.log(`  │  🟡 review     : ${String(bReview).padStart(5)}                 │`);
-    console.log(`  │  ❌ failed     : ${String(bFail).padStart(5)}                 │`);
-    console.log(`  ├─ Total (enriched-books.json) ──────────┤`);
-    console.log(`  │  ✅ done       : ${String(totalDone).padStart(5)} / ${inputs.length}          │`);
-    console.log(`  │  🟡 review     : ${String(totalReview).padStart(5)}                 │`);
-    console.log(`  │  ❌ failed     : ${String(totalFailed).padStart(5)}                 │`);
-    console.log(`  │  ⏳ pending    : ${String(Math.max(0,totalPend)).padStart(5)}                 │`);
-    console.log(`  └────────────────────────────────────────┘`);
-
     if (b + BATCH_SIZE < pending.length) {
-      console.log(`\n  ⏸ Waiting ${BATCH_DELAY / 1000}s before next batch...\n`);
+      console.log(`\n  ⏸ Batch done. Waiting ${BATCH_DELAY / 1000}s...\n`);
       await sleep(BATCH_DELAY);
     }
   }
 
-  // Final save (already done per-batch, but ensure state is flushed)
   const all = [...state.values()];
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(all, null, 2));
 
@@ -1250,30 +1018,6 @@ async function main() {
       JSON.stringify(all.filter((r) => r.status !== "done"), null, 2)
     );
     console.log(`\n  Review  → ${reviewFile}`);
-  }
-
-  // ── Write false-google-books-candidates.csv ─────────────────────
-  const all2 = [...state.values()];
-  const falseCandidates = all2.filter(r => {
-    if (!r.google_books_title || !r.raw_title) return false;
-    return r.enrichment_trust === "low" ||
-           (r.review_reason && r.review_reason.includes("google_books_title"));
-  });
-
-  if (falseCandidates.length > 0) {
-    fs.mkdirSync(REPORT_DIR, { recursive: true });
-    const csvHeader = "raw_title,existing_title,google_books_title,verified_title,raw_author,google_books_author,match_score,enrichment_trust,reason";
-    const csvRows = falseCandidates.map(r => {
-      const esc = (s: string) => `"${(s||"").replace(/"/g, "''")}"`;
-      return [
-        esc(r.raw_title), esc(r.existing_title||""), esc(r.google_books_title),
-        esc(r.verified_title), esc(r.raw_author), esc(r.google_books_author),
-        r.match_score, r.enrichment_trust,
-        esc(r.review_reason),
-      ].join(",");
-    });
-    fs.writeFileSync(REPORT_FILE, [csvHeader, ...csvRows].join("\n"), "utf-8");
-    console.log(`\n  📊 False GB report → ${REPORT_FILE}  (${falseCandidates.length} records)`);
   }
 
   console.log("\n" + "═".repeat(65));

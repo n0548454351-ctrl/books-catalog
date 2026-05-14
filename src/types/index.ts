@@ -1,4 +1,7 @@
-// ─── Database row types ───────────────────────────────────────────────────────
+// ─────────────────────────────────────────────────────────────────
+// src/types/index.ts  — add Tag, BookTag, update BookFilters
+// Replace the full file with this version.
+// ─────────────────────────────────────────────────────────────────
 
 export interface Category {
   id: string;
@@ -8,6 +11,24 @@ export interface Category {
   created_at: string;
   updated_at: string;
 }
+
+// ── NEW ──────────────────────────────────────────────────────────
+export interface Tag {
+  id: string;
+  name: string;
+  name_he?: string;
+  slug: string;
+  description?: string;
+  created_at: string;
+}
+
+export interface BookTag {
+  book_id: string;
+  tag_id: string;
+  created_at: string;
+  tag?: Tag;
+}
+// ─────────────────────────────────────────────────────────────────
 
 export interface BookImage {
   id: string;
@@ -48,9 +69,8 @@ export interface Book {
   category?: Category;
   inventory?: Inventory;
   images?: BookImage[];
+  tags?: Tag[];          // ← NEW (optional, joined when needed)
 }
-
-// ─── API / form types ─────────────────────────────────────────────────────────
 
 export interface BookFormData {
   title: string;
@@ -73,6 +93,7 @@ export interface BookFilters {
   category?: string;
   language?: string;
   in_stock?: boolean;
+  tag?: string;          // ← NEW: tag slug
   sort?: "title" | "author" | "year" | "created_at";
   order?: "asc" | "desc";
   page?: number;

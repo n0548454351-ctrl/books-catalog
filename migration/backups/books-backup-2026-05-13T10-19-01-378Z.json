@@ -1,0 +1,3034 @@
+[
+  {
+    "id": "ecd91a34-241f-4db2-a239-e93c04d46c63",
+    "title": "A Homeric Dictionary for Use in Schools and Colleges",
+    "title_he": null,
+    "author": "Georg Autenrieth",
+    "slug": "homeric-dictionary-for-use-in-schools-and-colleges-mozzaecy",
+    "category_id": null
+  },
+  {
+    "id": "c88549b9-f512-485e-920b-590509f336cf",
+    "title": "Aristotle's De Motu Animalium",
+    "title_he": null,
+    "author": "Martha Craven Nussbaum",
+    "slug": "aristotle-s-de-motu-animalium-mozzaekg",
+    "category_id": null
+  },
+  {
+    "id": "33aea3f2-844e-4f6f-ba22-ba21b6564229",
+    "title": "Célébration biblique",
+    "title_he": null,
+    "author": "Elie Wiesel",
+    "slug": "celebration-biblique-mozzaerk",
+    "category_id": null
+  },
+  {
+    "id": "35fda849-7d62-4c92-9bc5-9b37049db195",
+    "title": "Agamemnon",
+    "title_he": null,
+    "author": "Aeschylus; Eduard Fraenkel",
+    "slug": "agamemnon-mozzaeyn",
+    "category_id": null
+  },
+  {
+    "id": "01226947-9da3-4bae-a938-12d25f368d69",
+    "title": "Introduction to the Talmud and Midrash",
+    "title_he": null,
+    "author": "Hermann L. Strack",
+    "slug": "introduction-to-the-talmud-and-midrash",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "1316b2ec-6e17-49da-ba07-0c975b8d4ca7",
+    "title": "The Encyclopaedia Britannica",
+    "title_he": null,
+    "author": "Thomas Spencer Baynes",
+    "slug": "the-encyclopedia-britannica",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "01c11f42-1b9e-4ec9-b308-5a69e8a292db",
+    "title": "The Root And The Branch",
+    "title_he": null,
+    "author": "Robert Gordis",
+    "slug": "the-root-and-the-branch",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "0b4cbfda-c0b0-427a-8184-8c6c77eb12ee",
+    "title": "The Torah",
+    "title_he": null,
+    "author": "Moses King James Version",
+    "slug": "the-torah",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "045e0ab4-8863-447a-95c4-8d0a3428274e",
+    "title": "Histoire politique du monde hellénistique",
+    "title_he": null,
+    "author": "Édouard Will",
+    "slug": "histoire-politique-du-monde-hellenistique",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "0491e930-2104-4631-9053-a1775b9a4c91",
+    "title": "Scholia Platonica",
+    "title_he": null,
+    "author": "William Chase Greene",
+    "slug": "scholia-platonica",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "04ef4253-50b1-4731-afe9-0fef219e5122",
+    "title": "Scholar's Zulu Dictionary",
+    "title_he": null,
+    "author": "G. R. Dent; C. L. S. Nyembezi",
+    "slug": "scholars-zulu-dictionary",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "cc7cf116-36f8-40ec-9742-04ab49645efb",
+    "title": "Middle East Studies Association Bulletin",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "middle-east-studies-association-bulletin-mozzbc4y",
+    "category_id": null
+  },
+  {
+    "id": "986f082d-0442-48f5-94f9-2e86d77cae9b",
+    "title": "The Jewish Encyclopedia",
+    "title_he": null,
+    "author": "Cyrus Adler, Gotthard Deutsch, Louis Ginzberg, et al.",
+    "slug": "the-jewish-encyclopedia-3",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "09a82a83-cef6-48a8-b0b9-d4a3e58dc5a7",
+    "title": "Annalium Libri I-IV",
+    "title_he": null,
+    "author": "Cornelius Tacitus",
+    "slug": "annalium-libri-i-iv",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "a2398d6f-8daa-4232-ac65-a57db09c17d0",
+    "title": "The Cambridge History of Classical Literature: The Late Republic",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-cambridge-history-of-classical-literature-the-late-republic",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "9ebb83ba-11e0-4141-b9e9-d3859871d065",
+    "title": "Exodus",
+    "title_he": null,
+    "author": "U. Cassuto",
+    "slug": "exodus-mozvvoya",
+    "category_id": null
+  },
+  {
+    "id": "0b4cbfda-c0b0-427a-8184-8c6c77eb12ee",
+    "title": "The Torah",
+    "title_he": null,
+    "author": "Moses King James Version",
+    "slug": "the-torah",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "7da69c47-0a07-48af-a5e1-65a131bc9d36",
+    "title": "The New Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-new-encyclop-dia-britannica-10",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "0e6ea2bc-ea60-4188-ab8a-0c23270c9a6c",
+    "title": "The Art of Abstracting",
+    "title_he": null,
+    "author": "Edward T. Cremmins",
+    "slug": "the-art-of-abstracting",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "f82bce44-d2df-4dae-b977-e77e913bc1c0",
+    "title": "An ABC of English usage",
+    "title_he": null,
+    "author": "H. A. Treble; G. H. Vallins",
+    "slug": "abc-of-english-usage-mozvw9x0",
+    "category_id": null
+  },
+  {
+    "id": "8067a714-39d2-4f7f-8b58-6e1be894df85",
+    "title": "Scoop--",
+    "title_he": null,
+    "author": "Evelyn Waugh",
+    "slug": "scoop-mozvwamj",
+    "category_id": null
+  },
+  {
+    "id": "ee4321a9-055a-4788-8137-4ca2248ff5c4",
+    "title": "Jewish Luminaries in Medical History",
+    "title_he": null,
+    "author": "Harry Friedenwald",
+    "slug": "jewish-luminaries-in-medical-history-mozvwb0y",
+    "category_id": null
+  },
+  {
+    "id": "39390e1b-49e2-4f18-9e75-f90f99cf95ef",
+    "title": "The Menuchah Principle in Shidduchim, Dating & Engagement",
+    "title_he": null,
+    "author": "Shaya Ostrov",
+    "slug": "menuchah-principle-in-shidduchim-dating-engagement-mozvwbod",
+    "category_id": null
+  },
+  {
+    "id": "0fc09560-5f30-4429-b1f5-bad93e06b6ad",
+    "title": "Cunning Intelligence in Greek Culture and Society",
+    "title_he": null,
+    "author": "Marcel Detienne; Jean Pierre Vernant",
+    "slug": "cunning-intelligence-in-greek-culture-and-society",
+    "category_id": "96e19023-633e-4d88-bd97-ac7712c62d70"
+  },
+  {
+    "id": "102c3ce2-9032-4bac-b9a3-c9b8be37ca2d",
+    "title": "Daytrips Israel",
+    "title_he": null,
+    "author": "Earl Steinbicker",
+    "slug": "daytrips-israel",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "107aed4e-8bbc-4391-bc74-8e591b089880",
+    "title": "Korinthiaka",
+    "title_he": null,
+    "author": "Édouard Will",
+    "slug": "korinthiaka",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "53c2fcc8-be81-40db-8f62-66f4e4568ffe",
+    "title": "Griechische Vasen",
+    "title_he": null,
+    "author": "Hans Schaal",
+    "slug": "griechische-vasen-mozzdfvd",
+    "category_id": null
+  },
+  {
+    "id": "7315e384-5a16-4748-b1c5-2eb5e1179e49",
+    "title": "The Venture of Islam",
+    "title_he": null,
+    "author": "Marshall G. S. Hodgson",
+    "slug": "venture-of-islam-mozzdg27",
+    "category_id": null
+  },
+  {
+    "id": "1137b3be-f4da-4733-9ed7-b717d65875c4",
+    "title": "Stephen Hero",
+    "title_he": null,
+    "author": "James Joyce",
+    "slug": "stephen-hero",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "df261d1e-bc12-4211-b26f-3d758a609547",
+    "title": "Time and Process in Ancient Judaism",
+    "title_he": null,
+    "author": "Sacha Stern",
+    "slug": "time-and-process-in-ancient-judaism-mozvwpyb",
+    "category_id": null
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "df261d1e-bc12-4211-b26f-3d758a609547",
+    "title": "Time and Process in Ancient Judaism",
+    "title_he": null,
+    "author": "Sacha Stern",
+    "slug": "time-and-process-in-ancient-judaism-mozvwpyb",
+    "category_id": null
+  },
+  {
+    "id": "01226947-9da3-4bae-a938-12d25f368d69",
+    "title": "Introduction to the Talmud and Midrash",
+    "title_he": null,
+    "author": "Hermann L. Strack",
+    "slug": "introduction-to-the-talmud-and-midrash",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "e534c8e4-f5c3-448f-b03f-8c135943241d",
+    "title": "The Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-encyclopedia-britannica-6",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "2e704921-08ca-411c-9a61-703ce813f017",
+    "title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "title_he": null,
+    "author": "JOHANN WOLFGANG GOETHE",
+    "slug": "gedenkausgabe-der-werke-briefe-und-gesprache-15",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "2e704921-08ca-411c-9a61-703ce813f017",
+    "title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "title_he": null,
+    "author": "JOHANN WOLFGANG GOETHE",
+    "slug": "gedenkausgabe-der-werke-briefe-und-gesprache-15",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "2e704921-08ca-411c-9a61-703ce813f017",
+    "title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "title_he": null,
+    "author": "JOHANN WOLFGANG GOETHE",
+    "slug": "gedenkausgabe-der-werke-briefe-und-gesprache-15",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "15a4d0e1-5fa9-4a7a-85e1-040e96104032",
+    "title": "The Rabbinic Class of Roman Palestine in Late Antiquity",
+    "title_he": null,
+    "author": "Lee I. Levine",
+    "slug": "the-rabbinic-class-of-roman-palestine-in-late-antiquity",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "1cc6589d-d5ba-4bbe-a727-b214fa749b38",
+    "title": "Waterloo",
+    "title_he": null,
+    "author": "Bernard Cornwell",
+    "slug": "waterloo-mozvx3vm",
+    "category_id": null
+  },
+  {
+    "id": "f81c7fff-83d3-4ce7-87f1-d5dd3d435ae1",
+    "title": "A History of Philosophy Volume 5 - Modern Philosophy: The British Philosophers Part I Hobbes to Paley",
+    "title_he": null,
+    "author": "Frederick C. Copleston",
+    "slug": "history-of-philosophy-volume-5-modern-philosophy-the-british-philosophers-part-i-hobbes-to-mozvx4ac",
+    "category_id": null
+  },
+  {
+    "id": "163dfdcc-b64a-4e0c-8a5a-cbc50c0c2d7a",
+    "title": "Helyesírási tanácsadó szótár",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "helyesirasi-tanacsado-szotar",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "7315e384-5a16-4748-b1c5-2eb5e1179e49",
+    "title": "The Venture of Islam",
+    "title_he": null,
+    "author": "Marshall G. S. Hodgson",
+    "slug": "venture-of-islam-mozzdg27",
+    "category_id": null
+  },
+  {
+    "id": "2a79cf31-bfd7-4200-86bf-bab6903cbb62",
+    "title": "The National Gallery London",
+    "title_he": null,
+    "author": "Michael Wilson",
+    "slug": "national-gallery-london-mozvxnq0",
+    "category_id": null
+  },
+  {
+    "id": "1933eb74-6780-43ae-b4f8-3fbb6d386988",
+    "title": "Eleven Plays of Henrik Ibsen",
+    "title_he": null,
+    "author": "Henrik Ibsen",
+    "slug": "eleven-plays-of-henrik-ibsen",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "ca36c0fd-a985-458a-9195-58d2be9517b7",
+    "title": "The Bond Teller",
+    "title_he": null,
+    "author": "RABBI JULES HARLOW",
+    "slug": "bond-teller-mozvxoii",
+    "category_id": null
+  },
+  {
+    "id": "196160b4-e9a3-4a1c-a2bf-7575e408d65e",
+    "title": "Plato's Protagoras",
+    "title_he": null,
+    "author": "B. A. F. Hubbard; Ellen S. Karnofsky",
+    "slug": "platos-protagoras",
+    "category_id": "96e19023-633e-4d88-bd97-ac7712c62d70"
+  },
+  {
+    "id": "1990ea23-2c93-43d1-95f6-9b13fcaec53b",
+    "title": "San Francisco at Your Feet",
+    "title_he": null,
+    "author": "Margot Patterson Doss",
+    "slug": "san-francisco-at-your-feet",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "f5155651-2db8-4144-beab-239a49a1899a",
+    "title": "Wörterbuch der aegyptischen Sprache",
+    "title_he": null,
+    "author": "Adolf Erman",
+    "slug": "worterbuch-der-aegyptischen-sprache",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "1ad315de-cbbf-4ab8-9e03-79012c669992",
+    "title": "A Commentary on Herodotus",
+    "title_he": null,
+    "author": "W. W. How; J. Wells",
+    "slug": "a-commentary-on-herodotus",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "1ae98ad8-7d7d-471c-b39a-49235ff5d45d",
+    "title": "An Introduction to Language",
+    "title_he": null,
+    "author": "Victoria Fromkin; Robert Rodman",
+    "slug": "an-introduction-to-language",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "92b6f61d-382a-475e-8525-e8de5c0002aa",
+    "title": "Sumerisches Glossar",
+    "title_he": null,
+    "author": "Friedrich Ellermeier",
+    "slug": "sumerisches-glossar-mozvxw2s",
+    "category_id": null
+  },
+  {
+    "id": "f1e8e98f-3be1-49e3-a6b3-d375bcb6cead",
+    "title": "Thucydides and Athenian Imperialism",
+    "title_he": null,
+    "author": "Jacqueline de Romilly",
+    "slug": "thucydides-and-athenian-imperialism-mozvxwa9",
+    "category_id": null
+  },
+  {
+    "id": "d1435aa5-5339-4ca4-96c3-a008c29afe19",
+    "title": "Golem",
+    "title_he": null,
+    "author": "Moshe Idel",
+    "slug": "golem-mozvxwh9",
+    "category_id": "fc2d6ef6-f65d-4f29-953f-7cb5b6564400"
+  },
+  {
+    "id": "fe73a5fc-0bfd-4898-abc1-7e9109a294cf",
+    "title": "The I Ching",
+    "title_he": null,
+    "author": "Frank Lauran",
+    "slug": "i-ching-mozvxwuv",
+    "category_id": null
+  },
+  {
+    "id": "66775194-610f-4ff8-9b07-834416f7df03",
+    "title": "Kobbe's Complete Opera Book",
+    "title_he": null,
+    "author": "The Earl of Harewood",
+    "slug": "kobbe-s-complete-opera-book-mozvxx82",
+    "category_id": null
+  },
+  {
+    "id": "1c612fea-8b64-45dc-a4f5-0894c167b955",
+    "title": "Disraeli",
+    "title_he": null,
+    "author": "Andre Maurois",
+    "slug": "disraeli",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "1ca4d33b-726f-453f-a31d-d21a395dcbb1",
+    "title": "A History of the Marranos",
+    "title_he": null,
+    "author": "Cecil Roth",
+    "slug": "a-history-of-the-marranos",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "8bef8aea-7f5a-4bf9-ac58-d050473b9f9a",
+    "title": "A Historical Commentary on Polybius",
+    "title_he": null,
+    "author": "F.W. Walbank",
+    "slug": "a-historical-commentary-on-polybius",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "1da4f8d4-81db-4fe4-ba7f-ec89d32a9624",
+    "title": "Textual and Literary Criticism",
+    "title_he": null,
+    "author": "Fredson Thayer Bowers",
+    "slug": "textual-and-literary-criticism",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "1defed7b-f411-4b86-b5bf-672406fb9751",
+    "title": "Tibetan Grammar",
+    "title_he": null,
+    "author": "H. A. Jaschke",
+    "slug": "tibetan-grammar",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "7da69c47-0a07-48af-a5e1-65a131bc9d36",
+    "title": "The New Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-new-encyclop-dia-britannica-10",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "1e908ac2-f0df-4b2b-9ba2-0b08b77ab0a5",
+    "title": "The Purgatorio",
+    "title_he": null,
+    "author": "Dante Alighieri",
+    "slug": "the-purgatorio",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "9b70144b-edd9-4966-9d4f-932955b6b67c",
+    "title": "The Encyclopædia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-encyclop-dia-britannica-6",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "1ecc8548-b4f6-463d-88d0-3ca7b0d943da",
+    "title": "THE GREEK AND ROMAN WORLD",
+    "title_he": null,
+    "author": "W.G. HARDY",
+    "slug": "the-greek-and-roman-world",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "1f9c9dc2-4572-4962-9c58-862a840ad693",
+    "title": "Order of Service and Customs for the Synagogue and the Home",
+    "title_he": null,
+    "author": "Moses Friedlander",
+    "slug": "order-of-service-and-customs-for-the-synagogue-and-the-home-7",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "912e8b5e-8f5d-48c3-aa0d-307eb15c2e69",
+    "title": "The Jews in Piedmont",
+    "title_he": null,
+    "author": "Renata Segre",
+    "slug": "the-jews-in-piedmont-2",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "2009a6bb-b903-4f8e-8a38-3b71894001a6",
+    "title": "The Geography of Strabo IV",
+    "title_he": null,
+    "author": "Strabo",
+    "slug": "the-geography-of-strabo-iv",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "afb46123-66da-43fc-82b6-a72baa719b7e",
+    "title": "A Progressive Grammar of the Tamil Language",
+    "title_he": null,
+    "author": "A. H. Arden",
+    "slug": "a-progressive-grammar-of-the-tamil-language",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "211186c0-3f2b-4cf5-9c51-a09923f24582",
+    "title": "REALISM",
+    "title_he": null,
+    "author": "LINDA NOCHLIN",
+    "slug": "realism",
+    "category_id": "9aa84f67-3350-4564-9e34-4985bf4494ea"
+  },
+  {
+    "id": "2190637e-2166-483b-bd35-d86a1b68f261",
+    "title": "A Historical Commentary on Thucydides",
+    "title_he": null,
+    "author": "A. W. Gomme, A. Andrewes, K. J. Dover",
+    "slug": "a-historical-commentary-on-thucydides-3",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "2212ede2-b94f-453b-998e-714af033a6a3",
+    "title": "Homecoming at Twilight",
+    "title_he": null,
+    "author": "Jacob Glatstein",
+    "slug": "homecoming-at-twilight",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "74c5eeaa-87f2-4a65-ac7f-81c570390fb4",
+    "title": "The Jews of Moslem Spain",
+    "title_he": null,
+    "author": "Eliyahu Ashtor",
+    "slug": "the-jews-of-moslem-spain",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "22bc1068-f346-4651-af62-546427d78c13",
+    "title": "NEUE GEDICHTE",
+    "title_he": null,
+    "author": "RAINER MARIA RILKE",
+    "slug": "neue-gedichte",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "5b92d070-6cd6-4ead-a282-9e17517966dc",
+    "title": "Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "1f9c9dc2-4572-4962-9c58-862a840ad693",
+    "title": "Order of Service and Customs for the Synagogue and the Home",
+    "title_he": null,
+    "author": "Moses Friedlander",
+    "slug": "order-of-service-and-customs-for-the-synagogue-and-the-home-7",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "2486a9c0-6614-49ec-a708-a26a8fababde",
+    "title": "Coningsby or The New Generation",
+    "title_he": null,
+    "author": "Benjamin Disraeli",
+    "slug": "coningsby-or-the-new-generation",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "45047b1f-e05f-4ff7-a647-cd617fd5a3e4",
+    "title": "A History of the Ancient World",
+    "title_he": null,
+    "author": "M. Rostovtzeff",
+    "slug": "a-history-of-the-ancient-world",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "25ded208-eeca-4985-96e7-8ed7ded825e3",
+    "title": "Virgil's Works",
+    "title_he": null,
+    "author": "Virgil",
+    "slug": "virgils-works",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "25fe3dea-9147-4651-8994-41f5dea19505",
+    "title": "The Jewish Community in Poland",
+    "title_he": null,
+    "author": "Isaac Lewin",
+    "slug": "the-jewish-community-in-poland",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "26d5edac-0488-4f2b-96c7-ad2c2ec7d33a",
+    "title": "Rudiments and Theory of Music",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "rudiments-and-theory-of-music",
+    "category_id": "9aa84f67-3350-4564-9e34-4985bf4494ea"
+  },
+  {
+    "id": "273a25de-e163-40d6-bdfb-ed9503e85fe3",
+    "title": "West-östlicher Divan",
+    "title_he": null,
+    "author": "Johann Wolfgang Goethe",
+    "slug": "west-ostlicher-divan",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "27f52753-c4f1-45b0-b8c1-3fbf86b7f471",
+    "title": "TALES OF MELVIL'S MOUSER",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "tales-of-melvils-mouser",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "2821c61b-0402-45d9-ae4c-0754537421e8",
+    "title": "ANCIENT ATHENS, PIRAEUS & PHALERON",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "ancient-athens-piraeus-phaleron",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "2854ea01-fd69-4a69-9d72-68668899083c",
+    "title": "DIE THEOLOGIE DER FRÜHEN GRIECHISCHEN DENKER",
+    "title_he": null,
+    "author": "WERNER JAEGER",
+    "slug": "die-theologie-der-fruhen-griechischen-denker",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "28905bcd-8794-4ed5-90af-80e3bfa3d23e",
+    "title": "Sybil or The Two Nations",
+    "title_he": null,
+    "author": "Benjamin Disraeli",
+    "slug": "sybil-or-the-two-nations",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "28fdf972-e754-4e0d-a95c-afa58b77852f",
+    "title": "Stories from Shakespeare",
+    "title_he": null,
+    "author": "Marchette Chute",
+    "slug": "stories-from-shakespeare",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "2911e5fc-2e83-44c8-b1cf-0c837798dc85",
+    "title": "Concise English-Chinese Chinese-English Dictionary",
+    "title_he": null,
+    "author": "LOGICAL",
+    "slug": "concise-english-chinese-chinese-english-dictionary",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "292b9e7a-7b59-4f56-9b4d-3c35ca870cfb",
+    "title": "Gearrfhoclóir Gaeilge-Béarla",
+    "title_he": null,
+    "author": "An Roinn Oideachais",
+    "slug": "gearrfhocloir-gaeilge-bearla",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "296589d2-ef97-4154-a251-2a8cdf0dd471",
+    "title": "The Law in Classical Athens",
+    "title_he": null,
+    "author": "Douglas M MacDowell",
+    "slug": "the-law-in-classical-athens",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "92c3b1b2-63c9-433e-9c4d-00f6f2f42319",
+    "title": "Plutarch's Lives",
+    "title_he": null,
+    "author": "Plutarch",
+    "slug": "plutarchs-lives",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "2a4d3830-ed84-43dc-a84d-7b490318eb56",
+    "title": "The Jewish Encyclopedia",
+    "title_he": null,
+    "author": "Cyrus Adler, Gotthard Deutsch, Louis Ginzberg, et al.",
+    "slug": "the-jewish-encyclopedia-4",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "2a7ec028-736d-4f9a-9140-849dd8a77a7c",
+    "title": "The Portable James Joyce",
+    "title_he": null,
+    "author": "James Joyce, Harry Levin",
+    "slug": "the-portable-james-joyce",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "2aa3025e-a5ca-4849-b87d-a1aee8a014fe",
+    "title": "Patterns in Comparative Religion",
+    "title_he": null,
+    "author": "Mircea Eliade",
+    "slug": "patterns-in-comparative-religion",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "48b9231e-c6a5-47d1-8298-97f8f59d98a0",
+    "title": "Electra",
+    "title_he": null,
+    "author": "Sophocles, J. H. Kells (ed.)",
+    "slug": "electra",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "2b8e83da-6976-4cce-8523-abbdc3249b45",
+    "title": "God's Presence in History",
+    "title_he": null,
+    "author": "Emil L. Fackenheim",
+    "slug": "gods-presence-in-history",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "2009a6bb-b903-4f8e-8a38-3b71894001a6",
+    "title": "The Geography of Strabo IV",
+    "title_he": null,
+    "author": "Strabo",
+    "slug": "the-geography-of-strabo-iv",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "2c718b11-9277-471f-a876-8bf8526023c2",
+    "title": "A DICTIONARY OF LATE EGYPTIAN",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "a-dictionary-of-late-egyptian",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "5b92d070-6cd6-4ead-a282-9e17517966dc",
+    "title": "Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "2d6f39c7-d449-4134-99ef-d52c1e108fa7",
+    "title": "Twenty-Thousand Leagues Under the Sea",
+    "title_he": null,
+    "author": "Jules Verne",
+    "slug": "twenty-thousand-leagues-under-the-sea",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "2d9f4880-0f49-4246-b960-18a21a8a1257",
+    "title": "The Cults of the Greek States",
+    "title_he": null,
+    "author": "Lewis Richard Farnell",
+    "slug": "the-cults-of-the-greek-states-2",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "2daf32ff-42b9-45ea-a09c-c583dc5e5548",
+    "title": "THE HISTORY OF HEBREW PLENE SPELLING",
+    "title_he": null,
+    "author": "Werner Weinberg",
+    "slug": "the-history-of-hebrew-plene-spelling",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "2e197f20-6145-4173-85d2-8c314c45f749",
+    "title": "Men, Microscopes, and Living Things",
+    "title_he": null,
+    "author": "Katherine B. Shippen",
+    "slug": "men-microscopes-and-living-things",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "2e704921-08ca-411c-9a61-703ce813f017",
+    "title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "title_he": null,
+    "author": "JOHANN WOLFGANG GOETHE",
+    "slug": "gedenkausgabe-der-werke-briefe-und-gesprache-15",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "2eaaba5d-c471-4f53-b502-524a4d5a44cf",
+    "title": "The Cambridge History of Classical Literature: The Age of Augustus",
+    "title_he": null,
+    "author": "Various",
+    "slug": "the-cambridge-history-of-classical-literature-the-age-of-augustus",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "3a0ed3af-a53a-4151-98c4-3a3d8c7d1c88",
+    "title": "Inferno",
+    "title_he": null,
+    "author": "Dante Alighieri, Tisdall",
+    "slug": "inferno",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "e47fb98e-8049-4b29-984a-d0bcde381049",
+    "title": "Handbook of MEDICAL LIBRARY PRACTICE",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "handbook-of-medical-library-practice",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "7315e384-5a16-4748-b1c5-2eb5e1179e49",
+    "title": "The Venture of Islam",
+    "title_he": null,
+    "author": "Marshall G. S. Hodgson",
+    "slug": "venture-of-islam-mozzdg27",
+    "category_id": null
+  },
+  {
+    "id": "2e704921-08ca-411c-9a61-703ce813f017",
+    "title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "title_he": null,
+    "author": "JOHANN WOLFGANG GOETHE",
+    "slug": "gedenkausgabe-der-werke-briefe-und-gesprache-15",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "3049d059-fc02-499a-aa9c-ebf0a6d21729",
+    "title": "THE SONG OF THE LARK",
+    "title_he": null,
+    "author": "WILLA CATHER",
+    "slug": "the-song-of-the-lark",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "304c2e44-b248-45da-a950-810ea8ca00ab",
+    "title": "A Skeleton Key to Finnegans Wake",
+    "title_he": null,
+    "author": "Joseph Campbell & Henry Morton Robinson",
+    "slug": "a-skeleton-key-to-finnegans-wake",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "306ee47f-8948-4b2a-9ce4-cf364f88df6e",
+    "title": "Anglicko-Český + Česko-Anglický Praktický Slovník",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "anglicko-cesky-cesko-anglicky-prakticky-slovnik",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "46b8a6ea-cb14-4ef3-b691-1d74da10de9b",
+    "title": "SCRIPTORUM CLASSICORUM BIBLIOTHECA OXONIENSIS",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "scriptorum-classicorum-bibliotheca-oxoniensis",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "e52731f1-ddbd-4018-b143-6ad813b41fc1",
+    "title": "Der Glaube der Hellenen",
+    "title_he": null,
+    "author": "Ulrich von Wilamowitz-Moellendorff",
+    "slug": "der-glaube-der-hellenen-2",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "9b70144b-edd9-4966-9d4f-932955b6b67c",
+    "title": "The Encyclopædia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-encyclop-dia-britannica-6",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "31da97de-0865-4620-916d-8b079bb26d5c",
+    "title": "SHARPE'S REVENGE",
+    "title_he": null,
+    "author": "BERNARD CORNWELL",
+    "slug": "sharpes-revenge",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "31e8539a-8bc2-439f-906a-b096a18f2641",
+    "title": "AZIN",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "azin",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "32782a31-9afd-4ef1-8279-5a61ae6688ed",
+    "title": "Point Counter Point",
+    "title_he": null,
+    "author": "Aldous Huxley",
+    "slug": "point-counter-point",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "7da69c47-0a07-48af-a5e1-65a131bc9d36",
+    "title": "The New Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-new-encyclop-dia-britannica-10",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "32d6b9e1-58b3-4beb-9263-47fccf8c968f",
+    "title": "Athenian Propertied Families 600-300 B.C.",
+    "title_he": null,
+    "author": "J.K. Davies",
+    "slug": "athenian-propertied-families-600-300-b-c",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "33697103-1295-439c-aa2e-598c0e06b567",
+    "title": "Sefer Ha-'Ikkarim",
+    "title_he": null,
+    "author": "Joseph Albo",
+    "slug": "sefer-ha-ikkarim",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "3369a27d-5918-4aed-89af-94ceaeee07f7",
+    "title": "Where Angels Fear to Tread",
+    "title_he": null,
+    "author": "E.M. Forster",
+    "slug": "where-angels-fear-to-tread",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "337a1556-ac9c-4dd1-b6c4-73706a6a03d1",
+    "title": "Erlebnis und Darstellung der Perserkriege",
+    "title_he": null,
+    "author": "Wilhelm Kierdorf",
+    "slug": "erlebnis-und-darstellung-der-perserkriege",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "33cdd221-816f-46c9-94f4-046f4c055bc4",
+    "title": "ONE DAY IN THE LIFE OF IVAN DENISOVICH",
+    "title_he": null,
+    "author": "ALEXANDER SOLZHENITSYN",
+    "slug": "one-day-in-the-life-of-ivan-denisovich",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "3484f550-db43-4cf0-933f-8f23d2cf9aba",
+    "title": "The Bostonians",
+    "title_he": null,
+    "author": "Henry James",
+    "slug": "the-bostonians",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "34c6a6ce-ed93-4e94-8810-3af2242159fa",
+    "title": "The American Language",
+    "title_he": null,
+    "author": "H. L. Mencken",
+    "slug": "the-american-language",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "3c611479-2a47-4aa3-abd6-f80a02ad74fe",
+    "title": "Nicomachean Ethics",
+    "title_he": null,
+    "author": "Aristotle",
+    "slug": "nicomachean-ethics",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "355ad280-a595-4df0-857b-633e7484ba60",
+    "title": "Semantics of Natural Language",
+    "title_he": null,
+    "author": "Donald Davidson and Gilbert Harman",
+    "slug": "semantics-of-natural-language",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "357a1ded-40bb-4faf-8d50-c7f337f8b3d7",
+    "title": "GREEK SOCIETY",
+    "title_he": null,
+    "author": "Frank J. Frost",
+    "slug": "greek-society",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "362faae9-014d-481b-9727-0fa4a8c3e206",
+    "title": "The History Man",
+    "title_he": null,
+    "author": "Malcolm Bradbury",
+    "slug": "the-history-man",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "36f40fb0-5dbe-47ac-8d80-5a02491f8e1a",
+    "title": "Mystical Theology and Social Dissent",
+    "title_he": null,
+    "author": "Byron L. Sherwin",
+    "slug": "mystical-theology-and-social-dissent",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "372aa657-83d9-44cd-90fc-b7ec8cb041c4",
+    "title": "The Lady of Andros, The Self-Tormentor, The Eunuch",
+    "title_he": null,
+    "author": "Terence, John Sargeaunt (translator)",
+    "slug": "the-lady-of-andros-the-self-tormentor-the-eunuch",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "3747bcf2-435c-4817-aa0d-744d3b44302d",
+    "title": "The Trial of Socrates",
+    "title_he": null,
+    "author": "I. F. Stone",
+    "slug": "the-trial-of-socrates",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "37534f7e-5f9d-4c7e-a8fd-531ba3442156",
+    "title": "Building Library Collections",
+    "title_he": null,
+    "author": "Mary Duncan Carter and Wallace John Bonk",
+    "slug": "building-library-collections",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "7315e384-5a16-4748-b1c5-2eb5e1179e49",
+    "title": "The Venture of Islam",
+    "title_he": null,
+    "author": "Marshall G. S. Hodgson",
+    "slug": "venture-of-islam-mozzdg27",
+    "category_id": null
+  },
+  {
+    "id": "3880b8dd-d972-44fb-a9fc-35ff3a2cfa3f",
+    "title": "The Face of the Ancient Orient",
+    "title_he": null,
+    "author": "Sabatino Moscati",
+    "slug": "the-face-of-the-ancient-orient",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "39385663-58f7-474b-88cb-cfa11ecba06d",
+    "title": "A Grammar of Phoenician and Punic",
+    "title_he": null,
+    "author": "Stanislav Segert",
+    "slug": "a-grammar-of-phoenician-and-punic",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "394889f9-f709-4b1e-a3ae-ad120f55b1e2",
+    "title": "Tradition and Originality in Plautus",
+    "title_he": null,
+    "author": "Netta Zagagi",
+    "slug": "tradition-and-originality-in-plautus",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "3a36c8df-dcb9-4c04-ad75-451828246e71",
+    "title": "Scriptures, Sects and Visions",
+    "title_he": null,
+    "author": "Michael Stone",
+    "slug": "scriptures-sects-and-visions",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "3a612ab3-7292-4b8f-8579-419be7cb04c2",
+    "title": "The Sanctity of the Synagogue",
+    "title_he": null,
+    "author": "Baruch Litvin",
+    "slug": "the-sanctity-of-the-synagogue",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "3b9e06c7-ffb4-4613-a91a-ab4636c975cc",
+    "title": "Mizan al amal",
+    "title_he": null,
+    "author": "al-Ghazzáli",
+    "slug": "mizan-al-amal",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "title": "Phoenix",
+    "title_he": null,
+    "author": "Classical Association of Canada",
+    "slug": "phoenix-4",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "title": "Phoenix",
+    "title_he": null,
+    "author": "Classical Association of Canada",
+    "slug": "phoenix-4",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "3c611479-2a47-4aa3-abd6-f80a02ad74fe",
+    "title": "Nicomachean Ethics",
+    "title_he": null,
+    "author": "Aristotle",
+    "slug": "nicomachean-ethics",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "60774c66-5244-4418-aa74-9907ed2f2c1d",
+    "title": "The Torah U-Madda Journal",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-torah-u-madda-journal",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "3d5c2c94-dfe9-4a19-85bb-99211bcc6465",
+    "title": "The Intelligent Heart",
+    "title_he": null,
+    "author": "Harry T. Moore",
+    "slug": "the-intelligent-heart",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "74c5eeaa-87f2-4a65-ac7f-81c570390fb4",
+    "title": "The Jews of Moslem Spain",
+    "title_he": null,
+    "author": "Eliyahu Ashtor",
+    "slug": "the-jews-of-moslem-spain",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "1f9c9dc2-4572-4962-9c58-862a840ad693",
+    "title": "Order of Service and Customs for the Synagogue and the Home",
+    "title_he": null,
+    "author": "Moses Friedlander",
+    "slug": "order-of-service-and-customs-for-the-synagogue-and-the-home-7",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "35fda849-7d62-4c92-9bc5-9b37049db195",
+    "title": "Agamemnon",
+    "title_he": null,
+    "author": "Aeschylus; Eduard Fraenkel",
+    "slug": "agamemnon-mozzaeyn",
+    "category_id": null
+  },
+  {
+    "id": "3f68e9a4-7e05-44e5-b79c-aa83248fa888",
+    "title": "THE MESSIANIC IDEA in Judaism",
+    "title_he": null,
+    "author": "Gershom Scholem",
+    "slug": "the-messianic-idea-in-judaism",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "3fafe9b7-e4b3-44f1-8dde-0cda5816cfaa",
+    "title": "Die Blechtrommel",
+    "title_he": null,
+    "author": "Günter Grass",
+    "slug": "die-blechtrommel",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "3fbab6c4-af6c-44b7-9291-45b07dcaa0b8",
+    "title": "The Legacy of Medieval Persian Sufism",
+    "title_he": null,
+    "author": "Leonard Lewisohn",
+    "slug": "the-legacy-of-medieval-persian-sufism",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "33697103-1295-439c-aa2e-598c0e06b567",
+    "title": "Sefer Ha-'Ikkarim",
+    "title_he": null,
+    "author": "Joseph Albo",
+    "slug": "sefer-ha-ikkarim",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "40acc35e-6cf0-44af-b2f4-ea08e888f6ce",
+    "title": "Archaic Times to End of the Peloponnesian War",
+    "title_he": null,
+    "author": "Charles W. Fornara",
+    "slug": "archaic-times-to-end-of-the-peloponnesian-war",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "410bd3d8-e322-4cac-80a4-0f0df791f095",
+    "title": "Thucydides",
+    "title_he": null,
+    "author": "W. Robert Connor",
+    "slug": "thucydides",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "4340bb2d-9233-430a-8cf4-9dc275c519ca",
+    "title": "The Woman in White",
+    "title_he": null,
+    "author": "Wilkie Collins",
+    "slug": "the-woman-in-white",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "cbd68487-952a-42de-86b4-b74c68d0d9dd",
+    "title": "American Academy of Arts and Sciences Records",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "american-academy-of-arts-and-sciences-records",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "44296f52-7bf8-4f37-80f3-b193bc03158d",
+    "title": "The Ancient City of Athens",
+    "title_he": null,
+    "author": "Ida Thallon Hill",
+    "slug": "the-ancient-city-of-athens",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "446b4ff4-d916-4336-8aac-edfcc8892096",
+    "title": "The Magic Mountain",
+    "title_he": null,
+    "author": "Thomas Mann",
+    "slug": "the-magic-mountain",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "447c9a30-dd09-4d69-8b75-58c896a917ca",
+    "title": "Swahili-English/English-Swahili Dictionary",
+    "title_he": null,
+    "author": "Nicholas Awde",
+    "slug": "swahili-english-english-swahili-dictionary",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "7da69c47-0a07-48af-a5e1-65a131bc9d36",
+    "title": "The New Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-new-encyclop-dia-britannica-10",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "4481d955-5801-4fa5-bad3-010f28f330a0",
+    "title": "The Association of American Library Schools, 1915-1968: An Analytical History",
+    "title_he": null,
+    "author": "Donald Gordon Davis, Jr.",
+    "slug": "the-association-of-american-library-schools-1915-1968-an-analytical-history",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "3c611479-2a47-4aa3-abd6-f80a02ad74fe",
+    "title": "Nicomachean Ethics",
+    "title_he": null,
+    "author": "Aristotle",
+    "slug": "nicomachean-ethics",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "44baae70-6cb0-43d8-8f4d-c3bbdcccd5e4",
+    "title": "Acharnians",
+    "title_he": null,
+    "author": "Aristophanes",
+    "slug": "acharnians",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "e47fb98e-8049-4b29-984a-d0bcde381049",
+    "title": "Handbook of MEDICAL LIBRARY PRACTICE",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "handbook-of-medical-library-practice",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "44e78a0e-28bf-49ce-89f5-4966218c7cc9",
+    "title": "Dialogical Philosophy From Kierkegaard to Buber",
+    "title_he": null,
+    "author": "Shmuel Hugo Bergman",
+    "slug": "dialogical-philosophy-from-kierkegaard-to-buber",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "45047b1f-e05f-4ff7-a647-cd617fd5a3e4",
+    "title": "A History of the Ancient World",
+    "title_he": null,
+    "author": "M. Rostovtzeff",
+    "slug": "a-history-of-the-ancient-world",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "451a0282-a873-4ec7-8d94-0cf349442852",
+    "title": "The Symposium of Plato",
+    "title_he": null,
+    "author": "R. G. Bury",
+    "slug": "the-symposium-of-plato",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "4549ba78-dd6c-4730-87b0-41aeac9d4155",
+    "title": "The Unmarried Mother in Our Society",
+    "title_he": null,
+    "author": "Sara B. Edlin",
+    "slug": "the-unmarried-mother-in-our-society",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "459b8d0e-3b14-4c57-be74-b7301d99d76f",
+    "title": "The Human Condition",
+    "title_he": null,
+    "author": "Hannah Arendt",
+    "slug": "the-human-condition",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "45ae9507-8cb3-4aae-9cdf-f29ee3e5ac40",
+    "title": "Language and Politics",
+    "title_he": null,
+    "author": "Fred Dallmayr",
+    "slug": "language-and-politics",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "46606b65-4812-4c91-a19e-34dfcad79482",
+    "title": "NUBES",
+    "title_he": null,
+    "author": "ARISTOPHANIS",
+    "slug": "nubes",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "468a61f3-81a3-4e3f-bfb0-52b8fba2f85e",
+    "title": "The Book and the Sword",
+    "title_he": null,
+    "author": "David Weiss Halivni",
+    "slug": "the-book-and-the-sword",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "46a9e971-6be7-41d9-a0cb-1ba70e5ecce0",
+    "title": "Judaica Reference Sources",
+    "title_he": null,
+    "author": "Charles Cutter, Micha Falk Oppenheim",
+    "slug": "judaica-reference-sources",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "46b8a6ea-cb14-4ef3-b691-1d74da10de9b",
+    "title": "SCRIPTORUM CLASSICORUM BIBLIOTHECA OXONIENSIS",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "scriptorum-classicorum-bibliotheca-oxoniensis",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "47490fd0-a857-406c-a6cc-dbef65c00523",
+    "title": "KENKYUSHA'S NEW COLLEGE JAPANESE-ENGLISH DICTIONARY",
+    "title_he": null,
+    "author": "R.M.V. Collick",
+    "slug": "kenkyushas-new-college-japanese-english-dictionary",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "479a46b4-8d3d-410b-965e-8d19022f6cc5",
+    "title": "Rebell und Verkünder",
+    "title_he": null,
+    "author": "Fritz von Unruh",
+    "slug": "rebell-und-verkunder",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "47e04692-ac92-4182-abb0-bab126afeb32",
+    "title": "QUELLEN ZUR ETHIK THEOPUWAS",
+    "title_he": null,
+    "author": "WILLIAM W. FORTENBAUGH, YEHUDAH KAPLAN",
+    "slug": "quellen-zur-ethik-theopuwas",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "4873a606-7929-4a1f-9900-312b53fee59f",
+    "title": "John Dewey on Education",
+    "title_he": null,
+    "author": "Reginald D. Archambault",
+    "slug": "john-dewey-on-education",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "48907dbe-e8cc-4ab1-8fb5-81c5873fccf0",
+    "title": "The Delphic Oracle",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-delphic-oracle",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "48a49c67-d92f-4e57-b392-6b9cdf1f3c7b",
+    "title": "Maimonides on Human Perfection",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "maimonides-on-human-perfection",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "48b9231e-c6a5-47d1-8298-97f8f59d98a0",
+    "title": "Electra",
+    "title_he": null,
+    "author": "Sophocles, J. H. Kells (ed.)",
+    "slug": "electra",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "48c5d3ac-99c1-4380-a59a-7899a1a19be1",
+    "title": "Selections from Pindar",
+    "title_he": null,
+    "author": "Gordon Kirkwood",
+    "slug": "selections-from-pindar",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "35fda849-7d62-4c92-9bc5-9b37049db195",
+    "title": "Agamemnon",
+    "title_he": null,
+    "author": "Aeschylus; Eduard Fraenkel",
+    "slug": "agamemnon-mozzaeyn",
+    "category_id": null
+  },
+  {
+    "id": "4966744f-084c-4725-ab52-fc854d0e718e",
+    "title": "Roman von einem Kinde",
+    "title_he": null,
+    "author": "Barbara Honigmann",
+    "slug": "roman-von-einem-kinde",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "7da69c47-0a07-48af-a5e1-65a131bc9d36",
+    "title": "The New Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-new-encyclop-dia-britannica-10",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "49ed5692-10f3-4c67-a787-09887251f4b4",
+    "title": "ARISTOPHANIS COMOEDIAE",
+    "title_he": null,
+    "author": "F. W. HALL, W. M. GELDART",
+    "slug": "aristophanis-comoediae",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "4a1d835a-1c80-48e9-ba1e-e6a8eb958a41",
+    "title": "The Swiss Family Robinson",
+    "title_he": null,
+    "author": "Johann Wyss",
+    "slug": "the-swiss-family-robinson",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "7da69c47-0a07-48af-a5e1-65a131bc9d36",
+    "title": "The New Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-new-encyclop-dia-britannica-10",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "4a5fa207-429a-4fab-bb65-4f9cf5cd0279",
+    "title": "On Poetry and Style",
+    "title_he": null,
+    "author": "Aristotle",
+    "slug": "on-poetry-and-style",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "4ba5ff80-76fb-4f76-808a-9042a33a62ac",
+    "title": "A HISTORY OF POLITICAL THEORY",
+    "title_he": null,
+    "author": "GEORGE H. SABINE",
+    "slug": "a-history-of-political-theory",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "4c0f3b82-d5fb-446d-8047-2ffcc2114d66",
+    "title": "Babylonia Judaica in the Talmudic Period",
+    "title_he": null,
+    "author": "Aharon Oppenheimer, Benjamin Isaac, Michael Lecker",
+    "slug": "babylonia-judaica-in-the-talmudic-period",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "4c16bbe5-ec1e-4df6-9c97-e9ee7e9e23ac",
+    "title": "The Legends from the Jewish Town in Kazimierz near Cracow",
+    "title_he": null,
+    "author": "Henryk Halkowski",
+    "slug": "the-legends-from-the-jewish-town-in-kazimierz-near-cracow",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "5b92d070-6cd6-4ead-a282-9e17517966dc",
+    "title": "Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "4cdb2a65-a3da-4a4f-96d0-3ebd561cce0a",
+    "title": "Astronomy of Stellar Energy and Decay",
+    "title_he": null,
+    "author": "Martin Johnson",
+    "slug": "astronomy-of-stellar-energy-and-decay",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "4d1fd1a7-f457-47dd-b3c3-8d91cf2672a9",
+    "title": "Murder in the Cathedral",
+    "title_he": null,
+    "author": "T.S. Eliot",
+    "slug": "murder-in-the-cathedral",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "4d276a6d-1f62-42ef-b48c-791204a2ad44",
+    "title": "The Elizabethan World Picture",
+    "title_he": null,
+    "author": "E. M. W. Tillyard",
+    "slug": "the-elizabethan-world-picture",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "4d70f479-2939-4d91-beed-5c94325c367c",
+    "title": "Rechtſchreibung der deutschen Sprache",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "rechtschreibung-der-deutschen-sprache",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "4d94a248-71fa-4418-8e25-bb5acc23332d",
+    "title": "THE LAW OF ATHENS",
+    "title_he": null,
+    "author": "A. R. W. HARRISON",
+    "slug": "the-law-of-athens",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "c6148844-4b89-4d10-816b-8102ac886292",
+    "title": "WUTHERING HEIGHTS",
+    "title_he": null,
+    "author": "EMILY BRONTE",
+    "slug": "wuthering-heights-2",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "4e052dba-ee48-4440-9e5f-07f4b5a77ee2",
+    "title": "The Humanities",
+    "title_he": null,
+    "author": "A. Robert Rogers",
+    "slug": "the-humanities",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "4e350f7e-3991-42b8-8889-0d32c2856434",
+    "title": "Syntax of the Moods and Tenses of the Greek Verb",
+    "title_he": null,
+    "author": "W. W. Goodwin",
+    "slug": "syntax-of-the-moods-and-tenses-of-the-greek-verb",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "e534c8e4-f5c3-448f-b03f-8c135943241d",
+    "title": "The Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-encyclopedia-britannica-6",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "4eb1fa25-c3c1-49d7-8892-82276e6a8520",
+    "title": "The Spy Who Came In from the Cold",
+    "title_he": null,
+    "author": "John Le Carré",
+    "slug": "the-spy-who-came-in-from-the-cold",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "9b70144b-edd9-4966-9d4f-932955b6b67c",
+    "title": "The Encyclopædia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-encyclop-dia-britannica-6",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "2e704921-08ca-411c-9a61-703ce813f017",
+    "title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "title_he": null,
+    "author": "JOHANN WOLFGANG GOETHE",
+    "slug": "gedenkausgabe-der-werke-briefe-und-gesprache-15",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "f5155651-2db8-4144-beab-239a49a1899a",
+    "title": "Wörterbuch der aegyptischen Sprache",
+    "title_he": null,
+    "author": "Adolf Erman",
+    "slug": "worterbuch-der-aegyptischen-sprache",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "2e704921-08ca-411c-9a61-703ce813f017",
+    "title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "title_he": null,
+    "author": "JOHANN WOLFGANG GOETHE",
+    "slug": "gedenkausgabe-der-werke-briefe-und-gesprache-15",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "5f5c3171-bf61-45fd-8238-3d912ab2c4da",
+    "title": "LITTLE DORRIT",
+    "title_he": null,
+    "author": "CHARLES DICKENS",
+    "slug": "little-dorrit",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "5f7ed536-af26-4163-b3c4-3e021bb79571",
+    "title": "Tales of Nehama",
+    "title_he": null,
+    "author": "Leah Abramowitz",
+    "slug": "tales-of-nehama",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "5fd2a4e2-bbc9-4183-9fd7-a090b1a0d669",
+    "title": "A Lexicon to Herodotus",
+    "title_he": null,
+    "author": "J. E. Powell",
+    "slug": "a-lexicon-to-herodotus",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "602ce977-4c9b-44b5-b4a5-a98847d61851",
+    "title": "Small World",
+    "title_he": null,
+    "author": "David Lodge",
+    "slug": "small-world",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "603c43ce-7084-40fa-af72-3409e514b051",
+    "title": "Jeremias",
+    "title_he": null,
+    "author": "Stefan Zweig",
+    "slug": "jeremias",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "c18b644b-3ed9-4e5d-9441-88cf72e710e0",
+    "title": "Notes: The Quarterly Journal of the Music Library Association",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "notes-the-quarterly-journal-of-the-music-library-association",
+    "category_id": "9aa84f67-3350-4564-9e34-4985bf4494ea"
+  },
+  {
+    "id": "60774c66-5244-4418-aa74-9907ed2f2c1d",
+    "title": "The Torah U-Madda Journal",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-torah-u-madda-journal",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "60b87937-58d4-4f73-835b-ac6084d851c0",
+    "title": "The Murder of Charles the Good",
+    "title_he": null,
+    "author": "Galbert of Bruges, translated and edited by James Bruce Ross",
+    "slug": "the-murder-of-charles-the-good",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "60b9380e-372a-40ea-8cac-585b68f40581",
+    "title": "Good and Evil in Jewish Thought",
+    "title_he": null,
+    "author": "Shalom Rosenberg",
+    "slug": "good-and-evil-in-jewish-thought",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "2c718b11-9277-471f-a876-8bf8526023c2",
+    "title": "A DICTIONARY OF LATE EGYPTIAN",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "a-dictionary-of-late-egyptian",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "61f58e89-7ed3-49dc-bbae-0f9b449576fa",
+    "title": "Historiarum Libri",
+    "title_he": null,
+    "author": "Cornelii Taciti, C. D. Fisher",
+    "slug": "historiarum-libri",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "620384f4-ff05-43d3-aafa-90348f561c15",
+    "title": "Maimonides (Mishneh Tora)",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "maimonides-mishneh-tora",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "626b514a-5357-4c30-b5a9-55867ac74a43",
+    "title": "An Outline of European Architecture",
+    "title_he": null,
+    "author": "Nikolaus Pevsner",
+    "slug": "an-outline-of-european-architecture",
+    "category_id": "9aa84f67-3350-4564-9e34-4985bf4494ea"
+  },
+  {
+    "id": "a77924dd-f728-46b8-8197-7e60a810d02f",
+    "title": "A DICTIONARY OF GREEK AND ROMAN BIOGRAPHY AND MYTHOLOGY",
+    "title_he": null,
+    "author": "William Smith",
+    "slug": "a-dictionary-of-greek-and-roman-biography-and-mythology",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "628b5d64-658c-4f07-a753-72a6e70036b6",
+    "title": "The Five Laws of Library Science",
+    "title_he": null,
+    "author": "S.R. Ranganathan",
+    "slug": "the-five-laws-of-library-science",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "63857cf4-198f-40c3-bb8a-4bb8e5253384",
+    "title": "The Jews in the World of the Renaissance",
+    "title_he": null,
+    "author": "Moses A. Shulvass",
+    "slug": "the-jews-in-the-world-of-the-renaissance",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "63d5af09-2397-44ad-a21a-aaa8ba3c089e",
+    "title": "Daniel Deronda",
+    "title_he": null,
+    "author": "George Eliot",
+    "slug": "daniel-deronda",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "643ac5de-daa3-486d-843d-4b044f089ace",
+    "title": "The Myth of Invariance",
+    "title_he": null,
+    "author": "Ernest G. McClain",
+    "slug": "the-myth-of-invariance",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "64511631-a755-4f52-ab89-ae41625feba5",
+    "title": "THE IDIOT",
+    "title_he": null,
+    "author": "FYODOR DOSTOEVSKY",
+    "slug": "the-idiot",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "2d9f4880-0f49-4246-b960-18a21a8a1257",
+    "title": "The Cults of the Greek States",
+    "title_he": null,
+    "author": "Lewis Richard Farnell",
+    "slug": "the-cults-of-the-greek-states-2",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "6571f025-f887-4163-9483-c6ab8c1a9e7b",
+    "title": "The Organization of Knowledge in Libraries and the Subject-Approach to Books",
+    "title_he": null,
+    "author": "Henry Evelyn Bliss",
+    "slug": "the-organization-of-knowledge-in-libraries-and-the-subject-approach-to-books",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "663ae4b8-aa9a-42b9-aba8-c66a8e994166",
+    "title": "The Mabinogion",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-mabinogion",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "46b8a6ea-cb14-4ef3-b691-1d74da10de9b",
+    "title": "SCRIPTORUM CLASSICORUM BIBLIOTHECA OXONIENSIS",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "scriptorum-classicorum-bibliotheca-oxoniensis",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "67c8cccf-2998-4442-91b5-76777b785b15",
+    "title": "Athenian Clubs In Politics And Litigation",
+    "title_he": null,
+    "author": "George Miller Calhoun",
+    "slug": "athenian-clubs-in-politics-and-litigation",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "6862ea33-075b-4ac6-8e37-afe6d367bfbb",
+    "title": "DAS ERBE AM RHEIN",
+    "title_he": null,
+    "author": "RENÉ SCHICKELE",
+    "slug": "das-erbe-am-rhein",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "694536f6-7021-4756-aab7-54f28f21d6cd",
+    "title": "Seneca's Thyestes",
+    "title_he": null,
+    "author": "Seneca",
+    "slug": "senecas-thyestes",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "69e04ec4-dba8-44ad-a051-46e70f139dd4",
+    "title": "The Lost Ones",
+    "title_he": null,
+    "author": "Samuel Beckett",
+    "slug": "the-lost-ones",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "6ac11569-f893-47a6-8e2d-56891a6ce1fe",
+    "title": "Colony and Mother City in Ancient Greece",
+    "title_he": null,
+    "author": "A. J. Graham",
+    "slug": "colony-and-mother-city-in-ancient-greece",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "6e3a5d55-e040-4c56-8307-4eea974f1e03",
+    "title": "WHAT TO LOOK FOR IN WINTER",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "what-to-look-for-in-winter",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "70131e0e-0292-42a2-a564-e4e7b6f1622d",
+    "title": "Prolegomena to Any Future Metaphysics",
+    "title_he": null,
+    "author": "Immanuel Kant",
+    "slug": "prolegomena-to-any-future-metaphysics",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "70215d6e-03f0-47d8-8034-cffef06f1199",
+    "title": "The Mathematical Theory of Communication",
+    "title_he": null,
+    "author": "Claude E. Shannon, Warren Weaver",
+    "slug": "the-mathematical-theory-of-communication",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "707cfc25-c156-47b8-9f7c-baff577d1347",
+    "title": "Introduction to Reference Work, Volume II",
+    "title_he": null,
+    "author": "William A. Katz",
+    "slug": "introduction-to-reference-work-volume-ii",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "7141998f-c657-4f5f-b6cd-2212c64dc9b1",
+    "title": "Halacha and Contemporary Society",
+    "title_he": null,
+    "author": "Rabbi Alfred S. Cohen",
+    "slug": "halacha-and-contemporary-society",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "71a13df7-e991-482b-ae08-06c10447ed00",
+    "title": "The Story of Jewish Philosophy",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-story-of-jewish-philosophy",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "71ae79bc-971f-43f3-8587-4d04318677dd",
+    "title": "The Sicilian Vespers",
+    "title_he": null,
+    "author": "Steven Runciman",
+    "slug": "the-sicilian-vespers",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "b84e6230-8ed8-42e9-b029-bf239131d746",
+    "title": "Platonic Studies",
+    "title_he": null,
+    "author": "Gregory Vlastos",
+    "slug": "platonic-studies",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "73089449-6a08-4839-a713-573838fbd9fa",
+    "title": "THEOLOGY IN THE RESPONSA",
+    "title_he": null,
+    "author": "LOUIS JACOBS",
+    "slug": "theology-in-the-responsa",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "74b17bb1-89c0-4c20-91df-63a9b939c90f",
+    "title": "The Portrait of a Lady",
+    "title_he": null,
+    "author": "Henry James",
+    "slug": "the-portrait-of-a-lady",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "74c5eeaa-87f2-4a65-ac7f-81c570390fb4",
+    "title": "The Jews of Moslem Spain",
+    "title_he": null,
+    "author": "Eliyahu Ashtor",
+    "slug": "the-jews-of-moslem-spain",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "74cb2858-009a-4835-afb1-8bd7882afc61",
+    "title": "Report From The Besieged City and Other Poems",
+    "title_he": null,
+    "author": "Zbigniew Herbert",
+    "slug": "report-from-the-besieged-city-and-other-poems",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "9b70144b-edd9-4966-9d4f-932955b6b67c",
+    "title": "The Encyclopædia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-encyclop-dia-britannica-6",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "7c2f52f7-1858-4f39-842f-86ace3270a52",
+    "title": "From Religion to Philosophy",
+    "title_he": null,
+    "author": "F. M. Cornford",
+    "slug": "from-religion-to-philosophy",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "f8bc564d-bf7e-4962-9e56-3ba68d3feb04",
+    "title": "A Historical Commentary on Thucydides",
+    "title_he": null,
+    "author": "A. W. Gomme",
+    "slug": "a-historical-commentary-on-thucydides-2",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "764a6103-b166-4946-947d-123e365510f4",
+    "title": "The Republic",
+    "title_he": null,
+    "author": "Plato",
+    "slug": "the-republic",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "7658ef5c-c2ff-4483-8954-400c00ccb215",
+    "title": "How to be Topp",
+    "title_he": null,
+    "author": "Geoffrey Willans & Ronald Searle",
+    "slug": "how-to-be-topp",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "767b4903-6162-4d74-905e-736beb83795c",
+    "title": "The Psychology of Women: Motherhood",
+    "title_he": null,
+    "author": "Helene Deutsch",
+    "slug": "the-psychology-of-women-motherhood",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "7315e384-5a16-4748-b1c5-2eb5e1179e49",
+    "title": "The Venture of Islam",
+    "title_he": null,
+    "author": "Marshall G. S. Hodgson",
+    "slug": "venture-of-islam-mozzdg27",
+    "category_id": null
+  },
+  {
+    "id": "7da69c47-0a07-48af-a5e1-65a131bc9d36",
+    "title": "The New Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-new-encyclop-dia-britannica-10",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "771f2aea-7edc-44ba-9b40-9bfab1def79f",
+    "title": "YEAR BOOK 1999-2000",
+    "title_he": null,
+    "author": "H.T MACNEILL",
+    "slug": "year-book-1999-2000",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "798d9226-c5e9-41de-8331-972065e5e619",
+    "title": "Notes: Quarterly Journal of the Music Library Association",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "notes-quarterly-journal-of-the-music-library-association",
+    "category_id": "9aa84f67-3350-4564-9e34-4985bf4494ea"
+  },
+  {
+    "id": "7da69c47-0a07-48af-a5e1-65a131bc9d36",
+    "title": "The New Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-new-encyclop-dia-britannica-10",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "79063206-cc3e-495f-ab80-270bce39ec04",
+    "title": "Moses in Greco-Roman Paganism",
+    "title_he": null,
+    "author": "John G. Gager",
+    "slug": "moses-in-greco-roman-paganism",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "798d9226-c5e9-41de-8331-972065e5e619",
+    "title": "Notes: Quarterly Journal of the Music Library Association",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "notes-quarterly-journal-of-the-music-library-association",
+    "category_id": "9aa84f67-3350-4564-9e34-4985bf4494ea"
+  },
+  {
+    "id": "79be816b-9fc9-438f-87c7-57deccce1f07",
+    "title": "Cicero and the Roman Republic",
+    "title_he": null,
+    "author": "F. R. Cowell",
+    "slug": "cicero-and-the-roman-republic",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "7da69c47-0a07-48af-a5e1-65a131bc9d36",
+    "title": "The New Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-new-encyclop-dia-britannica-10",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "7a79f74c-5659-43be-85d2-ff60327d36b2",
+    "title": "A New Introduction to Philosophy",
+    "title_he": null,
+    "author": "Steven M. Cahn",
+    "slug": "a-new-introduction-to-philosophy",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "7a884d8c-d99d-44e2-9af5-2140884f32d7",
+    "title": "Caruso's Method of Voice Production",
+    "title_he": null,
+    "author": "P. Mario Marafioti",
+    "slug": "carusos-method-of-voice-production",
+    "category_id": "9aa84f67-3350-4564-9e34-4985bf4494ea"
+  },
+  {
+    "id": "5b92d070-6cd6-4ead-a282-9e17517966dc",
+    "title": "Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "7bf76971-28c9-4eb3-a92d-6c65db26f4f4",
+    "title": "Anthropology and the Greeks",
+    "title_he": null,
+    "author": "S. C. Humphreys",
+    "slug": "anthropology-and-the-greeks",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "7c0578bc-55f6-405a-82bf-0f8ec69f9f54",
+    "title": "On the Philosophy of Religion",
+    "title_he": null,
+    "author": "Yitzhak Julius Guttmann",
+    "slug": "on-the-philosophy-of-religion",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "7c2f52f7-1858-4f39-842f-86ace3270a52",
+    "title": "From Religion to Philosophy",
+    "title_he": null,
+    "author": "F. M. Cornford",
+    "slug": "from-religion-to-philosophy",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "cbd68487-952a-42de-86b4-b74c68d0d9dd",
+    "title": "American Academy of Arts and Sciences Records",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "american-academy-of-arts-and-sciences-records",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "7d5d5dcd-6b17-4075-aed7-b2f891a8eb2c",
+    "title": "The Silver Chair",
+    "title_he": null,
+    "author": "C. S. Lewis",
+    "slug": "the-silver-chair",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "7d85ffca-e4e8-4afe-9668-042a4de94667",
+    "title": "Records of the Academy",
+    "title_he": null,
+    "author": "American Academy of Arts and Sciences",
+    "slug": "records-of-the-academy",
+    "category_id": "9aa84f67-3350-4564-9e34-4985bf4494ea"
+  },
+  {
+    "id": "7da69c47-0a07-48af-a5e1-65a131bc9d36",
+    "title": "The New Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-new-encyclop-dia-britannica-10",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "0491e930-2104-4631-9053-a1775b9a4c91",
+    "title": "Scholia Platonica",
+    "title_he": null,
+    "author": "William Chase Greene",
+    "slug": "scholia-platonica",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "7dec14a1-023e-43ad-b3d8-9d245c780101",
+    "title": "Züricher Novellen",
+    "title_he": null,
+    "author": "Gottfried Keller",
+    "slug": "zuricher-novellen",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "7e10581e-61da-4346-b196-53b28681f04c",
+    "title": "On Certainty",
+    "title_he": null,
+    "author": "Ludwig Wittgenstein",
+    "slug": "on-certainty",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "9cebe465-6ccf-4d79-8df6-0832970039e1",
+    "title": "THE BULL OF MINOS",
+    "title_he": null,
+    "author": "Leonard Cottrell",
+    "slug": "the-bull-of-minos",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "7e4da4b7-b039-46d8-b9d5-8a24dc97f5d7",
+    "title": "The Story of Bible Translations",
+    "title_he": null,
+    "author": "Max L. Margolis",
+    "slug": "the-story-of-bible-translations",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "70131e0e-0292-42a2-a564-e4e7b6f1622d",
+    "title": "Prolegomena to Any Future Metaphysics",
+    "title_he": null,
+    "author": "Immanuel Kant",
+    "slug": "prolegomena-to-any-future-metaphysics",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "7ebe4db4-4afd-4079-b7ff-1861d9eab7ca",
+    "title": "THE TEACHING OF ADDAI",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-teaching-of-addai",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "7ebe6b3a-c29a-4996-a1a6-131dfccd3c48",
+    "title": "SYNAGOGALE ALTERTUMER",
+    "title_he": null,
+    "author": "SAMUEL KRAUSS",
+    "slug": "synagogale-altertumer",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "e534c8e4-f5c3-448f-b03f-8c135943241d",
+    "title": "The Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-encyclopedia-britannica-6",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "8c540d63-b084-468b-9ef2-113673beb236",
+    "title": "DEMOSTHENE HARANGUES",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "demosthene-harangues",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "7f141dfc-5b9d-4cc2-8196-ce58074fc676",
+    "title": "Research Guide to Philosophy",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "research-guide-to-philosophy",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "7315e384-5a16-4748-b1c5-2eb5e1179e49",
+    "title": "The Venture of Islam",
+    "title_he": null,
+    "author": "Marshall G. S. Hodgson",
+    "slug": "venture-of-islam-mozzdg27",
+    "category_id": null
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "5b92d070-6cd6-4ead-a282-9e17517966dc",
+    "title": "Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "8103d9a7-7c77-47b4-a940-4bc7f62c66dd",
+    "title": "Athenian Homicide Law in the Age of the Orators",
+    "title_he": null,
+    "author": "D. M. MacDowell",
+    "slug": "athenian-homicide-law-in-the-age-of-the-orators",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "846b2ae1-4e9d-4dd3-aa92-86b4d16e995f",
+    "title": "The Dynamics of Planned Change",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-dynamics-of-planned-change",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "85983fea-6381-445e-a5fc-e8d674f72c53",
+    "title": "The Athenian Empire",
+    "title_he": null,
+    "author": "Russell Meiggs",
+    "slug": "the-athenian-empire",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "85d8bdcc-026c-4dc9-808c-249b0bd15c2b",
+    "title": "On Painting",
+    "title_he": null,
+    "author": "Leon Battista Alberti",
+    "slug": "on-painting",
+    "category_id": "9aa84f67-3350-4564-9e34-4985bf4494ea"
+  },
+  {
+    "id": "8670d3f0-a379-4948-9ff4-7d0fc99cd109",
+    "title": "Baedeker's New York",
+    "title_he": null,
+    "author": "Baedeker",
+    "slug": "baedekers-new-york",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "86d1dadb-e468-4f79-a5ee-73181318858a",
+    "title": "Nomos and the Beginnings of the Athenian Democracy",
+    "title_he": null,
+    "author": "Martin Ostwald",
+    "slug": "nomos-and-the-beginnings-of-the-athenian-democracy",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "86fb22fd-0f70-4cb3-8ce2-e4c6b09b634a",
+    "title": "Sharpe's Devil",
+    "title_he": null,
+    "author": "Bernard Cornwell",
+    "slug": "sharpes-devil",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "87e64518-99cc-40c0-9e36-18536b6fdbb8",
+    "title": "Tradition and Reality",
+    "title_he": null,
+    "author": "Nathan Rotenstreich",
+    "slug": "tradition-and-reality",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "45047b1f-e05f-4ff7-a647-cd617fd5a3e4",
+    "title": "A History of the Ancient World",
+    "title_he": null,
+    "author": "M. Rostovtzeff",
+    "slug": "a-history-of-the-ancient-world",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "886d9215-a27e-4984-bf2b-65cf98f259ea",
+    "title": "Portugiesische Briefe",
+    "title_he": null,
+    "author": "Rainer Maria Rilke",
+    "slug": "portugiesische-briefe",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "8a09e7c3-e25a-49eb-9ae4-0e128a63f40e",
+    "title": "Artists on Art",
+    "title_he": null,
+    "author": "Robert Goldwater and Marco Treves",
+    "slug": "artists-on-art",
+    "category_id": "9aa84f67-3350-4564-9e34-4985bf4494ea"
+  },
+  {
+    "id": "8a19e5f4-ee9d-448b-b586-a9de7788052b",
+    "title": "The Early Church",
+    "title_he": null,
+    "author": "Henry Chadwick",
+    "slug": "the-early-church",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "8a46e532-2dad-4313-adc0-f1f2c3ba14c7",
+    "title": "JEWISH MARRIAGE IN PALESTINE",
+    "title_he": null,
+    "author": "MORDECHAI AKIVA TRIEDMAN",
+    "slug": "jewish-marriage-in-palestine",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "8a7b4636-3016-4754-90ee-e75dddb178fc",
+    "title": "McKay's Modern English Swedish Swedish English Dictionary",
+    "title_he": null,
+    "author": "Ruben Nöjd, Astrid Tornberg, M.A. and Margareta Ångström, Ph.D.",
+    "slug": "mckays-modern-english-swedish-swedish-english-dictionary",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "8aa4bb99-183a-453f-8dce-4e8e74827bc8",
+    "title": "The Makers of Hebrew Books in Italy",
+    "title_he": null,
+    "author": "David Amram",
+    "slug": "the-makers-of-hebrew-books-in-italy",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "8ae76331-7369-4fac-bef0-314d018ed681",
+    "title": "Travels in Jewish Europe",
+    "title_he": null,
+    "author": "Pearl L. Preschel",
+    "slug": "travels-in-jewish-europe",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "8b9c955a-2a16-4b81-8142-abb8dbb3e9a9",
+    "title": "Science, Metaphysics, and the Chance of Salvation",
+    "title_he": null,
+    "author": "H. S. Levinson",
+    "slug": "science-metaphysics-and-the-chance-of-salvation",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "8bef8aea-7f5a-4bf9-ac58-d050473b9f9a",
+    "title": "A Historical Commentary on Polybius",
+    "title_he": null,
+    "author": "F.W. Walbank",
+    "slug": "a-historical-commentary-on-polybius",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "8c203452-4b58-475f-812f-eeb1dd3a14af",
+    "title": "the lives and times of archy and mehitabel",
+    "title_he": null,
+    "author": "don marquis",
+    "slug": "the-lives-and-times-of-archy-and-mehitabel",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "8c6bed94-b00b-4353-a7fd-ee2bb3bd99a6",
+    "title": "The Psychoanalytic Theory of Neurosis",
+    "title_he": null,
+    "author": "Otto Fenichel, M.D.",
+    "slug": "the-psychoanalytic-theory-of-neurosis",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "764a6103-b166-4946-947d-123e365510f4",
+    "title": "The Republic",
+    "title_he": null,
+    "author": "Plato",
+    "slug": "the-republic",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "8d8df2a4-d0cc-4577-8d56-d66bf08e4ad6",
+    "title": "THE GROWTH OF THE ATHENIAN ECONOMY",
+    "title_he": null,
+    "author": "A. French",
+    "slug": "the-growth-of-the-athenian-economy",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "1f9c9dc2-4572-4962-9c58-862a840ad693",
+    "title": "Order of Service and Customs for the Synagogue and the Home",
+    "title_he": null,
+    "author": "Moses Friedlander",
+    "slug": "order-of-service-and-customs-for-the-synagogue-and-the-home-7",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "5b92d070-6cd6-4ead-a282-9e17517966dc",
+    "title": "Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "e534c8e4-f5c3-448f-b03f-8c135943241d",
+    "title": "The Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-encyclopedia-britannica-6",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "912e8b5e-8f5d-48c3-aa0d-307eb15c2e69",
+    "title": "The Jews in Piedmont",
+    "title_he": null,
+    "author": "Renata Segre",
+    "slug": "the-jews-in-piedmont-2",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "1f9c9dc2-4572-4962-9c58-862a840ad693",
+    "title": "Order of Service and Customs for the Synagogue and the Home",
+    "title_he": null,
+    "author": "Moses Friedlander",
+    "slug": "order-of-service-and-customs-for-the-synagogue-and-the-home-7",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "92c3b1b2-63c9-433e-9c4d-00f6f2f42319",
+    "title": "Plutarch's Lives",
+    "title_he": null,
+    "author": "Plutarch",
+    "slug": "plutarchs-lives",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "2a4d3830-ed84-43dc-a84d-7b490318eb56",
+    "title": "The Jewish Encyclopedia",
+    "title_he": null,
+    "author": "Cyrus Adler, Gotthard Deutsch, Louis Ginzberg, et al.",
+    "slug": "the-jewish-encyclopedia-4",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "46b8a6ea-cb14-4ef3-b691-1d74da10de9b",
+    "title": "SCRIPTORUM CLASSICORUM BIBLIOTHECA OXONIENSIS",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "scriptorum-classicorum-bibliotheca-oxoniensis",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "9b70144b-edd9-4966-9d4f-932955b6b67c",
+    "title": "The Encyclopædia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-encyclop-dia-britannica-6",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "e47fb98e-8049-4b29-984a-d0bcde381049",
+    "title": "Handbook of MEDICAL LIBRARY PRACTICE",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "handbook-of-medical-library-practice",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "9cebe465-6ccf-4d79-8df6-0832970039e1",
+    "title": "THE BULL OF MINOS",
+    "title_he": null,
+    "author": "Leonard Cottrell",
+    "slug": "the-bull-of-minos",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "a0532b30-9b7c-4c64-8e3a-08778d10ba73",
+    "title": "HIGHWAYS AND BYWAYS OF ENGLISH LITERATURE",
+    "title_he": null,
+    "author": "RUSKIN",
+    "slug": "highways-and-byways-of-english-literature",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "a0c5a048-a1a2-4410-90df-8df32b09d2eb",
+    "title": "Oral Tradition & Written Record in Classical Athens",
+    "title_he": null,
+    "author": "Rosalind Thomas",
+    "slug": "oral-tradition-written-record-in-classical-athens",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "a0dcb855-851e-41ce-b6b4-7984a2f3c66b",
+    "title": "A GRAMMAR OF MIDDLE WELSH",
+    "title_he": null,
+    "author": "D. SIMON EVANS",
+    "slug": "a-grammar-of-middle-welsh",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "986f082d-0442-48f5-94f9-2e86d77cae9b",
+    "title": "The Jewish Encyclopedia",
+    "title_he": null,
+    "author": "Cyrus Adler, Gotthard Deutsch, Louis Ginzberg, et al.",
+    "slug": "the-jewish-encyclopedia-3",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "a1137dad-80de-45b3-b7c5-8c507167976e",
+    "title": "Aristofane e la sofistica",
+    "title_he": null,
+    "author": "Edoardo De Carli",
+    "slug": "aristofane-e-la-sofistica",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "a169643d-8b10-4d98-a206-ecd3b06305e8",
+    "title": "Principles of Historical Linguistics",
+    "title_he": null,
+    "author": "Hans Henrich Hock",
+    "slug": "principles-of-historical-linguistics",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "a1b51e01-65f4-4330-ad54-08f96f2f02b8",
+    "title": "The Silmarillion",
+    "title_he": null,
+    "author": "J.R.R. Tolkien",
+    "slug": "the-silmarillion",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "a2398d6f-8daa-4232-ac65-a57db09c17d0",
+    "title": "The Cambridge History of Classical Literature: The Late Republic",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-cambridge-history-of-classical-literature-the-late-republic",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "a2600c50-8dbe-4371-a0a9-448a7aabd714",
+    "title": "Smith of Wootton Major",
+    "title_he": null,
+    "author": "J.R.R. Tolkien",
+    "slug": "smith-of-wootton-major",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "a2676577-1ab7-4062-acd4-be617da9436f",
+    "title": "Thesaurus Syriacus",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "thesaurus-syriacus",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "a29d7f55-627c-4b62-9229-b9e17312bda8",
+    "title": "THE AENEID",
+    "title_he": null,
+    "author": "VERGIL",
+    "slug": "the-aeneid",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "a2a80fd8-a03f-4087-a826-38e9dc161de3",
+    "title": "The Piraeus",
+    "title_he": null,
+    "author": "Robert Garland",
+    "slug": "the-piraeus",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "df261d1e-bc12-4211-b26f-3d758a609547",
+    "title": "Time and Process in Ancient Judaism",
+    "title_he": null,
+    "author": "Sacha Stern",
+    "slug": "time-and-process-in-ancient-judaism-mozvwpyb",
+    "category_id": null
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "a3ab3baf-1921-4e71-9d1e-f1385eb39b48",
+    "title": "What Is a Jew?",
+    "title_he": null,
+    "author": "Rabbi Morris N. Kertzer",
+    "slug": "what-is-a-jew",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "a54f6b24-10a7-43ef-bbbc-faac77face38",
+    "title": "The Man Who Mistook His Wife For a Hat",
+    "title_he": null,
+    "author": "Oliver Sacks",
+    "slug": "the-man-who-mistook-his-wife-for-a-hat",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "a608a6bd-efd3-4370-840c-3aabe36d69fe",
+    "title": "Hebrew and Babylonian Traditions",
+    "title_he": null,
+    "author": "Morris Jastrow, Jr.",
+    "slug": "hebrew-and-babylonian-traditions",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "a6943323-1cd2-4280-b72d-8fd5a5b64881",
+    "title": "REQUIEM",
+    "title_he": null,
+    "author": "Rainer Maria Rilke",
+    "slug": "requiem",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "a6be28de-44dc-45f3-9c15-d91f6e56ec68",
+    "title": "GATEWAY to HAPPINESS",
+    "title_he": null,
+    "author": "Zelig Pliskin",
+    "slug": "gateway-to-happiness",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "a6c3fb07-fed1-4748-905b-1b66e716f950",
+    "title": "An Introduction to the Bible",
+    "title_he": null,
+    "author": "STANLEY COOK",
+    "slug": "an-introduction-to-the-bible",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "a6da3fd0-6882-476d-af79-c7105c017931",
+    "title": "A Simplified Grammar and Reading Book of the Panjabi Language",
+    "title_he": null,
+    "author": "William St. Clair Tisdall",
+    "slug": "a-simplified-grammar-and-reading-book-of-the-panjabi-language",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "2e704921-08ca-411c-9a61-703ce813f017",
+    "title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "title_he": null,
+    "author": "JOHANN WOLFGANG GOETHE",
+    "slug": "gedenkausgabe-der-werke-briefe-und-gesprache-15",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "a77924dd-f728-46b8-8197-7e60a810d02f",
+    "title": "A DICTIONARY OF GREEK AND ROMAN BIOGRAPHY AND MYTHOLOGY",
+    "title_he": null,
+    "author": "William Smith",
+    "slug": "a-dictionary-of-greek-and-roman-biography-and-mythology",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "a7d87dd9-5e9b-43f6-ad74-e8b33675b3c7",
+    "title": "Course in General Linguistics",
+    "title_he": null,
+    "author": "F. de Saussure",
+    "slug": "course-in-general-linguistics",
+    "category_id": "bcecc62b-8c1b-45f9-9c5c-ff2783c02e7d"
+  },
+  {
+    "id": "a7e597f2-a05d-461d-91af-1bd4db7243fa",
+    "title": "A Sourcebook in Indian Philosophy",
+    "title_he": null,
+    "author": "Sarvepalli Radhakrishnan and Charles A. Moore",
+    "slug": "a-sourcebook-in-indian-philosophy",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "a91a9124-e8b2-4e67-9b6d-34a6fdba28a0",
+    "title": "The Hobbit",
+    "title_he": null,
+    "author": "J.R.R. Tolkien",
+    "slug": "the-hobbit",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "a9c0e31f-6bb5-4704-bf87-b3fa48a4a549",
+    "title": "THEOGNIS OF MEGARA",
+    "title_he": null,
+    "author": "Thomas J. Figueira and Gregory Nagy",
+    "slug": "theognis-of-megara",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "9c6a4d3f-3aba-4969-89bc-aa04af4686bb",
+    "title": "AALL Directory and Handbook 1991-1992",
+    "title_he": null,
+    "author": "American Association of Law Libraries",
+    "slug": "aall-directory-and-handbook-1991-1992",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "ab00bd53-0954-430a-96c2-e6f28e0114af",
+    "title": "Honor Thy Gods",
+    "title_he": null,
+    "author": "Jon D. Mikalson",
+    "slug": "honor-thy-gods",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "5b92d070-6cd6-4ead-a282-9e17517966dc",
+    "title": "Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "ab61778a-a064-402f-a6e9-a15444e1f15f",
+    "title": "An Introduction to Political Philosophy",
+    "title_he": null,
+    "author": "Leo Strauss",
+    "slug": "an-introduction-to-political-philosophy",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "5b92d070-6cd6-4ead-a282-9e17517966dc",
+    "title": "Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "005a9793-d746-4263-a645-784107041399",
+    "title": "The Phoenix",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "phoenix-5",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  },
+  {
+    "id": "63d5af09-2397-44ad-a21a-aaa8ba3c089e",
+    "title": "Daniel Deronda",
+    "title_he": null,
+    "author": "George Eliot",
+    "slug": "daniel-deronda",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "cbd68487-952a-42de-86b4-b74c68d0d9dd",
+    "title": "American Academy of Arts and Sciences Records",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "american-academy-of-arts-and-sciences-records",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "7da69c47-0a07-48af-a5e1-65a131bc9d36",
+    "title": "The New Encyclopedia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-new-encyclop-dia-britannica-10",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "9ebb83ba-11e0-4141-b9e9-d3859871d065",
+    "title": "Exodus",
+    "title_he": null,
+    "author": "U. Cassuto",
+    "slug": "exodus-mozvvoya",
+    "category_id": null
+  },
+  {
+    "id": "9b70144b-edd9-4966-9d4f-932955b6b67c",
+    "title": "The Encyclopædia Britannica",
+    "title_he": null,
+    "author": "Unknown",
+    "slug": "the-encyclop-dia-britannica-6",
+    "category_id": "4f1a7827-79c5-4e48-8694-9e096784ca23"
+  },
+  {
+    "id": "7315e384-5a16-4748-b1c5-2eb5e1179e49",
+    "title": "The Venture of Islam",
+    "title_he": null,
+    "author": "Marshall G. S. Hodgson",
+    "slug": "venture-of-islam-mozzdg27",
+    "category_id": null
+  },
+  {
+    "id": "b8432616-2f81-413c-9bae-c9543db55cce",
+    "title": "Perfect Harmony",
+    "title_he": null,
+    "author": "Ibn 'Arabi",
+    "slug": "perfect-harmony",
+    "category_id": "4ed255e5-118b-45c6-a7c2-1e43a1d989bd"
+  },
+  {
+    "id": "b84e6230-8ed8-42e9-b029-bf239131d746",
+    "title": "Platonic Studies",
+    "title_he": null,
+    "author": "Gregory Vlastos",
+    "slug": "platonic-studies",
+    "category_id": "ffc2e74e-26d5-4500-9d07-5a8d9ca8fc38"
+  },
+  {
+    "id": "b88c3089-d4ee-4898-85c8-d523607f0f3c",
+    "title": "The Archaeological and Linguistic Reconstruction of African History",
+    "title_he": null,
+    "author": "Christopher Ehret and Merrick Posnansky",
+    "slug": "the-archaeological-and-linguistic-reconstruction-of-african-history",
+    "category_id": "a6df2d03-6f74-427b-b293-9140bb8c049f"
+  },
+  {
+    "id": "b8a44272-6917-415d-a680-8ada8bb41660",
+    "title": "The Spirit of Jewish Law",
+    "title_he": null,
+    "author": "George Horowitz",
+    "slug": "the-spirit-of-jewish-law",
+    "category_id": "6c8bd18c-fdf3-4a2a-ad38-b004ba913b26"
+  },
+  {
+    "id": "b8fb6dbc-c35d-42c1-aa03-97914f46164b",
+    "title": "Sprachliche Deutung Als Triebkraft Platonischen Und Sokratischen Philosophierens",
+    "title_he": null,
+    "author": "C. Joachim Classen",
+    "slug": "sprachliche-deutung-als-triebkraft-platonischen-und-sokratischen-philosophierens",
+    "category_id": "3056925f-0641-4b5e-adc8-57f93dcd1354"
+  }
+]

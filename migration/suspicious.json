@@ -1,0 +1,4188 @@
+[
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title similarity 0.859 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8586265884652982,
+      "author": 0.8379807692307693,
+      "lengthRatio": 1.064516129032258
+    },
+    "enriched_title": "The Middle East and the United States",
+    "enriched_author": "David W. Lesch",
+    "existing_id": "00c5797c-1b84-4dd6-8dd1-b5131caf6682",
+    "existing_title": "The Middle East Yesterday and Today",
+    "existing_author": "David W. Miller and Clark D. Moore"
+  },
+  {
+    "reason": "title similarity 0.589 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5888888888888889,
+      "author": 0.4761904761904761,
+      "lengthRatio": 1.2
+    },
+    "enriched_title": "The Hacker",
+    "enriched_author": "Ken Corre",
+    "existing_id": "014c8f3d-59a1-4bb3-b2e1-d3ca6de7ab21",
+    "existing_title": "THE CORRE",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.344 < 0.75",
+    "matchedBy": "fuzzy(0.923)",
+    "score": {
+      "title": 0.9230303030303031,
+      "author": 0.3444444444444444,
+      "lengthRatio": 1.4666666666666666
+    },
+    "enriched_title": "Aristophanes II.",
+    "enriched_author": "Aristophanes",
+    "existing_id": "49ed5692-10f3-4c67-a787-09887251f4b4",
+    "existing_title": "ARISTOPHANIS COMOEDIAE",
+    "existing_author": "F. W. HALL, W. M. GELDART"
+  },
+  {
+    "reason": "title length ratio 2.40 > 1.5; title similarity 0.883 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8833333333333334,
+      "author": 0.8283216783216784,
+      "lengthRatio": 2.4
+    },
+    "enriched_title": "Encyclopedia of Indian Philosophies",
+    "enriched_author": "Gerald Larson",
+    "existing_id": "026a3aed-170e-4b16-9b11-859e45967b0e",
+    "existing_title": "ENCYCLOPEDIA OF INDIAN PHILOSOPHIES Volume XII Yoga: India's Philosophy of Meditation",
+    "existing_author": "GERALD JAMES LARSON, RAM SHANKAR BHATTACHARYA"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 1.62 > 1.5; title similarity 0.615 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6147147147147147,
+      "author": 0.8436363636363636,
+      "lengthRatio": 1.6216216216216217
+    },
+    "enriched_title": "Max Nussbaum, from Berlin to Hollywood",
+    "enriched_author": "Max Nussbaum",
+    "existing_id": "0365acab-b514-4c14-92bb-9021ffb192bc",
+    "existing_title": "From Berlin to Hollywood: A Mid-Century Vision of Jewish Life",
+    "existing_author": "Max Nussbaum, edited by Lewis M. Barth with Ruth Nussbaum"
+  },
+  {
+    "reason": "title similarity 0.906 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9059019370460049,
+      "author": 1,
+      "lengthRatio": 1.0535714285714286
+    },
+    "enriched_title": "Plato: Ethics, politics and philosophy of art and religion",
+    "enriched_author": "Gregory Vlastos",
+    "existing_id": "04306e6e-7668-4aaa-a71e-fa584bc36b41",
+    "existing_title": "PLATO II: Ethics, Politics, and Philosophy of Art and Religion",
+    "existing_author": "Gregory Vlastos"
+  },
+  {
+    "reason": "title length ratio 2.36 > 1.5; title similarity 0.885 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8848484848484849,
+      "author": 0.7527173913043478,
+      "lengthRatio": 2.357142857142857
+    },
+    "enriched_title": "Lyrics in the Original Greek with Translations by Willis Barnstone",
+    "enriched_author": "Sappho; Willis Barnstone",
+    "existing_id": "0459f251-1ede-48eb-8190-2172142343f4",
+    "existing_title": "Lyrics in the Original Greek",
+    "existing_author": "Willis Barnstone"
+  },
+  {
+    "reason": "author similarity 0.430 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.43030303030303035,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Wings of the Dove",
+    "enriched_author": "Henry James",
+    "existing_id": "0463407f-89d4-4cec-a50f-0ed94f16daf7",
+    "existing_title": "The Wings of the Dove",
+    "existing_author": "James"
+  },
+  {
+    "reason": "title length ratio 1.63 > 1.5; title similarity 0.882 < 0.92; author similarity 0.650 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.881986531986532,
+      "author": 0.65,
+      "lengthRatio": 1.6296296296296295
+    },
+    "enriched_title": "Essay on Milton ; Life and Writings of Addison",
+    "enriched_author": "Thomas Babington Macaulay Baron Macaulay",
+    "existing_id": "04954b92-d94a-4dc2-9f83-7f2e947f3933",
+    "existing_title": "ESSAY ON MILTON AND ADDISON",
+    "existing_author": "MACAULAY"
+  },
+  {
+    "reason": "title length ratio 1.67 > 1.5; author similarity 0.426 < 0.75",
+    "matchedBy": "fuzzy(0.920)",
+    "score": {
+      "title": 0.92,
+      "author": 0.4259259259259259,
+      "lengthRatio": 1.6666666666666667
+    },
+    "enriched_title": "Collected Poems 1934-1952",
+    "enriched_author": "DYLAN. THOMAS",
+    "existing_id": "7b4a8dfd-b94f-49f7-a9e1-cdbf2cf51be5",
+    "existing_title": "Collected Poems",
+    "existing_author": "T. S. Eliot"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "author similarity 0.719 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.7188552188552189,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Brothers Karamazov",
+    "enriched_author": "Fyodor Dostoyevsky",
+    "existing_id": "ac23e708-252d-43d4-b9a6-b33337c450bc",
+    "existing_title": "The Brothers Karamazov",
+    "existing_author": "Dostoyevsky"
+  },
+  {
+    "reason": "author similarity 0.517 < 0.75",
+    "matchedBy": "fuzzy(0.965)",
+    "score": {
+      "title": 0.9649122807017544,
+      "author": 0.5166666666666667,
+      "lengthRatio": 1.1176470588235294
+    },
+    "enriched_title": "History of the Jews",
+    "enriched_author": "Heinrich Graetz",
+    "existing_id": "bb6220a5-775f-4a63-8669-d7c223c0ffd1",
+    "existing_title": "THE STORY OF THE JEWS",
+    "existing_author": "LEWIS BROWNE"
+  },
+  {
+    "reason": "author similarity 0.431 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.4305555555555556,
+      "lengthRatio": 1
+    },
+    "enriched_title": "GESSI",
+    "enriched_author": "Gabi Koepp",
+    "existing_id": "0680953f-dac7-4ed7-b249-4334046f0f01",
+    "existing_title": "GESSI",
+    "existing_author": "Zahallesi Zylom"
+  },
+  {
+    "reason": "author similarity 0.527 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.5272727272727272,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Plato's Examination of Pleasure",
+    "enriched_author": "Plato",
+    "existing_id": "0719f6d5-6f06-48e5-a498-32a891e85a9f",
+    "existing_title": "Plato's Examination of Pleasure",
+    "existing_author": "R. Hackforth"
+  },
+  {
+    "reason": "title length ratio 5.11 > 1.5; title similarity 0.839 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8391304347826087,
+      "author": 0.5514623172103487,
+      "lengthRatio": 5.111111111111111
+    },
+    "enriched_title": "Tradition",
+    "enriched_author": "Jonathan Sacks; Erica Brown; Edward Reichman; Dov Finkelstein; J. Bleich; Shoshana Schechter; Pinchas Roth; Yoel Finkelman; Jeffrey Saks",
+    "existing_id": "076eb269-357d-42eb-aa47-24bbf48e862f",
+    "existing_title": "Tradition: A Journal of Orthodox Jewish Thought",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 5.08 > 1.5; title similarity 0.839 < 0.92; author similarity 0.559 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.839344262295082,
+      "author": 0.5591503267973856,
+      "lengthRatio": 5.083333333333333
+    },
+    "enriched_title": "A Shorter Lamb. Chosen Essays and Letters. Edited by E.E. Reynolds",
+    "enriched_author": "Charles Lamb; Ernest Edwin REYNOLDS",
+    "existing_id": "08a4db3d-6c82-421f-9661-e4a3a9754102",
+    "existing_title": "A SHORTER LAMB",
+    "existing_author": "E. E. Reynolds"
+  },
+  {
+    "reason": "title length ratio 1.92 > 1.5; title similarity 0.904 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.904,
+      "author": 0.9545454545454545,
+      "lengthRatio": 1.9230769230769231
+    },
+    "enriched_title": "A Method of Teaching Harmony",
+    "enriched_author": "Frederick George), Shinn",
+    "existing_id": "0a07f506-f24d-4e01-aac0-68d4691ff028",
+    "existing_title": "A METHOD OF TEACHING HARMONY PART 1 DIATONIC HARMONY",
+    "existing_author": "FREDERICK G. SHINN"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title length ratio 3.00 > 1.5; title similarity 0.867 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8666666666666666,
+      "author": 0.8857142857142858,
+      "lengthRatio": 3
+    },
+    "enriched_title": "Briefwechsel 1916-1955 [von] Albert Einstein [und] Hedwig und Max Born",
+    "enriched_author": "Albert Einstein",
+    "existing_id": "0a0d5389-40e5-4389-8cf4-c7524daabfa1",
+    "existing_title": "Briefwechsel 1916-1955",
+    "existing_author": "Albert Einstein, Hedwig und Max Born"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "title length ratio 1.59 > 1.5; author similarity 0.534 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9254901960784314,
+      "author": 0.5342342342342342,
+      "lengthRatio": 1.59375
+    },
+    "enriched_title": "The Chemistry of Some Life Processes. [With Illustrations.].",
+    "enriched_author": "Robert Warren NEWBURGH; Vernon Hendrum CHELDELIN (and NEWBURGH (Robert Warren))",
+    "existing_id": "0b2e38a9-38fe-4fe7-bae1-bb1e9eba3241",
+    "existing_title": "The Chemistry of Some Life Processes",
+    "existing_author": "Cheldelin-Newburgh"
+  },
+  {
+    "reason": "title length ratio 2.25 > 1.5; title similarity 0.448 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.44753086419753085,
+      "author": 1,
+      "lengthRatio": 2.25
+    },
+    "enriched_title": "Guinness World Records 2000",
+    "enriched_author": "Unknown",
+    "existing_id": "0b9123a8-18cb-41da-8f7f-fad8b8783e67",
+    "existing_title": "Records 2000",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "author similarity 0.482 < 0.75",
+    "matchedBy": "fuzzy(0.965)",
+    "score": {
+      "title": 0.9649122807017544,
+      "author": 0.4823232323232323,
+      "lengthRatio": 1.1176470588235294
+    },
+    "enriched_title": "A History of the Jews",
+    "enriched_author": "Ilan Halevi",
+    "existing_id": "bb6220a5-775f-4a63-8669-d7c223c0ffd1",
+    "existing_title": "THE STORY OF THE JEWS",
+    "existing_author": "LEWIS BROWNE"
+  },
+  {
+    "reason": "author similarity 0.716 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.7156862745098039,
+      "lengthRatio": 1
+    },
+    "enriched_title": "History of the Armenians ; and, The letter to Vahan Mamikonean",
+    "enriched_author": "Ghazar (Pʻarpetsʻi)",
+    "existing_id": "0d8d7a10-65dc-400e-90e6-fa6f34ba9ac7",
+    "existing_title": "History of the Armenians and the Letter to Vahan Mamikonean",
+    "existing_author": "Lazar P'arpets'i, Dickran Kouymjian"
+  },
+  {
+    "reason": "title length ratio 2.90 > 1.5; title similarity 0.869 < 0.92; author similarity 0.547 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8689655172413794,
+      "author": 0.5465423465423466,
+      "lengthRatio": 2.9
+    },
+    "enriched_title": "Psychology",
+    "enriched_author": "William James (filosoof)",
+    "existing_id": "0dc3c27d-8078-4037-9e7b-4dd0c7af795a",
+    "existing_title": "PSYCHOLOGY THE BRIEFER COURSE",
+    "existing_author": "James, edited by Gordon Allport"
+  },
+  {
+    "reason": "title length ratio 2.67 > 1.5; title similarity 0.639 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6388888888888888,
+      "author": 1,
+      "lengthRatio": 2.6666666666666665
+    },
+    "enriched_title": "The Wordsworth Book of Usage & Abusage",
+    "enriched_author": "Eric Partridge",
+    "existing_id": "0e24dd16-89c0-4cd2-821c-87061d384ea3",
+    "existing_title": "SAGE & ABUSAGE",
+    "existing_author": "ERIC PARTRIDGE"
+  },
+  {
+    "reason": "title similarity 0.809 < 0.92; author similarity 0.568 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.80854119425548,
+      "author": 0.5675213675213676,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Yearbook, American Philosophical Society (2002-2003)",
+    "enriched_author": "American Philosophical Society",
+    "existing_id": "0e577d76-c7a2-48f5-a78e-6ad66b78df22",
+    "existing_title": "American Philosophical Society Yearbook 2003-2004",
+    "existing_author": "M.T MACHILL S"
+  },
+  {
+    "reason": "title length ratio 2.94 > 1.5; title similarity 0.543 < 0.92; author similarity 0.550 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5425190943807965,
+      "author": 0.5504201680672268,
+      "lengthRatio": 2.9375
+    },
+    "enriched_title": "The Terrorism Reader",
+    "enriched_author": "David J. Whittaker",
+    "existing_id": "0e799094-a235-4f5d-9eef-ce1d081b27c3",
+    "existing_title": "The Documentary History of the Middle East Conflict",
+    "existing_author": "Walter Laqueur"
+  },
+  {
+    "reason": "title length ratio 2.15 > 1.5; title similarity 0.420 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.4197191697191697,
+      "author": 1,
+      "lengthRatio": 2.1538461538461537
+    },
+    "enriched_title": "Oeuvres morales de Plutarque",
+    "enriched_author": "Plutarque",
+    "existing_id": "0f2b9138-e5c8-4958-8a67-181ab4c51bb5",
+    "existing_title": "TRAITÉS 27-36",
+    "existing_author": "PLUTARQUE"
+  },
+  {
+    "reason": "title length ratio 2.25 > 1.5; title similarity 0.448 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.44753086419753085,
+      "author": 1,
+      "lengthRatio": 2.25
+    },
+    "enriched_title": "Guinness world records, 2001",
+    "enriched_author": "AMERICAN ACADEMY OF ARTS & SCIENCES",
+    "existing_id": "0f2b9f2f-2be2-4f75-8084-ffe1538b5213",
+    "existing_title": "Records 2001",
+    "existing_author": "AMERICAN ACADEMY OF ARTS & SCIENCES"
+  },
+  {
+    "reason": "title length ratio 2.65 > 1.5; title similarity 0.875 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8753424657534247,
+      "author": 0.7969757727652464,
+      "lengthRatio": 2.6545454545454548
+    },
+    "enriched_title": "Q. Asconii Pediani Orationvm Ciceronis Qvinqve Enarratio; Recognovit Brevique Adnotatione Critica Instrvxit Albertvs Cvrtis Clark - Primary Source Edi",
+    "enriched_author": "Albert Curtis Clark; Quintus Asconius Pedianus",
+    "existing_id": "0f3fceb0-ea20-408d-a9e9-5c353c3a1c1b",
+    "existing_title": "Q. Asconii Pediani Orationvm Ciceronis Qvinqve Enarratio",
+    "existing_author": "Albertvs Cvrtis Clark"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 7.20 > 1.5; title similarity 0.828 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8277777777777777,
+      "author": 1,
+      "lengthRatio": 7.2
+    },
+    "enriched_title": "Plato",
+    "enriched_author": "Gregory Vlastos",
+    "existing_id": "107729bf-b029-4826-b8fe-9e0c94ced107",
+    "existing_title": "PLATO I:Metaphysics and Epistemology",
+    "existing_author": "Gregory Vlastos"
+  },
+  {
+    "reason": "author similarity 0.476 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.4763440860215054,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Homeri opera",
+    "enriched_author": "Homer",
+    "existing_id": "a6f524df-3e8f-4e24-b5c5-140c2f95d7e2",
+    "existing_title": "Homeri Opera",
+    "existing_author": "David B. Munro et Thomas W. Allen"
+  },
+  {
+    "reason": "title length ratio 2.33 > 1.5; title similarity 0.886 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8857142857142858,
+      "author": 0.8933723196881092,
+      "lengthRatio": 2.3333333333333335
+    },
+    "enriched_title": "Art and Literature",
+    "enriched_author": "William Sebastian Heckscher",
+    "existing_id": "121f6aca-4b16-4075-94db-2057e1fc7830",
+    "existing_title": "Art and Literature: Studies in Relationship",
+    "existing_author": "William S. Heckscher"
+  },
+  {
+    "reason": "title length ratio 6.10 > 1.5; title similarity 0.833 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8327868852459016,
+      "author": 1,
+      "lengthRatio": 6.1
+    },
+    "enriched_title": "Love poems",
+    "enriched_author": "John Donne",
+    "existing_id": "12d53530-3f81-4cfc-b09a-2d7a4524df26",
+    "existing_title": "Love Poems Together with the Devotion \"For Whom the Bell Tolls\"",
+    "existing_author": "John Donne"
+  },
+  {
+    "reason": "title length ratio 2.20 > 1.5; title similarity 0.891 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.890909090909091,
+      "author": 0.3984962406015038,
+      "lengthRatio": 2.2
+    },
+    "enriched_title": "Geger Sokmo",
+    "enriched_author": "A. Aziz Deraman (Dato')",
+    "existing_id": "13578141-31f8-48c2-b9b2-b0a10ee9830f",
+    "existing_title": "GEGER",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 14.00 > 1.5; title similarity 0.621 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6214285714285714,
+      "author": 0.40317460317460313,
+      "lengthRatio": 14
+    },
+    "enriched_title": "Vocational English Course (VEC) Intermediate",
+    "enriched_author": "Amin Abu-Ayyash",
+    "existing_id": "14269db6-eccc-4553-8074-df57db622904",
+    "existing_title": "vec",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "author similarity 0.528 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.5281853281853283,
+      "lengthRatio": 1
+    },
+    "enriched_title": "M. Tullii Ciceronis Epistolae Selectae",
+    "enriched_author": "Marcus Tullius Cicero; August Matthiae",
+    "existing_id": "15456633-a47c-401a-bbf9-6c60de038b4f",
+    "existing_title": "M. TULLII CICERONIS EPISTOLAE SELECTAE",
+    "existing_author": "ALBERTO WATSON"
+  },
+  {
+    "reason": "author similarity 0.616 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9621082621082622,
+      "author": 0.6156084656084656,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Portable S. Scott Fitzgerald",
+    "enriched_author": "Dorothy Parker",
+    "existing_id": "15765afb-000e-4da1-a7c4-9025fd2d6cde",
+    "existing_title": "The Portable F. Scott Fitzgerald",
+    "existing_author": "F. Scott Fitzgerald, Dorothy Parker, John O'Hara"
+  },
+  {
+    "reason": "title length ratio 5.33 > 1.5; title similarity 0.838 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8375,
+      "author": 1,
+      "lengthRatio": 5.333333333333333
+    },
+    "enriched_title": "A Mediterranean Society",
+    "enriched_author": "S. D. Goitein",
+    "existing_id": "15cde8d7-cd86-4ed9-842a-2952cbc1e98b",
+    "existing_title": "A Mediterranean Society: The Jewish Communities of the Arab World as Portrayed in the Documents of the Cairo Geniza",
+    "existing_author": "S. D. Goitein"
+  },
+  {
+    "reason": "title length ratio 33.00 > 1.5; title similarity 0.000 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0,
+      "author": 0,
+      "lengthRatio": 33
+    },
+    "enriched_title": "Bare-Metal Embedded C Programming",
+    "enriched_author": "Israel Gbati",
+    "existing_id": "38ced873-8d40-45cb-972c-c035c4a3fab7",
+    "existing_title": "C",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 1.58 > 1.5",
+    "matchedBy": "fuzzy(0.927)",
+    "score": {
+      "title": 0.9266666666666666,
+      "author": 1,
+      "lengthRatio": 1.5789473684210527
+    },
+    "enriched_title": "The Psychology of Women",
+    "enriched_author": "Helene Deutsch",
+    "existing_id": "767b4903-6162-4d74-905e-736beb83795c",
+    "existing_title": "The Psychology of Women: Motherhood",
+    "existing_author": "Helene Deutsch"
+  },
+  {
+    "reason": "title length ratio 1.51 > 1.5",
+    "matchedBy": "fuzzy(0.932)",
+    "score": {
+      "title": 0.9320754716981132,
+      "author": 1,
+      "lengthRatio": 1.5142857142857142
+    },
+    "enriched_title": "A Historical Commentary on Thucydides: the Ten Years' War",
+    "enriched_author": "A. W. Gomme",
+    "existing_id": "76038e41-90ec-4271-8793-9fcd1bb2e9ac",
+    "existing_title": "A Historical Commentary on Thucydides",
+    "existing_author": "A. W. Gomme"
+  },
+  {
+    "reason": "title length ratio 2.53 > 1.5; title similarity 0.879 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8790697674418605,
+      "author": 1,
+      "lengthRatio": 2.5294117647058822
+    },
+    "enriched_title": "Kafkas Dichtungen. Die Travestien Des Mythos",
+    "enriched_author": "Kurt Weinberg",
+    "existing_id": "176b1256-ce37-41b3-bad4-ecc6a53e1d10",
+    "existing_title": "KAFKAS DICHTUNGEN",
+    "existing_author": "KURT WEINBERG"
+  },
+  {
+    "reason": "author similarity 0.458 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.4583333333333333,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Metamorphoses",
+    "enriched_author": "Ovid",
+    "existing_id": "1f62638d-e5ca-4e84-8904-ee385eb25d61",
+    "existing_title": "Metamorphoses",
+    "existing_author": "Apuleius"
+  },
+  {
+    "reason": "author similarity 0.450 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.45,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Cults of the Greek States",
+    "enriched_author": "LR. Farnell",
+    "existing_id": "bc23ebfa-c721-45cc-b316-d08e3b5aa73d",
+    "existing_title": "THE CULTS OF THE GREEK STATES",
+    "existing_author": "Theodor W. Adorno, Farnell"
+  },
+  {
+    "reason": "title similarity 0.758 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7580952380952382,
+      "author": 0.8356589147286823,
+      "lengthRatio": 1.4
+    },
+    "enriched_title": "Report on Project History Retrieval",
+    "enriched_author": "Elizabeth Ingerman Wood; Drexel Institute of Technology. Graduate School of Library Science; Henry Francis du Pont Winterthur Museum",
+    "existing_id": "17cf777f-2d72-4f0b-a825-3b39cbd6de5c",
+    "existing_title": "Project History Retrieval",
+    "existing_author": "Elizabeth Ingerman Wood"
+  },
+  {
+    "reason": "title length ratio 1.67 > 1.5",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.92,
+      "author": 1,
+      "lengthRatio": 1.6666666666666667
+    },
+    "enriched_title": "The Art of the West",
+    "enriched_author": "Henri Focillon",
+    "existing_id": "18dc6e33-404d-4d54-af5d-57530caec2d8",
+    "existing_title": "The Art of the West II GOTHIC",
+    "existing_author": "Henri Focillon"
+  },
+  {
+    "reason": "title length ratio 1.78 > 1.5; title similarity 0.912 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9125,
+      "author": 0.8848484848484848,
+      "lengthRatio": 1.7777777777777777
+    },
+    "enriched_title": "Feudalism. 3rd ed",
+    "enriched_author": "F.L. Ganshof",
+    "existing_id": "192c55b7-5b7f-46d9-87d9-192af93c973f",
+    "existing_title": "FEUDALISM",
+    "existing_author": "FLGANSHOP"
+  },
+  {
+    "reason": "title length ratio 1.90 > 1.5; title similarity 0.905 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9052631578947368,
+      "author": 0.843939393939394,
+      "lengthRatio": 1.9
+    },
+    "enriched_title": "Indonesian Readings",
+    "enriched_author": "John U. Wolff",
+    "existing_id": "19907bab-cd04-4175-a57a-2fcb0f0a9ff3",
+    "existing_title": "Indonesian",
+    "existing_author": "John B. Kwee"
+  },
+  {
+    "reason": "title length ratio 2.11 > 1.5; title similarity 0.895 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8947368421052632,
+      "author": 1,
+      "lengthRatio": 2.111111111111111
+    },
+    "enriched_title": "Anthologie grecque",
+    "enriched_author": "Unknown",
+    "existing_id": "413c9825-7f41-4afb-90e6-c0730ff6d21f",
+    "existing_title": "Anthologie Grecque Anthologie Palatine",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.485 < 0.75",
+    "matchedBy": "fuzzy(0.969)",
+    "score": {
+      "title": 0.9692307692307692,
+      "author": 0.48465608465608473,
+      "lengthRatio": 1.1818181818181819
+    },
+    "enriched_title": "Apollodorus",
+    "enriched_author": "Apollodorus (of Athens.); Sir James George Frazer",
+    "existing_id": "af4a6a1b-2c4e-4ccd-8346-1658e0a9f823",
+    "existing_title": "Apollodorus I",
+    "existing_author": "Sir J. G. Frazer"
+  },
+  {
+    "reason": "title length ratio 5.81 > 1.5; title similarity 0.834 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8344262295081968,
+      "author": 1,
+      "lengthRatio": 5.809523809523809
+    },
+    "enriched_title": "A Mediterranean Society",
+    "enriched_author": "S. D. Goitein",
+    "existing_id": "1b5ca344-ab8f-44bd-b395-20ff3465b161",
+    "existing_title": "A Mediterranean Society: The Jewish Communities of the Arab World as Portrayed in the Documents of the Cairo Geniza, Volume IV",
+    "existing_author": "S. D. Goitein"
+  },
+  {
+    "reason": "author similarity 0.638 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.6380952380952382,
+      "lengthRatio": 1
+    },
+    "enriched_title": "On the Mystical Shape of the Godhead",
+    "enriched_author": "Gershom Scholem; Jonathan Chipman",
+    "existing_id": "1b7b0c03-6901-4d44-a450-06b6c5a360a6",
+    "existing_title": "On the Mystical Shape of the Godhead",
+    "existing_author": "Harold Bloom, Gershom Scholem"
+  },
+  {
+    "reason": "title length ratio 15.57 > 1.5; title similarity 0.545 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.54521625163827,
+      "author": 0.9409090909090909,
+      "lengthRatio": 15.571428571428571
+    },
+    "enriched_title": "Studies in Honour of Gilbert Norwood. The Phoenix - Journal of the Classical Association of Canada, Supplementary",
+    "enriched_author": "Classical Association of Canada; Mary E. White",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title length ratio 1.58 > 1.5",
+    "matchedBy": "fuzzy(0.927)",
+    "score": {
+      "title": 0.9266666666666666,
+      "author": 1,
+      "lengthRatio": 1.5789473684210527
+    },
+    "enriched_title": "The Greek New Testament",
+    "enriched_author": "Unknown",
+    "existing_id": "b3c9221b-054c-469f-97a8-af812a47afa2",
+    "existing_title": "THE GREEK NEW TESTAMENT DICTIONARY",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.381 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.38095238095238093,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Ancient Mystery Cults",
+    "enriched_author": "Walter Burkert",
+    "existing_id": "1db586aa-05dd-48e0-9b02-06b4f3f8f8b3",
+    "existing_title": "Ancient Mystery Cults",
+    "existing_author": "Buffert"
+  },
+  {
+    "reason": "author similarity 0.532 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9829787234042553,
+      "author": 0.5322270322270323,
+      "lengthRatio": 1.0930232558139534
+    },
+    "enriched_title": "Baudelaire: Selected Writings on Art and Artists",
+    "enriched_author": "Charles Baudelaire",
+    "existing_id": "1e556681-c8c3-4890-8126-f5bcbd57c76c",
+    "existing_title": "Baudelaire selected writings on art & artists",
+    "existing_author": "P.E. Charvet"
+  },
+  {
+    "reason": "title similarity 0.576 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5762108262108262,
+      "author": 1,
+      "lengthRatio": 1.0833333333333333
+    },
+    "enriched_title": "Miscellaneous Papers of Harry A. Wolfson",
+    "enriched_author": "Harry Austryn Wolfson",
+    "existing_id": "1e92e820-8cd3-490f-a697-24103e77a647",
+    "existing_title": "Harry Austryn Wolfson Jubilee Volume",
+    "existing_author": "Harry Austryn Wolfson"
+  },
+  {
+    "reason": "author similarity 0.439 < 0.75",
+    "matchedBy": "fuzzy(0.920)",
+    "score": {
+      "title": 0.92,
+      "author": 0.43888888888888894,
+      "lengthRatio": 1
+    },
+    "enriched_title": "A History of Yoga",
+    "enriched_author": "Vivian Worthington",
+    "existing_id": "f5fcf2d5-e4ce-4bd9-93f8-df121cac23d8",
+    "existing_title": "A HISTORY OF ROME",
+    "existing_author": "ARTHUR E. R. BOAK"
+  },
+  {
+    "reason": "title length ratio 2.38 > 1.5; title similarity 0.597 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5973005489134522,
+      "author": 1,
+      "lengthRatio": 2.3846153846153846
+    },
+    "enriched_title": "The Golden Ass, Or, The Metamorphoses",
+    "enriched_author": "Apuleius",
+    "existing_id": "1f62638d-e5ca-4e84-8904-ee385eb25d61",
+    "existing_title": "Metamorphoses",
+    "existing_author": "Apuleius"
+  },
+  {
+    "reason": "title length ratio 7.71 > 1.5; title similarity 0.826 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.825925925925926,
+      "author": 1,
+      "lengthRatio": 7.714285714285714
+    },
+    "enriched_title": "Thespis",
+    "enriched_author": "Theodor H. Gaster",
+    "existing_id": "1f762a25-b5b1-4b37-85f1-6914f47924a1",
+    "existing_title": "Thespis: Ritual, Myth and Drama in the Ancient Near East",
+    "existing_author": "Theodor H. Gaster"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "author similarity 0.474 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.4740740740740741,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Thucydides, Book VI",
+    "enriched_author": "Thucydides",
+    "existing_id": "210c3030-fbec-4ccd-a8b3-07b1bbe17a85",
+    "existing_title": "THUCYDIDES BOOK VI",
+    "existing_author": "K. J. DOVER"
+  },
+  {
+    "reason": "title similarity 0.670 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6698595146871008,
+      "author": 1,
+      "lengthRatio": 1.2083333333333333
+    },
+    "enriched_title": "Passport to Jewish Music",
+    "enriched_author": "Irene Heskes",
+    "existing_id": "21a0ee2d-69b9-45ec-acdc-947285b5ae21",
+    "existing_title": "The Resource Book of Jewish Music",
+    "existing_author": "Irene Heskes"
+  },
+  {
+    "reason": "title length ratio 2.67 > 1.5; title similarity 0.875 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.875,
+      "author": 0.9284137931034483,
+      "lengthRatio": 2.6666666666666665
+    },
+    "enriched_title": "Danish",
+    "enriched_author": "W. Glyn Jones; Kirsten Gade",
+    "existing_id": "21bff16d-44a4-4f18-8835-a88f542ce458",
+    "existing_title": "Danish A Grammar",
+    "existing_author": "W.Glyn Jones and Kirsten Gade"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title similarity 0.857 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.857487922705314,
+      "author": 1,
+      "lengthRatio": 1.2777777777777777
+    },
+    "enriched_title": "Discours de la couronne",
+    "enriched_author": "Demosthene",
+    "existing_id": "22c7c09b-2750-4c56-b019-9ad075ac25de",
+    "existing_title": "DISCOURS D'APPARAT",
+    "existing_author": "DEMOSTHENE"
+  },
+  {
+    "reason": "title length ratio 1.55 > 1.5; title similarity 0.858 < 0.92; author similarity 0.714 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8581989247311828,
+      "author": 0.7136363636363637,
+      "lengthRatio": 1.5483870967741935
+    },
+    "enriched_title": "Antiphontis orationes et fragmenta post Fr. Blass",
+    "enriched_author": "Antiphon; Th Thalheim",
+    "existing_id": "22f5d15b-d54e-4795-8928-1b5dec7a8531",
+    "existing_title": "Antiphon Orationes et Fragmenta",
+    "existing_author": "Th. Thalheim"
+  },
+  {
+    "reason": "title length ratio 3.89 > 1.5; title similarity 0.698 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6982010582010582,
+      "author": 1,
+      "lengthRatio": 3.888888888888889
+    },
+    "enriched_title": "Aristotle",
+    "enriched_author": "Jonathan Barnes; Malcolm Schofield; Richard Sorabji",
+    "existing_id": "238ef103-ab94-475d-a84d-2c240272c663",
+    "existing_title": "Articles on Aristotle 3. Metaphysics",
+    "existing_author": "Jonathan Barnes, Malcolm Schofield, Richard Sorabji"
+  },
+  {
+    "reason": "title length ratio 2.77 > 1.5; title similarity 0.872 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8721649484536083,
+      "author": 1,
+      "lengthRatio": 2.7714285714285714
+    },
+    "enriched_title": "Sefer Ha-'Ikkarim. Book of Principles ... Critically Edited ... with a Translation and Notes by Isaac Husik",
+    "enriched_author": "Joseph Albo; Isaac HUSIK",
+    "existing_id": "67ace586-6329-4664-8844-aaca873d0586",
+    "existing_title": "Sefer Ha-'Ikkarim Book of Principles",
+    "existing_author": "Joseph Albo, Isaac Husik"
+  },
+  {
+    "reason": "author similarity 0.456 < 0.75",
+    "matchedBy": "fuzzy(0.953)",
+    "score": {
+      "title": 0.9533333333333333,
+      "author": 0.45555555555555555,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Thukydides",
+    "enriched_author": "Thucydides; J. Classen",
+    "existing_id": "410bd3d8-e322-4cac-80a4-0f0df791f095",
+    "existing_title": "Thucydides",
+    "existing_author": "W. Robert Connor"
+  },
+  {
+    "reason": "author similarity 0.494 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.49390968508615574,
+      "lengthRatio": 1
+    },
+    "enriched_title": "A Tibetan-English Dictionary",
+    "enriched_author": "H. A. Jaschke",
+    "existing_id": "52731d79-2e24-49db-9fd3-2b617a51c489",
+    "existing_title": "A Tibetan-English Dictionary",
+    "existing_author": "Sarat Chandra Das"
+  },
+  {
+    "reason": "author similarity 0.450 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.4498910675381264,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Exodus",
+    "enriched_author": "Victor P. Hamilton",
+    "existing_id": "9ebb83ba-11e0-4141-b9e9-d3859871d065",
+    "existing_title": "Exodus",
+    "existing_author": "U. Cassuto"
+  },
+  {
+    "reason": "author similarity 0.508 < 0.75",
+    "matchedBy": "fuzzy(0.940)",
+    "score": {
+      "title": 0.94025,
+      "author": 0.5077276524644946,
+      "lengthRatio": 1.28
+    },
+    "enriched_title": "Introduction to the Hebrew Bible",
+    "enriched_author": "John Joseph Collins",
+    "existing_id": "a6c3fb07-fed1-4748-905b-1b66e716f950",
+    "existing_title": "An Introduction to the Bible",
+    "existing_author": "STANLEY COOK"
+  },
+  {
+    "reason": "title length ratio 17.00 > 1.5; title similarity 0.000 < 0.92; author similarity 0.601 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0,
+      "author": 0.6014285714285713,
+      "lengthRatio": 17
+    },
+    "enriched_title": "... Pierre and Jean (Peter and John) by Guy de Maupassant ...",
+    "enriched_author": "Guy de Maupassant; Alexina Loranger Donovan",
+    "existing_id": "25b5aeb2-4f00-40c0-b686-1a8df8c1ca4f",
+    "existing_title": "Guy",
+    "existing_author": "GREJI"
+  },
+  {
+    "reason": "author similarity 0.425 < 0.75",
+    "matchedBy": "fuzzy(0.929)",
+    "score": {
+      "title": 0.9287593984962406,
+      "author": 0.425219298245614,
+      "lengthRatio": 1.1428571428571428
+    },
+    "enriched_title": "Tradition and Reflection",
+    "enriched_author": "Wilhelm Halbfass",
+    "existing_id": "87e64518-99cc-40c0-9e36-18536b6fdbb8",
+    "existing_title": "Tradition and Reality",
+    "existing_author": "Nathan Rotenstreich"
+  },
+  {
+    "reason": "title length ratio 8.18 > 1.5; title similarity 0.541 < 0.92; author similarity 0.719 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5407673860911271,
+      "author": 0.7185185185185187,
+      "lengthRatio": 8.176470588235293
+    },
+    "enriched_title": "The Thirteen Books of Euclid's Elements. Translated ... with Introduction and Commentary by Sir Thomas L. Heath ... Second Edition, Revised with Additions",
+    "enriched_author": "EUCLID.; Sir Thomas Little HEATH",
+    "existing_id": "26ad23ab-bc2f-4010-8eb4-e4cf954884c1",
+    "existing_title": "Euclid's Elements",
+    "existing_author": "Sir Thomas L. Heath"
+  },
+  {
+    "reason": "author similarity 0.444 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.4444444444444444,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Exodus",
+    "enriched_author": "Leon Uris",
+    "existing_id": "9ebb83ba-11e0-4141-b9e9-d3859871d065",
+    "existing_title": "Exodus",
+    "existing_author": "U. Cassuto"
+  },
+  {
+    "reason": "title length ratio 2.11 > 1.5; title similarity 0.895 < 0.92; author similarity 0.492 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8947368421052632,
+      "author": 0.4919389978213508,
+      "lengthRatio": 2.111111111111111
+    },
+    "enriched_title": "Year Book",
+    "enriched_author": "Carnegie Institution of Washington",
+    "existing_id": "274acf99-20ee-4e70-b019-da7a6ea63bf0",
+    "existing_title": "Year Book 2002-2003",
+    "existing_author": "H.T NACHBILL SS"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "author similarity 0.656 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.6561111111111111,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Nationalism and History",
+    "enriched_author": "Semen M. Dubnov; Simon Dubnow",
+    "existing_id": "27c8088c-e790-4805-92e9-1bdeb8124d9a",
+    "existing_title": "Nationalism and History",
+    "existing_author": "Simon Dubnow"
+  },
+  {
+    "reason": "title length ratio 2.41 > 1.5; title similarity 0.883 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8830188679245283,
+      "author": 0.9466666666666667,
+      "lengthRatio": 2.409090909090909
+    },
+    "enriched_title": "Gedenkausgabe der Werke, Briefe und Gespräche. 28. August 1949. Herausgegeben von Ernst Beutler. [With portraits.].",
+    "enriched_author": "Johann Wolfgang von Goethe; Ernst Beutler",
+    "existing_id": "95d4a5d3-bbb7-4178-a0bf-0fe46a3f2201",
+    "existing_title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "existing_author": "JOHANN WOLFGANG GOETHE, ERNST BEUTLER"
+  },
+  {
+    "reason": "title length ratio 2.41 > 1.5; title similarity 0.883 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8830188679245283,
+      "author": 0.9466666666666667,
+      "lengthRatio": 2.409090909090909
+    },
+    "enriched_title": "Gedenkausgabe der Werke, Briefe und Gespräche. 28. August 1949. Herausgegeben von Ernst Beutler. [With portraits.].",
+    "enriched_author": "Johann Wolfgang von Goethe; Ernst Beutler",
+    "existing_id": "95d4a5d3-bbb7-4178-a0bf-0fe46a3f2201",
+    "existing_title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "existing_author": "JOHANN WOLFGANG GOETHE, ERNST BEUTLER"
+  },
+  {
+    "reason": "title length ratio 10.33 > 1.5; title similarity 0.789 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7892473118279569,
+      "author": 0.49747023809523805,
+      "lengthRatio": 10.333333333333334
+    },
+    "enriched_title": "360° Around Shoulder Instability",
+    "enriched_author": "Roman Brzóska; Giuseppe Milano; Pietro S. Randelli; Ladislav Kovačič",
+    "existing_id": "28e1bffa-a58c-4366-bc49-9714fb2953f8",
+    "existing_title": "360",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title similarity 0.696 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6957556935817806,
+      "author": 1,
+      "lengthRatio": 1.25
+    },
+    "enriched_title": "Democracy Ancient and Modern",
+    "enriched_author": "M. I. Finley",
+    "existing_id": "291af9d4-b492-4e23-af5e-b84043636596",
+    "existing_title": "ANCIENT HISTORY EVIDENCE AND MODELS",
+    "existing_author": "M. I. Finley"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 1.83 > 1.5; title similarity 0.621 < 0.92; author similarity 0.531 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6209595959595959,
+      "author": 0.5307539682539683,
+      "lengthRatio": 1.8333333333333333
+    },
+    "enriched_title": "The Historie of Travaile Into Virginia Britannia",
+    "enriched_author": "William Strachey",
+    "existing_id": "2a142531-f71d-422b-ab96-fb914a255026",
+    "existing_title": "Virginia: A History & Guide",
+    "existing_author": "Tim Mulligan"
+  },
+  {
+    "reason": "title length ratio 1.97 > 1.5; title similarity 0.812 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8121330913490623,
+      "author": 0.9304761904761905,
+      "lengthRatio": 1.9655172413793103
+    },
+    "enriched_title": "Armenian Apocrypha Relating to Angels and Biblical Heroes",
+    "enriched_author": "Michael E. Stone",
+    "existing_id": "2b2c3bde-5abe-444d-b51b-1bd7508b922d",
+    "existing_title": "Armenian and Biblical Studies",
+    "existing_author": "Michael B. Stone"
+  },
+  {
+    "reason": "title length ratio 5.83 > 1.5; title similarity 0.427 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.42698412698412697,
+      "author": 1,
+      "lengthRatio": 5.833333333333333
+    },
+    "enriched_title": "Towards a Text of Cicero 'Ad Atticum'",
+    "enriched_author": "D. R. Shackleton Bailey",
+    "existing_id": "2c0f1cf1-147a-4e6d-8708-f9739c2870fe",
+    "existing_title": "Cicero",
+    "existing_author": "D.R. Shackleton Bailey"
+  },
+  {
+    "reason": "title length ratio 5.00 > 1.5; title similarity 0.604 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6037037037037037,
+      "author": 0.9555555555555556,
+      "lengthRatio": 5
+    },
+    "enriched_title": "Two Tales by S.Y.Agnon, Betrothed & Edo and Anay",
+    "enriched_author": "S Y. Agnow",
+    "existing_id": "2cb5a32d-5cc2-4695-8014-6964b03722d0",
+    "existing_title": "S.Y. Agnon",
+    "existing_author": "S.Y. Agnon"
+  },
+  {
+    "reason": "title length ratio 15.67 > 1.5; title similarity 0.570 < 0.92; author similarity 0.681 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5697399527186761,
+      "author": 0.6805555555555557,
+      "lengthRatio": 15.666666666666666
+    },
+    "enriched_title": "Das Konzentrationslager Sachsenhausen 1936-1945",
+    "enriched_author": "Günter Morsch; Astrid Ley",
+    "existing_id": "2ce7f0c5-5466-42fe-ab47-b38c34903e7a",
+    "existing_title": "Tim",
+    "existing_author": "N"
+  },
+  {
+    "reason": "title length ratio 1.67 > 1.5; title similarity 0.756 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7555555555555555,
+      "author": 0.7767857142857143,
+      "lengthRatio": 1.6666666666666667
+    },
+    "enriched_title": "Poems of Thomas Hardy",
+    "enriched_author": "T. R. M. Creighton; Thomas Hardy",
+    "existing_id": "2e193045-f881-4382-8075-cbe8f8e7dc25",
+    "existing_title": "A New Selection Poems of Thomas Hardy",
+    "existing_author": "Thomas Hardy, T. R.M. Creighton"
+  },
+  {
+    "reason": "title length ratio 1.71 > 1.5; title similarity 0.917 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9166666666666667,
+      "author": 1,
+      "lengthRatio": 1.7142857142857142
+    },
+    "enriched_title": "Wozzeck",
+    "enriched_author": "Georg Büchner",
+    "existing_id": "2ee5d194-2a17-4c0b-93ee-fa1535e51551",
+    "existing_title": "Wozzeck - Lenz",
+    "existing_author": "Georg Büchner"
+  },
+  {
+    "reason": "title length ratio 3.33 > 1.5; title similarity 0.639 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.639047619047619,
+      "author": 0.2799227799227799,
+      "lengthRatio": 3.3333333333333335
+    },
+    "enriched_title": "Published Pottery of Palestine",
+    "enriched_author": "Larry G. Herr; Warren Charles Trenchard",
+    "existing_id": "2f14acd1-c5cc-4e9b-ae85-88a9025695fe",
+    "existing_title": "PALESTINE",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.507 < 0.75",
+    "matchedBy": "fuzzy(0.949)",
+    "score": {
+      "title": 0.9493265993265994,
+      "author": 0.5068635068635069,
+      "lengthRatio": 1.2272727272727273
+    },
+    "enriched_title": "Introduction to Ethics",
+    "enriched_author": "Andrew Dell'Olio; Caroline J. Simon",
+    "existing_id": "964dc5e2-826f-486b-86db-50430aa7a8d4",
+    "existing_title": "An Introduction to Metaphysics",
+    "existing_author": "Henri Bergson"
+  },
+  {
+    "reason": "author similarity 0.560 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.5595238095238095,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Three Greek Romances",
+    "enriched_author": "Dio; Longus",
+    "existing_id": "2f77bd77-def3-4fcd-bf23-5e3c3ff92b71",
+    "existing_title": "THREE GREEK ROMANCES",
+    "existing_author": "LONGUS, XENOPHON, DIO CHRYSOSTOM, translated by MOSES HADAS"
+  },
+  {
+    "reason": "author similarity 0.483 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.4829654782116582,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Macbeth",
+    "enriched_author": "William Shakespeare",
+    "existing_id": "30c36094-1f7a-4bdb-a8cf-a05ed6e21643",
+    "existing_title": "Macbeth",
+    "existing_author": "Louis B. Wright, Virginia A. Lamar"
+  },
+  {
+    "reason": "title length ratio 2.94 > 1.5; title similarity 0.868 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8679245283018868,
+      "author": 0.9166666666666666,
+      "lengthRatio": 2.9444444444444446
+    },
+    "enriched_title": "The Vision and the Way",
+    "enriched_author": "Jacob Bernard Agus",
+    "existing_id": "30f52021-c66c-49ac-b2cb-c0e7a88ca9c9",
+    "existing_title": "The Vision and the Way: An Interpretation of Jewish Ethics",
+    "existing_author": "Jacob B. Agus"
+  },
+  {
+    "reason": "title length ratio 1.71 > 1.5; title similarity 0.917 < 0.92; author similarity 0.623 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9166666666666667,
+      "author": 0.6228967559563872,
+      "lengthRatio": 1.7142857142857142
+    },
+    "enriched_title": "P. Terenti Afri",
+    "enriched_author": "P. terenti Afri; Robert (translator) Kauer",
+    "existing_id": "3182ec27-1b28-4e20-af2f-256cf494f439",
+    "existing_title": "P. Terenti Afri Comoediae",
+    "existing_author": "Robert Kauer and Wallace M. Lindsay"
+  },
+  {
+    "reason": "title length ratio 5.33 > 1.5; title similarity 0.838 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8375,
+      "author": 1,
+      "lengthRatio": 5.333333333333333
+    },
+    "enriched_title": "A Mediterranean Society",
+    "enriched_author": "S. D. Goitein",
+    "existing_id": "15cde8d7-cd86-4ed9-842a-2952cbc1e98b",
+    "existing_title": "A Mediterranean Society: The Jewish Communities of the Arab World as Portrayed in the Documents of the Cairo Geniza",
+    "existing_author": "S. D. Goitein"
+  },
+  {
+    "reason": "title similarity 0.764 < 0.92; author similarity 0.603 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7635802469135803,
+      "author": 0.602991452991453,
+      "lengthRatio": 1.35
+    },
+    "enriched_title": "On the Pursuit of the Ideal",
+    "enriched_author": "Isaiah Berlin",
+    "existing_id": "31d24699-fa59-412a-940a-d2f6b35def32",
+    "existing_title": "The Pursuit of the Ideal",
+    "existing_author": "Steven Schwarzschild"
+  },
+  {
+    "reason": "title length ratio 53.00 > 1.5; title similarity 0.706 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7056603773584906,
+      "author": 0.5093073593073593,
+      "lengthRatio": 53
+    },
+    "enriched_title": "'n Wysgerige ondersoek na die probleem van persvryheid",
+    "enriched_author": "Diederik Johannes Hattingh (Publisher unknown.)",
+    "existing_id": "6e1083e9-1740-4bcc-83e9-eda36ce2d652",
+    "existing_title": "N.",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 2.11 > 1.5; title similarity 0.895 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8947368421052632,
+      "author": 1,
+      "lengthRatio": 2.111111111111111
+    },
+    "enriched_title": "Constitutional Law",
+    "enriched_author": "Gerald Gunther",
+    "existing_id": "3304579f-da52-41ee-9111-cab144f555ab",
+    "existing_title": "Constitutional Law: Cases and Materials",
+    "existing_author": "Gerald Gunther"
+  },
+  {
+    "reason": "title length ratio 1.83 > 1.5; title similarity 0.909 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9093333333333333,
+      "author": 1,
+      "lengthRatio": 1.829268292682927
+    },
+    "enriched_title": "New York Jews and the Quest for Community",
+    "enriched_author": "Arthur A. Goren",
+    "existing_id": "33529e2a-8aef-4d2e-8a61-7740e1bbb974",
+    "existing_title": "New York Jews and the Quest for Community: The Kehillah Experiment, 1908-1922",
+    "existing_author": "Arthur A. Goren"
+  },
+  {
+    "reason": "title length ratio 1.88 > 1.5; title similarity 0.645 < 0.92; author similarity 0.468 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6445687249258678,
+      "author": 0.46832358674463936,
+      "lengthRatio": 1.8846153846153846
+    },
+    "enriched_title": "Le passage de la mer Rouge",
+    "enriched_author": "Zofia Romanowiczowa",
+    "existing_id": "340e8fd1-bfc3-4b00-b049-85f56a2dab5c",
+    "existing_title": "Qu'alors on ne se souviendra plus de la mer Rouge",
+    "existing_author": "David Mus"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "title similarity 0.597 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5969272461955389,
+      "author": 0.9722527472527472,
+      "lengthRatio": 1.0512820512820513
+    },
+    "enriched_title": "New Latin Grammar for Shools and Colleges",
+    "enriched_author": "J. B. Greenough; G. L. Kittredge; A. A. Howard; Benj. L. D'ooge",
+    "existing_id": "34c9a631-0a25-4c61-b7c4-bc5472c70bf6",
+    "existing_title": "Allen and Greenough's New Latin Grammar",
+    "existing_author": "J. B Greenough, G. L. Kittredge, A. A. Howard, and Benj. L. D'Ooge"
+  },
+  {
+    "reason": "title length ratio 1.90 > 1.5; title similarity 0.905 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9052631578947368,
+      "author": 1,
+      "lengthRatio": 1.9
+    },
+    "enriched_title": "Come Under the Wings",
+    "enriched_author": "Grace Goldin",
+    "existing_id": "34d20f15-0949-413f-ac3e-efea41593327",
+    "existing_title": "Come Under the Wings: A Midrash on Ruth",
+    "existing_author": "Grace Goldin"
+  },
+  {
+    "reason": "title length ratio 2.00 > 1.5; title similarity 0.533 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5333333333333333,
+      "author": 0.4047619047619047,
+      "lengthRatio": 2
+    },
+    "enriched_title": "A History of the Classical World",
+    "enriched_author": "Elizabeth Wyse",
+    "existing_id": "9390268a-3f84-499e-9c7d-1e13fa0ae0d4",
+    "existing_title": "Classical World",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 2.41 > 1.5; title similarity 0.883 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8830188679245283,
+      "author": 0.9466666666666667,
+      "lengthRatio": 2.409090909090909
+    },
+    "enriched_title": "Gedenkausgabe der Werke, Briefe und Gespräche. 28. August 1949. Herausgegeben von Ernst Beutler. [With portraits.].",
+    "enriched_author": "Johann Wolfgang von Goethe; Ernst Beutler",
+    "existing_id": "95d4a5d3-bbb7-4178-a0bf-0fe46a3f2201",
+    "existing_title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "existing_author": "JOHANN WOLFGANG GOETHE, ERNST BEUTLER"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title similarity 0.634 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6342592592592592,
+      "author": 1,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Elementary Logic",
+    "enriched_author": "W. V. Quine",
+    "existing_id": "35a1a64c-6656-458d-abf0-c259554c55e8",
+    "existing_title": "Methods of Logic",
+    "existing_author": "W.V. Quine"
+  },
+  {
+    "reason": "title length ratio 21.50 > 1.5; title similarity 0.516 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5155038759689923,
+      "author": 0.49404761904761907,
+      "lengthRatio": 21.5
+    },
+    "enriched_title": "Android UI Development with Jetpack Compose",
+    "enriched_author": "Thomas Künneth",
+    "existing_id": "361354a9-f52d-409c-bf45-1ada810691ab",
+    "existing_title": "UI",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 1.92 > 1.5; title similarity 0.487 < 0.92; author similarity 0.444 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.48710622710622714,
+      "author": 0.4444444444444445,
+      "lengthRatio": 1.9230769230769231
+    },
+    "enriched_title": "Formula One Yearbook 2005",
+    "enriched_author": "Luc Domenjoz",
+    "existing_id": "36373fb2-5069-45b6-9e5f-00827fe3ab96",
+    "existing_title": "YEARBOOK 2005",
+    "existing_author": "H.T MACNEILL"
+  },
+  {
+    "reason": "author similarity 0.566 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5662393162393162,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Torah",
+    "enriched_author": "David Aronson",
+    "existing_id": "0b4cbfda-c0b0-427a-8184-8c6c77eb12ee",
+    "existing_title": "The Torah",
+    "existing_author": "Moses King James Version"
+  },
+  {
+    "reason": "title length ratio 33.00 > 1.5; title similarity 0.000 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0,
+      "author": 0,
+      "lengthRatio": 33
+    },
+    "enriched_title": "Bare-Metal Embedded C Programming",
+    "enriched_author": "Israel Gbati",
+    "existing_id": "38ced873-8d40-45cb-972c-c035c4a3fab7",
+    "existing_title": "C",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 7.14 > 1.5; title similarity 0.618 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6180952380952381,
+      "author": 0.9304347826086957,
+      "lengthRatio": 7.142857142857143
+    },
+    "enriched_title": "The First Ten Cantos of the Inferno of Dante Alighieri",
+    "enriched_author": "Dante Alighieri",
+    "existing_id": "3a0ed3af-a53a-4151-98c4-3a3d8c7d1c88",
+    "existing_title": "Inferno",
+    "existing_author": "Dante Alighieri, Tisdall"
+  },
+  {
+    "reason": "title length ratio 35.25 > 1.5; title similarity 0.551 < 0.92; author similarity 0.393 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5511229314420804,
+      "author": 0.3932748538011696,
+      "lengthRatio": 35.25
+    },
+    "enriched_title": "Provizornoje Poucenije dla katholiceskich slol' no-obvodovychi nadziratelej. (Provisorische Belehrung. für die katholischen Kreisschulinspectoren.)",
+    "enriched_author": "[Anonymus AC10212114]",
+    "existing_id": "3b3f556f-ea30-43f0-830b-742999c1cd8a",
+    "existing_title": "SLOL",
+    "existing_author": "whs uclawles"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "author similarity 0.571 < 0.75",
+    "matchedBy": "fuzzy(0.921)",
+    "score": {
+      "title": 0.9214285714285715,
+      "author": 0.5709401709401709,
+      "lengthRatio": 1.1428571428571428
+    },
+    "enriched_title": "Introduction to Logic",
+    "enriched_author": "Irving M. Copi",
+    "existing_id": "1ae98ad8-7d7d-471c-b39a-49235ff5d45d",
+    "existing_title": "An Introduction to Language",
+    "existing_author": "Victoria Fromkin; Robert Rodman"
+  },
+  {
+    "reason": "title length ratio 4.29 > 1.5; title similarity 0.527 < 0.92; author similarity 0.000 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.526984126984127,
+      "author": 0,
+      "lengthRatio": 4.285714285714286
+    },
+    "enriched_title": "Parco regionale Sirente-Velino",
+    "enriched_author": "T. Taucci",
+    "existing_id": "3df30e41-2df7-497d-af50-483939ddff57",
+    "existing_title": "Sirente",
+    "existing_author": "C"
+  },
+  {
+    "reason": "title length ratio 1.76 > 1.5; title similarity 0.913 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9133333333333333,
+      "author": 1,
+      "lengthRatio": 1.7647058823529411
+    },
+    "enriched_title": "A Theological Word Book of the Bible. Edited by Alan Richardson",
+    "enriched_author": "Alan Richardson",
+    "existing_id": "3f2a681e-2222-46e0-93a9-a23967e53838",
+    "existing_title": "Theological Word Book OF THE Bible",
+    "existing_author": "Alan Richardson"
+  },
+  {
+    "reason": "title length ratio 3.03 > 1.5; title similarity 0.866 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8659340659340659,
+      "author": 1,
+      "lengthRatio": 3.033333333333333
+    },
+    "enriched_title": "Understanding Jewish Mysticism: The philosophic-mystical tradition and the Hasidic tradition",
+    "enriched_author": "David R. Blumenthal",
+    "existing_id": "3f623976-2a35-4e3b-b815-94ba31399f00",
+    "existing_title": "Understanding Jewish Mysticism",
+    "existing_author": "David R. Blumenthal"
+  },
+  {
+    "reason": "title similarity 0.800 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.799673202614379,
+      "author": 1,
+      "lengthRatio": 1.1333333333333333
+    },
+    "enriched_title": "Die Attische Politik Seit Perikles",
+    "enriched_author": "Julius Beloch",
+    "existing_id": "3fa179db-fce5-4dd1-a3d3-9a86a7d3ffbb",
+    "existing_title": "Attische Politik Seit Perikles",
+    "existing_author": "Julius Beloch"
+  },
+  {
+    "reason": "author similarity 0.443 < 0.75",
+    "matchedBy": "fuzzy(0.964)",
+    "score": {
+      "title": 0.9638191632928474,
+      "author": 0.44256474519632416,
+      "lengthRatio": 1.0256410256410255
+    },
+    "enriched_title": "Problèmes de la terre en Grèce ancienne",
+    "enriched_author": "Moses I. Finley",
+    "existing_id": "5d5f001b-9a80-438c-9771-34281c7c0ad7",
+    "existing_title": "Problèmes de la guerre en Grèce ancienne",
+    "existing_author": "Jean-Pierre Vernant"
+  },
+  {
+    "reason": "title length ratio 2.71 > 1.5; title similarity 0.874 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8739130434782608,
+      "author": 1,
+      "lengthRatio": 2.7058823529411766
+    },
+    "enriched_title": "Moses Mendelssohn",
+    "enriched_author": "Moses Mendelssohn",
+    "existing_id": "40e32371-9e80-4274-8590-cca9d4f50962",
+    "existing_title": "Moses Mendelssohn Selections from his Writings",
+    "existing_author": "Moses Mendelssohn"
+  },
+  {
+    "reason": "title length ratio 2.11 > 1.5; title similarity 0.895 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8947368421052632,
+      "author": 1,
+      "lengthRatio": 2.111111111111111
+    },
+    "enriched_title": "Anthologie grecque",
+    "enriched_author": "Unknown",
+    "existing_id": "413c9825-7f41-4afb-90e6-c0730ff6d21f",
+    "existing_title": "Anthologie Grecque Anthologie Palatine",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.687 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.6872710622710624,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Soncino Books of the Bible",
+    "enriched_author": "Abraham Cohen",
+    "existing_id": "b251bd07-e682-440d-90ff-93ea9581f798",
+    "existing_title": "The Soncino Books of the Bible",
+    "existing_author": "The Rev. Dr. A. Cohen"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.562 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.56184012066365,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "427c0ef2-0695-4f27-b099-fc79696b7cf2",
+    "existing_title": "The Papers of the Bibliographical Society of America",
+    "existing_author": "K. I. D. Maslen, John Lancaster, Richard B. Kielbowicz, James P. Hammersmith"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "title length ratio 5.33 > 1.5; title similarity 0.838 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8375,
+      "author": 1,
+      "lengthRatio": 5.333333333333333
+    },
+    "enriched_title": "A Mediterranean Society",
+    "enriched_author": "S. D. Goitein",
+    "existing_id": "15cde8d7-cd86-4ed9-842a-2952cbc1e98b",
+    "existing_title": "A Mediterranean Society: The Jewish Communities of the Arab World as Portrayed in the Documents of the Cairo Geniza",
+    "existing_author": "S. D. Goitein"
+  },
+  {
+    "reason": "author similarity 0.533 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.5331196581196581,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Year Book, 2000-2001",
+    "enriched_author": "Breckland District Council",
+    "existing_id": "43ec53bb-1e22-4bf6-8f9d-15a4c9b7d943",
+    "existing_title": "YEAR BOOK 2000-2001",
+    "existing_author": "H.T NACHBILL"
+  },
+  {
+    "reason": "author similarity 0.541 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.5407407407407407,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Iliad. Books I-XII. ...",
+    "enriched_author": "Homer",
+    "existing_id": "4414d65a-d5dc-4f35-a59c-8f1c6ac4a72b",
+    "existing_title": "Iliad, Books I-XII",
+    "existing_author": "D. B. Monro"
+  },
+  {
+    "reason": "title length ratio 1.69 > 1.5; title similarity 0.770 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7704475308641975,
+      "author": 0.7557189542483661,
+      "lengthRatio": 1.6875
+    },
+    "enriched_title": "Cicero, the Senior Statesman",
+    "enriched_author": "Thomas N. Mitchell",
+    "existing_id": "48eed2ad-503d-470e-bf32-021a1101542f",
+    "existing_title": "The Senior Statesman",
+    "existing_author": "Cicero, Thomas N. Mitchell"
+  },
+  {
+    "reason": "title length ratio 2.09 > 1.5; title similarity 0.598 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5976064997804129,
+      "author": 0.29523809523809524,
+      "lengthRatio": 2.090909090909091
+    },
+    "enriched_title": "From Text to Tradition",
+    "enriched_author": "Lawrence H. Schiffman",
+    "existing_id": "076eb269-357d-42eb-aa47-24bbf48e862f",
+    "existing_title": "Tradition: A Journal of Orthodox Jewish Thought",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "author similarity 0.497 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.49666666666666665,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The commentary of Ibn Ezra on Isaiah",
+    "enriched_author": "Abraham ben Meïr Ibn Ezra",
+    "existing_id": "4b34829e-ee37-455d-9f4e-5e30687629f8",
+    "existing_title": "The Commentary of Ibn Ezra on Isaiah",
+    "existing_author": "Ibn Ezra"
+  },
+  {
+    "reason": "title length ratio 2.59 > 1.5; title similarity 0.877 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8771929824561403,
+      "author": 0.9048717948717949,
+      "lengthRatio": 2.590909090909091
+    },
+    "enriched_title": "Piety and Perseverance",
+    "enriched_author": "Herman Dicker",
+    "existing_id": "4bce817e-1cb7-43fa-ae97-9824b6e98b19",
+    "existing_title": "Piety and Perseverance: Jews from the Carpathian Mountains",
+    "existing_author": "Her Dickey"
+  },
+  {
+    "reason": "title length ratio 1.60 > 1.5",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.925,
+      "author": 1,
+      "lengthRatio": 1.6
+    },
+    "enriched_title": "A Social and Religious History of the Jews, by Salo Wittmayer Baron ...",
+    "enriched_author": "Salo Wittmayer Baron",
+    "existing_id": "a7bb0a8a-2bd5-4295-8252-0fbc6de031fe",
+    "existing_title": "A Social and Religious History of the Jews",
+    "existing_author": "Salo Wittmayer Baron"
+  },
+  {
+    "reason": "title length ratio 2.25 > 1.5; title similarity 0.889 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.888888888888889,
+      "author": 0.9023569023569024,
+      "lengthRatio": 2.25
+    },
+    "enriched_title": "Mary Poppins Opens the Door",
+    "enriched_author": "P. L. Travers",
+    "existing_id": "4c675726-f2aa-40e0-8968-cdde797cb347",
+    "existing_title": "MARY POPPINS",
+    "existing_author": "L. Travers"
+  },
+  {
+    "reason": "author similarity 0.552 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.5517623716153128,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "4cc24e9f-ea25-4fc1-b55e-d2a802735a20",
+    "existing_title": "The Papers of the Bibliographical Society of America",
+    "existing_author": "Ashley Marshall, Robert D. Hume, Edward Jacobs, B. J. McMullin"
+  },
+  {
+    "reason": "title length ratio 2.00 > 1.5; title similarity 0.533 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5333333333333333,
+      "author": 0.4047619047619047,
+      "lengthRatio": 2
+    },
+    "enriched_title": "A History of the Classical World",
+    "enriched_author": "Elizabeth Wyse",
+    "existing_id": "9390268a-3f84-499e-9c7d-1e13fa0ae0d4",
+    "existing_title": "Classical World",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 3.90 > 1.5; title similarity 0.635 < 0.92; author similarity 0.500 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6354700854700854,
+      "author": 0.5,
+      "lengthRatio": 3.9
+    },
+    "enriched_title": "The Concise Dictionary of World Place-Names",
+    "enriched_author": "John Everett-Heath",
+    "existing_id": "4e4a3c15-b8f4-41d4-ac9e-7777706be8af",
+    "existing_title": "DICTIONARY",
+    "existing_author": "VAVOHY HE"
+  },
+  {
+    "reason": "author similarity 0.584 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.584045584045584,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Al-Faraid; Arabic-English Dictionary",
+    "enriched_author": "Joseph G. Hava",
+    "existing_id": "4e5b6d64-99ea-41df-b585-eaddf75241a5",
+    "existing_title": "al-faraid arabic-english dictionary",
+    "existing_author": "SKI & G D W"
+  },
+  {
+    "reason": "title length ratio 2.00 > 1.5; title similarity 0.533 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5333333333333333,
+      "author": 0.4047619047619047,
+      "lengthRatio": 2
+    },
+    "enriched_title": "A History of the Classical World",
+    "enriched_author": "Elizabeth Wyse",
+    "existing_id": "9390268a-3f84-499e-9c7d-1e13fa0ae0d4",
+    "existing_title": "Classical World",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 1.75 > 1.5; title similarity 0.696 < 0.92; author similarity 0.495 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6956845238095237,
+      "author": 0.49464285714285716,
+      "lengthRatio": 1.75
+    },
+    "enriched_title": "Language and background of Homer;",
+    "enriched_author": "Geoffrey Stephen Kirk",
+    "existing_id": "58ce795f-671f-4bb8-b94c-e2829c2bc64a",
+    "existing_title": "VIEWS AND CONTROVERSIES LANGUAGE AND BACKGROUND OF HOMER",
+    "existing_author": "G. S. Kirk"
+  },
+  {
+    "reason": "author similarity 0.687 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.6872710622710624,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Soncino Books of the Bible",
+    "enriched_author": "Abraham Cohen",
+    "existing_id": "b251bd07-e682-440d-90ff-93ea9581f798",
+    "existing_title": "The Soncino Books of the Bible",
+    "existing_author": "The Rev. Dr. A. Cohen"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.691 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.690670114199526,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Mikhail Lomonosov",
+    "enriched_author": "Il'ia Zakharovich Serman; Universiṭah ha-ʻIvrit bi-Yerushalayim. Center for the Study of Slavic Languages and Literatures",
+    "existing_id": "5fa9fae5-9024-4735-8e44-c4c1b3fa9a0b",
+    "existing_title": "MIKHAIL LOMONOSOV",
+    "existing_author": "ILYA Z. SERMAN"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "author similarity 0.517 < 0.75",
+    "matchedBy": "fuzzy(0.965)",
+    "score": {
+      "title": 0.9649122807017544,
+      "author": 0.5166666666666667,
+      "lengthRatio": 1.1176470588235294
+    },
+    "enriched_title": "History of the Jews",
+    "enriched_author": "Heinrich Graetz",
+    "existing_id": "bb6220a5-775f-4a63-8669-d7c223c0ffd1",
+    "existing_title": "THE STORY OF THE JEWS",
+    "existing_author": "LEWIS BROWNE"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "title length ratio 2.09 > 1.5; title similarity 0.598 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5976064997804129,
+      "author": 0.29523809523809524,
+      "lengthRatio": 2.090909090909091
+    },
+    "enriched_title": "From Text to Tradition",
+    "enriched_author": "Lawrence H. Schiffman",
+    "existing_id": "076eb269-357d-42eb-aa47-24bbf48e862f",
+    "existing_title": "Tradition: A Journal of Orthodox Jewish Thought",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 5.93 > 1.5; title similarity 0.592 < 0.92; author similarity 0.545 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5919391853126793,
+      "author": 0.5446682946682947,
+      "lengthRatio": 5.928571428571429
+    },
+    "enriched_title": "Harry Austryn Wolfson Jubilee Volume on the Occasion of His Seventy-fifthe Birthday",
+    "enriched_author": "American Academy for Jewish Research",
+    "existing_id": "61de6c96-2a54-457b-bab5-6ea18a53678d",
+    "existing_title": "Jubilee Volume",
+    "existing_author": "Harry Austryn Wolfson"
+  },
+  {
+    "reason": "author similarity 0.434 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.4335511982570806,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Gesammelte Werke",
+    "enriched_author": "Karl Schwarzschild",
+    "existing_id": "88a8b0c3-f5d3-4005-b7d7-f2bcd7e2c206",
+    "existing_title": "Gesammelte Werke",
+    "existing_author": "Gerhart Hauptmann"
+  },
+  {
+    "reason": "author similarity 0.369 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.3686731195805606,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Hellenica Oxyrhynchia",
+    "enriched_author": "Paul McKechnie; Stephen J. Kern",
+    "existing_id": "edb2e017-bb19-4a37-837e-b02e6901689c",
+    "existing_title": "Hellenica Oxyrhynchia",
+    "existing_author": "Vittorio Bartoletti"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "title similarity 0.881 < 0.92; author similarity 0.568 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8813725490196078,
+      "author": 0.568043068043068,
+      "lengthRatio": 1.411764705882353
+    },
+    "enriched_title": "The Alternative Augustan Age",
+    "enriched_author": "Kit Morrell; Josiah Osgood; Kathryn Welch",
+    "existing_id": "624bf195-90f2-4371-8da2-7dbcdb1b96d4",
+    "existing_title": "THE ALTERNATIVE STORY",
+    "existing_author": "ZIPORA TALSHIR"
+  },
+  {
+    "reason": "author similarity 0.523 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.5225930045729823,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Phoenix",
+    "enriched_author": "Sidney Sheldon; Tilly Bagshawe",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title length ratio 7.67 > 1.5; title similarity 0.826 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8260869565217391,
+      "author": 0.8957219251336899,
+      "lengthRatio": 7.666666666666667
+    },
+    "enriched_title": "Python",
+    "enriched_author": "Joseph Eddy Fontenrose",
+    "existing_id": "62dc8052-7f0d-4d8f-8c85-c2e7f67047b7",
+    "existing_title": "PYTHON\nA Study of Delphic Myth and Its Origins",
+    "existing_author": "JOSEPH FONTENROSE"
+  },
+  {
+    "reason": "title similarity 0.827 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.82726395173454,
+      "author": 1,
+      "lengthRatio": 1.1470588235294117
+    },
+    "enriched_title": "The Impact of Environmental Assessment",
+    "enriched_author": "Kenneth Cauthen",
+    "existing_id": "62f557f5-dde3-49f5-9134-af481b20b41a",
+    "existing_title": "The Impact of American Religious Liberalism",
+    "existing_author": "Kenneth Cauthen"
+  },
+  {
+    "reason": "title length ratio 2.55 > 1.5; title similarity 0.654 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6536796536796537,
+      "author": 0.3011204481792717,
+      "lengthRatio": 2.5454545454545454
+    },
+    "enriched_title": "Bibliotheca scriptorum classicorum: Abt. Scriptores Latini",
+    "enriched_author": "Wilhelm Engelmann",
+    "existing_id": "630468e3-f053-497d-9273-95650b75cb03",
+    "existing_title": "SCRIPTORUM CLASSICORUM",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 15.57 > 1.5; title similarity 0.545 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.54521625163827,
+      "author": 0.9409090909090909,
+      "lengthRatio": 15.571428571428571
+    },
+    "enriched_title": "Studies in Honour of Gilbert Norwood. The Phoenix - Journal of the Classical Association of Canada, Supplementary",
+    "enriched_author": "Classical Association of Canada; Mary E. White",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "author similarity 0.463 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.46296296296296297,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Pindar",
+    "enriched_author": "Gilbert Norwood",
+    "existing_id": "96f4a053-e67d-416c-8575-5f44810f372b",
+    "existing_title": "Pindar",
+    "existing_author": "C. M. Bowra"
+  },
+  {
+    "reason": "title similarity 0.731 < 0.92; author similarity 0.515 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7309216192937124,
+      "author": 0.5151098901098901,
+      "lengthRatio": 1.0465116279069768
+    },
+    "enriched_title": "Christian Imaginations of the Religious Other",
+    "enriched_author": "Marianne Moyaert",
+    "existing_id": "640a6224-dba3-48e0-b842-48937f238e0d",
+    "existing_title": "Other Christian Writings in the Loeb Series",
+    "existing_author": "Bede, Boethius, Jerome, Prudentius, Tertullian, The Apostolic Fathers, St. Basil, Clement of Alexandria, Eusebius"
+  },
+  {
+    "reason": "title similarity 0.561 < 0.92; author similarity 0.414 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.561300505050505,
+      "author": 0.41391941391941395,
+      "lengthRatio": 1.4545454545454546
+    },
+    "enriched_title": "Rebuilding the Ancestral Village",
+    "enriched_author": "Kung Eng Kuah",
+    "existing_id": "6468cd94-013f-46dc-981a-564d07f24762",
+    "existing_title": "The Ancestral Constitution",
+    "existing_author": "Alexander Fuks"
+  },
+  {
+    "reason": "author similarity 0.508 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.5076706608569355,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "65795d72-267e-4cc2-be46-e5632fddcf3d",
+    "existing_title": "THE PAPERS OF THE BIBLIOGRAPHICAL SOCIETY OF AMERICA",
+    "existing_author": "Andrea Krupp, Jennifer Woods Rosner, Gary Taylor, Robert D. Armstrong, Juliet Gardiner"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "author similarity 0.278 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.2777777777777778,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Thucydides",
+    "enriched_author": "Thucydides",
+    "existing_id": "410bd3d8-e322-4cac-80a4-0f0df791f095",
+    "existing_title": "Thucydides",
+    "existing_author": "W. Robert Connor"
+  },
+  {
+    "reason": "title length ratio 3.00 > 1.5; title similarity 0.612 < 0.92; author similarity 0.415 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6115226337448559,
+      "author": 0.4146825396825397,
+      "lengthRatio": 3
+    },
+    "enriched_title": "Religion and the Individual",
+    "enriched_author": "Louis Jacobs",
+    "existing_id": "679bd72a-081d-437f-a730-ab40573184ed",
+    "existing_title": "AUTO AND JUDAADM: The Individual and the Community in Jewish Philosophical Thought",
+    "existing_author": "Daniel H. Frank"
+  },
+  {
+    "reason": "title length ratio 2.77 > 1.5; title similarity 0.872 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8721649484536083,
+      "author": 1,
+      "lengthRatio": 2.7714285714285714
+    },
+    "enriched_title": "Sefer Ha-'Ikkarim. Book of Principles ... Critically Edited ... with a Translation and Notes by Isaac Husik",
+    "enriched_author": "Joseph Albo; Isaac HUSIK",
+    "existing_id": "67ace586-6329-4664-8844-aaca873d0586",
+    "existing_title": "Sefer Ha-'Ikkarim Book of Principles",
+    "existing_author": "Joseph Albo, Isaac Husik"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "title length ratio 1.52 > 1.5; title similarity 0.535 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5347222222222222,
+      "author": 1,
+      "lengthRatio": 1.5238095238095237
+    },
+    "enriched_title": "Modernism and the Grounds of Law",
+    "enriched_author": "Peter Fitzpatrick",
+    "existing_id": "68d7eb3a-3838-4835-af68-25b4e8cc3893",
+    "existing_title": "Law and Social Theory",
+    "existing_author": "Peter Fitzpatrick"
+  },
+  {
+    "reason": "author similarity 0.434 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.4335511982570806,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Gesammelte Werke",
+    "enriched_author": "Karl Schwarzschild",
+    "existing_id": "88a8b0c3-f5d3-4005-b7d7-f2bcd7e2c206",
+    "existing_title": "Gesammelte Werke",
+    "existing_author": "Gerhart Hauptmann"
+  },
+  {
+    "reason": "author similarity 0.561 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.560984262125903,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "692c4ee5-4b8f-4571-b6d3-ababc5e70ec5",
+    "existing_title": "The Papers of the Bibliographical Society of America",
+    "existing_author": "Roger E. Stoddard, Giles Mandelbrote, Richard Landon, Lenore Coral, Karen Nipps, Gabriel Austin, Christian Coppens, Henri Schiller, Eric Holzenberg, Roland Folter"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title similarity 0.693 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.692633375189156,
+      "author": 1,
+      "lengthRatio": 1.2352941176470589
+    },
+    "enriched_title": "Le trouble et la lumière, 1955-1998",
+    "enriched_author": "Pierre Vidal-Naquet",
+    "existing_id": "69b01752-ed99-4b85-84a2-03f1bf68de81",
+    "existing_title": "Mémoires: la brisure et l'attente, 1930-1955",
+    "existing_author": "Pierre Vidal-Naquet"
+  },
+  {
+    "reason": "title length ratio 2.62 > 1.5; title similarity 0.462 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.4624003447532859,
+      "author": 1,
+      "lengthRatio": 2.6153846153846154
+    },
+    "enriched_title": "A Short History of the Jewish People",
+    "enriched_author": "Cecil Roth",
+    "existing_id": "69c7be16-a8c1-4f08-a7df-6c1f0c6860ce",
+    "existing_title": "THE JEWISH PEOPLE",
+    "existing_author": "CECIL ROTH"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 2.00 > 1.5; title similarity 0.533 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5333333333333333,
+      "author": 0.4047619047619047,
+      "lengthRatio": 2
+    },
+    "enriched_title": "A History of the Classical World",
+    "enriched_author": "Elizabeth Wyse",
+    "existing_id": "9390268a-3f84-499e-9c7d-1e13fa0ae0d4",
+    "existing_title": "Classical World",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 53.00 > 1.5; title similarity 0.706 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7056603773584906,
+      "author": 0.5093073593073593,
+      "lengthRatio": 53
+    },
+    "enriched_title": "'n Wysgerige ondersoek na die probleem van persvryheid",
+    "enriched_author": "Diederik Johannes Hattingh (Publisher unknown.)",
+    "existing_id": "6e1083e9-1740-4bcc-83e9-eda36ce2d652",
+    "existing_title": "N.",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 2.88 > 1.5; title similarity 0.647 < 0.92; author similarity 0.603 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6471920289855072,
+      "author": 0.6027777777777777,
+      "lengthRatio": 2.875
+    },
+    "enriched_title": "Jewish Mysticism",
+    "enriched_author": "J. Laenen; David Orton",
+    "existing_id": "6e3f5880-500a-4e10-8df7-54db61c8a9fb",
+    "existing_title": "Understanding Jewish Mysticism: A Source Reader",
+    "existing_author": "David R. Blumenthal"
+  },
+  {
+    "reason": "title length ratio 7.00 > 1.5; title similarity 0.460 < 0.92; author similarity 0.475 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.4603174603174603,
+      "author": 0.47474747474747475,
+      "lengthRatio": 7
+    },
+    "enriched_title": "Tom",
+    "enriched_author": "Tom",
+    "existing_id": "6ea5413a-cc9f-4cd8-8e12-643292aefb24",
+    "existing_title": "COHHHEHHH TOM IEPBbIM",
+    "existing_author": "MHHHEIDITHM"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title length ratio 2.75 > 1.5; title similarity 0.561 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5606060606060607,
+      "author": 0.43650793650793646,
+      "lengthRatio": 2.75
+    },
+    "enriched_title": "Thomas Mann",
+    "enriched_author": "Hermann Kurzke",
+    "existing_id": "6f5afb2b-999f-470c-a3cf-050e06ea0e1c",
+    "existing_title": "mann",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 6.00 > 1.5; title similarity 0.778 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7777777777777779,
+      "author": 0.3511904761904762,
+      "lengthRatio": 6
+    },
+    "enriched_title": "33 רגעי אושר",
+    "enriched_author": "Ingo Schulze; אינגו שולצה",
+    "existing_id": "ca448f6d-39b2-49ee-a3e9-27bf2683eb06",
+    "existing_title": "33",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.568 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5676169590643275,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Iambi Et Elegi Graeci Ante Alexandrum Cantati",
+    "enriched_author": "M. L. West",
+    "existing_id": "b07c7dc6-0c3b-48d2-9103-726c71f01832",
+    "existing_title": "Iambi Et Elegi Graeci Ante Alexandrum Cantati",
+    "existing_author": "Callinus, Mermermw, Semonies, Solon, Tyrtacus, Minora Adespota"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title length ratio 2.55 > 1.5; title similarity 0.878 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8784313725490196,
+      "author": 0.9156177606177607,
+      "lengthRatio": 2.55
+    },
+    "enriched_title": "The Complete Greek Drama, 2 Vols, Edited by Oates & O'neill",
+    "enriched_author": "Whitney j. (editor) Oates; Eugene O'Neill (Jr.)",
+    "existing_id": "705e5344-9a28-4192-a677-44290c2d852d",
+    "existing_title": "The Complete Greek Drama",
+    "existing_author": "Whitney J. Oates and Eugene O'Neill, Jr."
+  },
+  {
+    "reason": "title similarity 0.594 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5944444444444444,
+      "author": 1,
+      "lengthRatio": 1.2
+    },
+    "enriched_title": "ACCA.: Q & A set",
+    "enriched_author": "Unknown",
+    "existing_id": "70f8d0e5-8fba-46b5-a4bc-22e6fa3d6843",
+    "existing_title": "CUS ACCA Q",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 1.71 > 1.5; title similarity 0.917 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9169811320754717,
+      "author": 0.88,
+      "lengthRatio": 1.7096774193548387
+    },
+    "enriched_title": "The Complete Writings of Thucydides",
+    "enriched_author": "Thucydides",
+    "existing_id": "71386b56-b105-441c-a139-232e032b801d",
+    "existing_title": "The Complete Writings of Thucydides: The Peloponnesian War",
+    "existing_author": "Thucydides, Joseph Gavrose"
+  },
+  {
+    "reason": "title similarity 0.757 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7575,
+      "author": 0.9818181818181818,
+      "lengthRatio": 1.28
+    },
+    "enriched_title": "Les plaidoyers politiques",
+    "enriched_author": "Demosthenes",
+    "existing_id": "71961532-22e6-42b4-aaa2-4a9535dad93d",
+    "existing_title": "DEMOSTHENE PLAIDOYERS POLITIQUES",
+    "existing_author": "DEMOSTHENE"
+  },
+  {
+    "reason": "title length ratio 1.63 > 1.5",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9230769230769231,
+      "author": 0.7504960317460317,
+      "lengthRatio": 1.625
+    },
+    "enriched_title": "La guerre du Péloponnèse",
+    "enriched_author": "Thucydides; Jacqueline de Romilly",
+    "existing_id": "729b0c28-25c2-48c5-b043-d4576e2e0b3d",
+    "existing_title": "La Guerre du Péloponnèse, Livres IV et V",
+    "existing_author": "Jacqueline de Romilly"
+  },
+  {
+    "reason": "title length ratio 2.39 > 1.5; title similarity 0.884 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8837209302325582,
+      "author": 1,
+      "lengthRatio": 2.388888888888889
+    },
+    "enriched_title": "The Buddhist Tradition",
+    "enriched_author": "William Theodore de Bary",
+    "existing_id": "732d1167-9971-47b9-a215-98a8f2ddfe28",
+    "existing_title": "The Buddhist Tradition in India, China and Japan",
+    "existing_author": "William Theodore de Bary"
+  },
+  {
+    "reason": "author similarity 0.685 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.6847902097902098,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Social & Economic History of the Hellenistic World",
+    "enriched_author": "Michael Ivanovitch Rostovtzeff; M. Rostovtzeff",
+    "existing_id": "7367117a-7066-4b7f-97c5-d8b348181dd0",
+    "existing_title": "The Social & Economic History of the Hellenistic World",
+    "existing_author": "M. Rostovtzeff"
+  },
+  {
+    "reason": "author similarity 0.418 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.41832301509720865,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Phoenix",
+    "enriched_author": "David Herbert Lawrence",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title length ratio 1.71 > 1.5; title similarity 0.468 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.4682539682539682,
+      "author": 1,
+      "lengthRatio": 1.7142857142857142
+    },
+    "enriched_title": "RCM Midwives",
+    "enriched_author": "M.K.",
+    "existing_id": "7416e9cd-b813-45ee-9c7c-99e5944dd386",
+    "existing_title": "ONG RCM",
+    "existing_author": "M.K."
+  },
+  {
+    "reason": "title length ratio 6.33 > 1.5; title similarity 0.462 < 0.92; author similarity 0.304 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.4619883040935672,
+      "author": 0.30357142857142855,
+      "lengthRatio": 6.333333333333333
+    },
+    "enriched_title": "The Old Man and the Sea",
+    "enriched_author": "Ernest Hemingway",
+    "existing_id": "74b5e97e-c630-481a-ab1d-0bf2e61d2f45",
+    "existing_title": "SEA",
+    "existing_author": "VOTYOTE"
+  },
+  {
+    "reason": "title similarity 0.801 < 0.92; author similarity 0.608 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8005080574740018,
+      "author": 0.6083333333333333,
+      "lengthRatio": 1.368421052631579
+    },
+    "enriched_title": "Scholarship Book 1998/1999",
+    "enriched_author": "Daniel J. Cassidy; Cassidy",
+    "existing_id": "75467a31-fa83-4c51-9679-1ad1b4aa1dd0",
+    "existing_title": "YEAR BOOK 1998-1999",
+    "existing_author": "American Philosophical Society"
+  },
+  {
+    "reason": "author similarity 0.719 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.7187912087912087,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Rvdens",
+    "enriched_author": "Titus Maccius Plautus",
+    "existing_id": "765bcadc-7f38-456d-b889-97dfabe43a93",
+    "existing_title": "RVDENS",
+    "existing_author": "T. MACCI PLAV TI"
+  },
+  {
+    "reason": "title length ratio 2.88 > 1.5; title similarity 0.658 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.657608695652174,
+      "author": 0.790375,
+      "lengthRatio": 2.875
+    },
+    "enriched_title": "Discours",
+    "enriched_author": "Lysias; Louis Gernet; Marcel Bizos",
+    "existing_id": "76637b9d-669f-4c43-9f70-c79fd18a55d5",
+    "existing_title": "Lysias Discours Tome II",
+    "existing_author": "Louis Gernet, Marcel Bizos"
+  },
+  {
+    "reason": "author similarity 0.424 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.4238095238095238,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Gulliver's Travels",
+    "enriched_author": "Jonathan Swift",
+    "existing_id": "7fbb3427-c60f-43e6-9ed8-4fc9c23cbc63",
+    "existing_title": "Gulliver's Travels",
+    "existing_author": "SWIFT"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "author similarity 0.445 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.4454248366013072,
+      "lengthRatio": 1
+    },
+    "enriched_title": "A History of Rome",
+    "enriched_author": "Erik Christiansen",
+    "existing_id": "f5fcf2d5-e4ce-4bd9-93f8-df121cac23d8",
+    "existing_title": "A HISTORY OF ROME",
+    "existing_author": "ARTHUR E. R. BOAK"
+  },
+  {
+    "reason": "title length ratio 2.00 > 1.5; title similarity 0.900 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9,
+      "author": 1,
+      "lengthRatio": 2
+    },
+    "enriched_title": "Rhétorique",
+    "enriched_author": "Aristote",
+    "existing_id": "78d27114-976a-4493-8a1c-3b334229df34",
+    "existing_title": "RHÉTORIQUE (LIVRE III)",
+    "existing_author": "ARISTOTE"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.600 < 0.75",
+    "matchedBy": "fuzzy(0.926)",
+    "score": {
+      "title": 0.9257142857142857,
+      "author": 0.6,
+      "lengthRatio": 1.4
+    },
+    "enriched_title": "A History of Greek Art",
+    "enriched_author": "Martin Robertson",
+    "existing_id": "f1254878-2a1f-4cc1-8c31-2059096a4569",
+    "existing_title": "A HISTORY OF GREEK MATHEMATICS",
+    "existing_author": "Sir Thomas Heath"
+  },
+  {
+    "reason": "title length ratio 1.67 > 1.5",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.92,
+      "author": 1,
+      "lengthRatio": 1.6666666666666667
+    },
+    "enriched_title": "Collected Poems 1909-1962",
+    "enriched_author": "T. S. Eliot",
+    "existing_id": "7b4a8dfd-b94f-49f7-a9e1-cdbf2cf51be5",
+    "existing_title": "Collected Poems",
+    "existing_author": "T. S. Eliot"
+  },
+  {
+    "reason": "title length ratio 4.00 > 1.5; title similarity 0.850 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.85,
+      "author": 0.543040293040293,
+      "lengthRatio": 4
+    },
+    "enriched_title": "Gisi Fleischmann",
+    "enriched_author": "Oskar Neumann",
+    "existing_id": "7b74a919-8811-4052-97dd-9d1c84552d2a",
+    "existing_title": "Gisi",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 1.60 > 1.5; author similarity 0.480 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.925,
+      "author": 0.47979797979797983,
+      "lengthRatio": 1.6
+    },
+    "enriched_title": "Black Dove",
+    "enriched_author": "Bill Carr",
+    "existing_id": "7b904f9a-b90e-4752-8c7d-6b4317fc4161",
+    "existing_title": "BLACK DOVES PEAK",
+    "existing_author": "ROSARIA VIGNOLO MUNSON"
+  },
+  {
+    "reason": "author similarity 0.511 < 0.75",
+    "matchedBy": "fuzzy(0.931)",
+    "score": {
+      "title": 0.9314285714285714,
+      "author": 0.5111111111111111,
+      "lengthRatio": 1.0714285714285714
+    },
+    "enriched_title": "History of Art",
+    "enriched_author": "H. W. Janson",
+    "existing_id": "f5fcf2d5-e4ce-4bd9-93f8-df121cac23d8",
+    "existing_title": "A HISTORY OF ROME",
+    "existing_author": "ARTHUR E. R. BOAK"
+  },
+  {
+    "reason": "title similarity 0.832 < 0.92; author similarity 0.701 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8321428571428573,
+      "author": 0.7013366750208855,
+      "lengthRatio": 1.1666666666666667
+    },
+    "enriched_title": "The Love Letters of Abelard and Heloise",
+    "enriched_author": "Peter Abelard Heloise",
+    "existing_id": "7cd0a2f5-7e09-475a-abdd-1e36a45e241f",
+    "existing_title": "THE LETTERS OF ABELARD AND HELOISE",
+    "existing_author": "ABELARD AND HELOISE"
+  },
+  {
+    "reason": "title length ratio 2.65 > 1.5; title similarity 0.636 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6358451072736787,
+      "author": 1,
+      "lengthRatio": 2.6530612244897958
+    },
+    "enriched_title": "Œuvres complètes de Paul Verlaine: Poèmes saturniens ; Fêtes galantes ; La bonne chanson ; Romances sans paroles ; Sagesse ; Jadis et naguère",
+    "enriched_author": "Paul Verlaine",
+    "existing_id": "7d2e25f5-0262-46eb-a714-226bc01c1493",
+    "existing_title": "Poèmes saturniens, Fêtes galantes, La Bonne chanson",
+    "existing_author": "Paul Verlaine"
+  },
+  {
+    "reason": "title length ratio 2.11 > 1.5; title similarity 0.895 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8947368421052632,
+      "author": 1,
+      "lengthRatio": 2.111111111111111
+    },
+    "enriched_title": "Anthologie grecque",
+    "enriched_author": "Unknown",
+    "existing_id": "413c9825-7f41-4afb-90e6-c0730ff6d21f",
+    "existing_title": "Anthologie Grecque Anthologie Palatine",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 3.20 > 1.5; title similarity 0.579 < 0.92; author similarity 0.000 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5791666666666667,
+      "author": 0,
+      "lengthRatio": 3.2
+    },
+    "enriched_title": "你的名字Another Side：Earthbound(02)完",
+    "enriched_author": "加納新太",
+    "existing_id": "7d9753f4-7e5b-4254-9ce7-5342efd2acb9",
+    "existing_title": "Earthbound",
+    "existing_author": "Marguerite Serkin"
+  },
+  {
+    "reason": "author similarity 0.517 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.5174603174603174,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Menaechmi",
+    "enriched_author": "Titus Maccius Plautus",
+    "existing_id": "7dde5b7c-f3c2-47c4-a488-fb46ea400783",
+    "existing_title": "The Menaechmi",
+    "existing_author": "Plautus"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.000 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0,
+      "lengthRatio": 1
+    },
+    "enriched_title": "To the Lighthouse",
+    "enriched_author": "Virginia Woolf",
+    "existing_id": "7e39c613-d929-41e8-94f7-f3c73cea3895",
+    "existing_title": "To the Lighthouse",
+    "existing_author": "Woolf"
+  },
+  {
+    "reason": "title length ratio 2.71 > 1.5; title similarity 0.476 < 0.92; author similarity 0.527 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.4759398496240601,
+      "author": 0.5272727272727272,
+      "lengthRatio": 2.7142857142857144
+    },
+    "enriched_title": "Skissen som samtale",
+    "enriched_author": "Birgit Cold",
+    "existing_id": "7ea6f56e-a32a-4908-96b2-d3f021c85b11",
+    "existing_title": "SAMTALE",
+    "existing_author": "TAR S"
+  },
+  {
+    "reason": "title length ratio 4.67 > 1.5; title similarity 0.738 < 0.92; author similarity 0.469 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7380952380952381,
+      "author": 0.468984962406015,
+      "lengthRatio": 4.666666666666667
+    },
+    "enriched_title": "As You Like It",
+    "enriched_author": "William Shakespeare",
+    "existing_id": "7ee15a7f-6a78-4c5b-b801-4dafd97d9f6c",
+    "existing_title": "you",
+    "existing_author": "jik gli"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "author similarity 0.424 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.4238095238095238,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Gulliver's Travels",
+    "enriched_author": "Jonathan Swift",
+    "existing_id": "7fbb3427-c60f-43e6-9ed8-4fc9c23cbc63",
+    "existing_title": "Gulliver's Travels",
+    "existing_author": "SWIFT"
+  },
+  {
+    "reason": "title length ratio 3.09 > 1.5; title similarity 0.865 < 0.92; author similarity 0.654 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8647058823529411,
+      "author": 0.6543706293706294,
+      "lengthRatio": 3.090909090909091
+    },
+    "enriched_title": "Bacchylides Carmina cum fragmentis",
+    "enriched_author": "Bacchylides; Bruno Snell; Friedrich Blass; Wilhelm Süss",
+    "existing_id": "7ff079d7-dd3a-4ddf-8456-d8a505e5463f",
+    "existing_title": "BACCHYLIDES",
+    "existing_author": "BRUNO SNELL"
+  },
+  {
+    "reason": "title length ratio 1.87 > 1.5; title similarity 0.557 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5572150072150072,
+      "author": 1,
+      "lengthRatio": 1.8666666666666667
+    },
+    "enriched_title": "Tell Me the Truth about Love",
+    "enriched_author": "W. H. Auden",
+    "existing_id": "8044d429-bcd5-45df-bcc2-bf129bbbbad9",
+    "existing_title": "About the House",
+    "existing_author": "W.H. Auden"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title similarity 0.711 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7108823154405202,
+      "author": 0.4465894465894466,
+      "lengthRatio": 1.1272727272727272
+    },
+    "enriched_title": "Proceedings of the American Academy of Arts and Sciences, Vol. 6",
+    "enriched_author": "American Academy Of Arts And Sciences",
+    "existing_id": "80787f8b-d3cd-4cf8-89d8-dd8d90cd8f1c",
+    "existing_title": "THE AMERICAN ACADEMY OF ARTS AND SCIENCES RECORDS 1991-1992",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.723 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.7232854864433812,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Richard II",
+    "enriched_author": "William Shakespeare",
+    "existing_id": "80a495a5-a84e-44f3-86f1-5af18ee42664",
+    "existing_title": "Richard II",
+    "existing_author": "Shakespeare"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "title length ratio 1.66 > 1.5; title similarity 0.837 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8366558425503156,
+      "author": 0.5075559904327028,
+      "lengthRatio": 1.6612903225806452
+    },
+    "enriched_title": "The Cambridge History of American Literature: Early national literature: pt. II. Later national literature: pt. I",
+    "enriched_author": "William Peterfield Trent; John Erskine; Stuart Pratt Sherman; Carl Van Doren",
+    "existing_id": "84780508-f489-4a7f-ad65-378594eb45aa",
+    "existing_title": "The Cambridge History of Classical Literature: The Early Principate",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 1.75 > 1.5; title similarity 0.907 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.907310606060606,
+      "author": 0.4087301587301588,
+      "lengthRatio": 1.7454545454545454
+    },
+    "enriched_title": "Studies and Texts in Folklore, Magic, Mediaeval Romance, Hebrew Apocrypha, and Samaritan Archaeology",
+    "enriched_author": "Moses Gaster",
+    "existing_id": "84a47e0a-0f6b-4fad-ae67-ffb2d785e4f4",
+    "existing_title": "Studies and Texts in Folklore, Magic, Mediaeval Romantics",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 5.11 > 1.5; title similarity 0.839 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8391304347826087,
+      "author": 0.5514623172103487,
+      "lengthRatio": 5.111111111111111
+    },
+    "enriched_title": "Tradition",
+    "enriched_author": "Jonathan Sacks; Erica Brown; Edward Reichman; Dov Finkelstein; J. Bleich; Shoshana Schechter; Pinchas Roth; Yoel Finkelman; Jeffrey Saks",
+    "existing_id": "076eb269-357d-42eb-aa47-24bbf48e862f",
+    "existing_title": "Tradition: A Journal of Orthodox Jewish Thought",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title similarity 0.869 < 0.92; author similarity 0.478 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8686447811447812,
+      "author": 0.4777777777777778,
+      "lengthRatio": 1.1851851851851851
+    },
+    "enriched_title": "Pleasant Spots and Famous Places",
+    "enriched_author": "John Alfred Langford",
+    "existing_id": "85346494-29e3-4a31-9f7f-f66193fd0065",
+    "existing_title": "PLEASANT SPOTS ROUND EXFORD",
+    "existing_author": "RIMMER"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 1.67 > 1.5",
+    "matchedBy": "fuzzy(0.920)",
+    "score": {
+      "title": 0.92,
+      "author": 0.9076923076923077,
+      "lengthRatio": 1.6666666666666667
+    },
+    "enriched_title": "The Art of the West",
+    "enriched_author": "Henri Focillon; Donald King",
+    "existing_id": "18dc6e33-404d-4d54-af5d-57530caec2d8",
+    "existing_title": "The Art of the West II GOTHIC",
+    "existing_author": "Henri Focillon"
+  },
+  {
+    "reason": "title length ratio 1.79 > 1.5; title similarity 0.901 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9012383900928793,
+      "author": 1,
+      "lengthRatio": 1.7894736842105263
+    },
+    "enriched_title": "Das geistliche Jahr",
+    "enriched_author": "Annette von Droste-Hülshoff",
+    "existing_id": "8742b5ed-a512-4916-8c2d-1ee6e6192b98",
+    "existing_title": "Das geistliche Jabr - Jugendgedichte",
+    "existing_author": "Annette von Droste-Hülshoff"
+  },
+  {
+    "reason": "author similarity 0.449 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.9357142857142857,
+      "author": 0.44945355191256836,
+      "lengthRatio": 1.4736842105263157
+    },
+    "enriched_title": "Grammaire française",
+    "enriched_author": "Blanche Jughon; Oscar Auriac; H. Canac; B. Jughon (Mlle.); Henri Canac",
+    "existing_id": "87a46dd2-4640-4916-ba0b-bc6e4387e07c",
+    "existing_title": "GRAMMAIRE FRANÇAISE 2e LIVRE",
+    "existing_author": "R. GABBAY"
+  },
+  {
+    "reason": "title length ratio 2.07 > 1.5; title similarity 0.897 < 0.92; author similarity 0.482 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.896551724137931,
+      "author": 0.48181818181818176,
+      "lengthRatio": 2.0714285714285716
+    },
+    "enriched_title": "The Complete Poems",
+    "enriched_author": "Sir John Davies",
+    "existing_id": "87b43c7a-fddc-47ba-a21a-c9d32ab6ef93",
+    "existing_title": "The Complete Poems of John Milton",
+    "existing_author": "John Milton"
+  },
+  {
+    "reason": "author similarity 0.434 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.4335511982570806,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Gesammelte Werke",
+    "enriched_author": "Karl Schwarzschild",
+    "existing_id": "88a8b0c3-f5d3-4005-b7d7-f2bcd7e2c206",
+    "existing_title": "Gesammelte Werke",
+    "existing_author": "Gerhart Hauptmann"
+  },
+  {
+    "reason": "author similarity 0.345 < 0.75",
+    "matchedBy": "fuzzy(0.989)",
+    "score": {
+      "title": 0.9888888888888889,
+      "author": 0.34511784511784516,
+      "lengthRatio": 1.0588235294117647
+    },
+    "enriched_title": "Thucydides Book I",
+    "enriched_author": "Thucydides Thucydides; E. C. 1864-1960 Marchant",
+    "existing_id": "210c3030-fbec-4ccd-a8b3-07b1bbe17a85",
+    "existing_title": "THUCYDIDES BOOK VI",
+    "existing_author": "K. J. DOVER"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title similarity 0.794 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7936507936507936,
+      "author": 0.7698135198135199,
+      "lengthRatio": 1.4
+    },
+    "enriched_title": "Homer, Iliad, Book XXIV",
+    "enriched_author": "Colin Macleod",
+    "existing_id": "89df1143-213e-4ebc-bbb2-ba734e75d930",
+    "existing_title": "Iliad BOOK XXIV",
+    "existing_author": "C.W. Macleod"
+  },
+  {
+    "reason": "author similarity 0.476 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.4763440860215054,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Homeri Opera",
+    "enriched_author": "Homer",
+    "existing_id": "a6f524df-3e8f-4e24-b5c5-140c2f95d7e2",
+    "existing_title": "Homeri Opera",
+    "existing_author": "David B. Munro et Thomas W. Allen"
+  },
+  {
+    "reason": "title length ratio 2.04 > 1.5; title similarity 0.637 < 0.92; author similarity 0.653 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6370336013193155,
+      "author": 0.6528991596638656,
+      "lengthRatio": 2.0416666666666665
+    },
+    "enriched_title": "Wordsworth and Coleridge Selected Critical Essays",
+    "enriched_author": "William Wordsworth; Samuel Taylor Coleridge",
+    "existing_id": "8ae4751a-cc78-4413-af29-f6fce00679f0",
+    "existing_title": "Selected Critical Essays",
+    "existing_author": "Wordsworth & Coleridge"
+  },
+  {
+    "reason": "title similarity 0.645 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6446428571428572,
+      "author": 0.48917748917748916,
+      "lengthRatio": 1.4
+    },
+    "enriched_title": "Les harangues de Demosthenes",
+    "enriched_author": "Demosthenes",
+    "existing_id": "8c540d63-b084-468b-9ef2-113673beb236",
+    "existing_title": "DEMOSTHENE HARANGUES",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 2.00 > 1.5; title similarity 0.533 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5333333333333333,
+      "author": 0.4047619047619047,
+      "lengthRatio": 2
+    },
+    "enriched_title": "A History of the Classical World",
+    "enriched_author": "Elizabeth Wyse",
+    "existing_id": "9390268a-3f84-499e-9c7d-1e13fa0ae0d4",
+    "existing_title": "Classical World",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 2.11 > 1.5; title similarity 0.895 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8947368421052632,
+      "author": 1,
+      "lengthRatio": 2.111111111111111
+    },
+    "enriched_title": "Anthologie grecque",
+    "enriched_author": "Unknown",
+    "existing_id": "413c9825-7f41-4afb-90e6-c0730ff6d21f",
+    "existing_title": "Anthologie Grecque Anthologie Palatine",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 2.41 > 1.5; title similarity 0.883 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8830188679245283,
+      "author": 0.9466666666666667,
+      "lengthRatio": 2.409090909090909
+    },
+    "enriched_title": "Gedenkausgabe der Werke, Briefe und Gespräche. 28. August 1949. Herausgegeben von Ernst Beutler. [With portraits.].",
+    "enriched_author": "Johann Wolfgang von Goethe; Ernst Beutler",
+    "existing_id": "95d4a5d3-bbb7-4178-a0bf-0fe46a3f2201",
+    "existing_title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "existing_author": "JOHANN WOLFGANG GOETHE, ERNST BEUTLER"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.456 < 0.75",
+    "matchedBy": "fuzzy(0.953)",
+    "score": {
+      "title": 0.9533333333333333,
+      "author": 0.45555555555555555,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Thukydides",
+    "enriched_author": "Thucydides; J. Classen",
+    "existing_id": "410bd3d8-e322-4cac-80a4-0f0df791f095",
+    "existing_title": "Thucydides",
+    "existing_author": "W. Robert Connor"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title length ratio 2.41 > 1.5; title similarity 0.883 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8830188679245283,
+      "author": 0.9466666666666667,
+      "lengthRatio": 2.409090909090909
+    },
+    "enriched_title": "Gedenkausgabe der Werke, Briefe und Gespräche. 28. August 1949. Herausgegeben von Ernst Beutler. [With portraits.].",
+    "enriched_author": "Johann Wolfgang von Goethe; Ernst Beutler",
+    "existing_id": "95d4a5d3-bbb7-4178-a0bf-0fe46a3f2201",
+    "existing_title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "existing_author": "JOHANN WOLFGANG GOETHE, ERNST BEUTLER"
+  },
+  {
+    "reason": "author similarity 0.494 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.4944084810957876,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "9d3e5288-0fe0-467b-940a-417225c552cd",
+    "existing_title": "The Papers of the Bibliographical Society of America",
+    "existing_author": "P.N. Furbank and W. R. Owens, Sean Shesgreen, Jay A. Gertzman"
+  },
+  {
+    "reason": "title length ratio 15.57 > 1.5; title similarity 0.545 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.54521625163827,
+      "author": 0.9409090909090909,
+      "lengthRatio": 15.571428571428571
+    },
+    "enriched_title": "Studies in Honour of Gilbert Norwood. The Phoenix - Journal of the Classical Association of Canada, Supplementary",
+    "enriched_author": "Classical Association of Canada; Mary E. White",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "title length ratio 2.41 > 1.5; title similarity 0.883 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8830188679245283,
+      "author": 0.9466666666666667,
+      "lengthRatio": 2.409090909090909
+    },
+    "enriched_title": "Gedenkausgabe der Werke, Briefe und Gespräche. 28. August 1949. Herausgegeben von Ernst Beutler. [With portraits.].",
+    "enriched_author": "Johann Wolfgang von Goethe; Ernst Beutler",
+    "existing_id": "95d4a5d3-bbb7-4178-a0bf-0fe46a3f2201",
+    "existing_title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "existing_author": "JOHANN WOLFGANG GOETHE, ERNST BEUTLER"
+  },
+  {
+    "reason": "author similarity 0.739 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.7394285714285715,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Homeric Hymn to Demeter",
+    "enriched_author": "Nicholas James Richardson",
+    "existing_id": "a2cd7780-82dd-4a4b-9c71-dfec5d3fb6fd",
+    "existing_title": "THE HOMERIC HYMN TO DEMETER",
+    "existing_author": "N. J. RICHARDSON"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title length ratio 2.17 > 1.5; title similarity 0.892 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8923076923076924,
+      "author": 0.553113553113553,
+      "lengthRatio": 2.1666666666666665
+    },
+    "enriched_title": "Billie Eilish",
+    "enriched_author": "Nora Gardiner",
+    "existing_id": "a3750d0f-5a3f-47bd-88e0-9b205c4b75e2",
+    "existing_title": "Billie",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 53.00 > 1.5; title similarity 0.706 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7056603773584906,
+      "author": 0.5093073593073593,
+      "lengthRatio": 53
+    },
+    "enriched_title": "'n Wysgerige ondersoek na die probleem van persvryheid",
+    "enriched_author": "Diederik Johannes Hattingh (Publisher unknown.)",
+    "existing_id": "6e1083e9-1740-4bcc-83e9-eda36ce2d652",
+    "existing_title": "N.",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title similarity 0.769 < 0.92; author similarity 0.389 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.7694444444444445,
+      "author": 0.38888888888888884,
+      "lengthRatio": 1.0666666666666667
+    },
+    "enriched_title": "Great Writing 5",
+    "enriched_author": "Keith S. Folse; Tison Pugh",
+    "existing_id": "a3ca3a80-2216-47f9-a3ad-3b87c1bd07a1",
+    "existing_title": "On Great Writing",
+    "existing_author": "Longinus"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "author similarity 0.517 < 0.75",
+    "matchedBy": "fuzzy(0.926)",
+    "score": {
+      "title": 0.9262745098039216,
+      "author": 0.5166666666666667,
+      "lengthRatio": 1.1333333333333333
+    },
+    "enriched_title": "History of Greece",
+    "enriched_author": "George Grote",
+    "existing_id": "f5fcf2d5-e4ce-4bd9-93f8-df121cac23d8",
+    "existing_title": "A HISTORY OF ROME",
+    "existing_author": "ARTHUR E. R. BOAK"
+  },
+  {
+    "reason": "author similarity 0.555 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.5553571428571429,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Essays on the Greek Historians and Greek History",
+    "enriched_author": "Henry Dickinson Westlake",
+    "existing_id": "a4c586d3-a15e-410f-879b-79cd0585db8f",
+    "existing_title": "Essays on the Greek Historians and Greek History",
+    "existing_author": "H.D. Westlake"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title length ratio 2.41 > 1.5; title similarity 0.883 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8830188679245283,
+      "author": 0.9466666666666667,
+      "lengthRatio": 2.409090909090909
+    },
+    "enriched_title": "Gedenkausgabe der Werke, Briefe und Gespräche. 28. August 1949. Herausgegeben von Ernst Beutler. [With portraits.].",
+    "enriched_author": "Johann Wolfgang von Goethe; Ernst Beutler",
+    "existing_id": "95d4a5d3-bbb7-4178-a0bf-0fe46a3f2201",
+    "existing_title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "existing_author": "JOHANN WOLFGANG GOETHE, ERNST BEUTLER"
+  },
+  {
+    "reason": "title length ratio 8.90 > 1.5; title similarity 0.822 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8224719101123595,
+      "author": 1,
+      "lengthRatio": 8.9
+    },
+    "enriched_title": "Atharva-Veda Samhita; Translated with a Critical and Exegetical Commentary by William Dwight Whitney. Revised and Brought Nearer to Completion and Edited by Charles Rockwell Lanman;",
+    "enriched_author": "William Dwight Whitney; Charles Rockwell Lanman",
+    "existing_id": "5aa9631d-16d1-4a2f-ac57-baa7e0e28578",
+    "existing_title": "Atharva-Veda-Samhita",
+    "existing_author": "William Dwight Whitney, Charles Rockwell Lanman"
+  },
+  {
+    "reason": "author similarity 0.616 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.6156923076923076,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Spartan Law",
+    "enriched_author": "Douglas Maurice MacDowell",
+    "existing_id": "a6942e72-844f-488e-8ac8-8e7514ee7e1d",
+    "existing_title": "Spartan Law",
+    "existing_author": "D.M. MacDowell"
+  },
+  {
+    "reason": "title length ratio 2.40 > 1.5; title similarity 0.617 < 0.92; author similarity 0.712 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.6166666666666667,
+      "author": 0.7116280569392722,
+      "lengthRatio": 2.4
+    },
+    "enriched_title": "Opera",
+    "enriched_author": "Homer; David Binning Monro; Thomas William Allen",
+    "existing_id": "a6f524df-3e8f-4e24-b5c5-140c2f95d7e2",
+    "existing_title": "Homeri Opera",
+    "existing_author": "David B. Munro et Thomas W. Allen"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "author similarity 0.641 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.6408653846153846,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Shamanism",
+    "enriched_author": "Margaret Stutley",
+    "existing_id": "a8a25a79-da91-4035-9bdb-2b658927d956",
+    "existing_title": "Shamanism",
+    "existing_author": "Mircea Eliade"
+  },
+  {
+    "reason": "author similarity 0.719 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.7187912087912087,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Rvdens",
+    "enriched_author": "Titus Maccius Plautus",
+    "existing_id": "765bcadc-7f38-456d-b889-97dfabe43a93",
+    "existing_title": "RVDENS",
+    "existing_author": "T. MACCI PLAV TI"
+  },
+  {
+    "reason": "title length ratio 3.41 > 1.5; title similarity 0.859 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8585987261146497,
+      "author": 1,
+      "lengthRatio": 3.4130434782608696
+    },
+    "enriched_title": "Novo dicionário da língua portuguesa e inglesa enriquecido com os termos técnicos do comércio e da indústria, das ciências e das artes e da linguagem familiar",
+    "enriched_author": "H. Michaelis",
+    "existing_id": "a8ec3845-4f34-4a37-98c4-a71c8e9214f6",
+    "existing_title": "NOVO DICIONÁRIO DA LÍNGUA PORTUGUESA E INGLESA",
+    "existing_author": "H. Michaelis"
+  },
+  {
+    "reason": "title length ratio 2.14 > 1.5; title similarity 0.893 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8933333333333334,
+      "author": 0.5047619047619047,
+      "lengthRatio": 2.142857142857143
+    },
+    "enriched_title": "The Phoenix Project",
+    "enriched_author": "Gene Kim; Kevin Behr; George Spafford",
+    "existing_id": "005a9793-d746-4263-a645-784107041399",
+    "existing_title": "The Phoenix",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title length ratio 2.00 > 1.5; title similarity 0.533 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.5333333333333333,
+      "author": 0.4047619047619047,
+      "lengthRatio": 2
+    },
+    "enriched_title": "A History of the Classical World",
+    "enriched_author": "Elizabeth Wyse",
+    "existing_id": "9390268a-3f84-499e-9c7d-1e13fa0ae0d4",
+    "existing_title": "Classical World",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.453 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.4527777777777778,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Thucydides",
+    "enriched_author": "John H. Finley (Jr.)",
+    "existing_id": "410bd3d8-e322-4cac-80a4-0f0df791f095",
+    "existing_title": "Thucydides",
+    "existing_author": "W. Robert Connor"
+  },
+  {
+    "reason": "title length ratio 5.40 > 1.5; title similarity 0.491 < 0.92; author similarity 0.509 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.49135802469135803,
+      "author": 0.5092592592592592,
+      "lengthRatio": 5.4
+    },
+    "enriched_title": "Qui sou vós que no us conec?",
+    "enriched_author": "Joan Solé i Bordes; Llorenç Amer Catà",
+    "existing_id": "ab81d319-c035-41a3-bb35-1215c261f738",
+    "existing_title": "CONEC",
+    "existing_author": "WA"
+  },
+  {
+    "reason": "title length ratio 2.18 > 1.5; title similarity 0.892 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8918032786885246,
+      "author": 0.47301587301587295,
+      "lengthRatio": 2.1785714285714284
+    },
+    "enriched_title": "Danzig, Between East and West",
+    "enriched_author": "Isadore Twersky",
+    "existing_id": "ab846b60-ff90-4739-bd1d-e5777c8ef8dc",
+    "existing_title": "Danzig, Between East and West: Aspects of Modern Jewish History",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "title length ratio 8.29 > 1.5; title similarity 0.824 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8241379310344827,
+      "author": 1,
+      "lengthRatio": 8.285714285714286
+    },
+    "enriched_title": "Phoenix : the journal of the Classical Association of Canada",
+    "enriched_author": "Classical Association of Canada",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title length ratio 2.55 > 1.5; title similarity 0.878 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8784313725490196,
+      "author": 0.9156177606177607,
+      "lengthRatio": 2.55
+    },
+    "enriched_title": "The Complete Greek Drama, 2 Vols, Edited by Oates & O'neill",
+    "enriched_author": "Whitney j. (editor) Oates; Eugene O'Neill (Jr.)",
+    "existing_id": "705e5344-9a28-4192-a677-44290c2d852d",
+    "existing_title": "The Complete Greek Drama",
+    "existing_author": "Whitney J. Oates and Eugene O'Neill, Jr."
+  },
+  {
+    "reason": "author similarity 0.687 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.6872710622710624,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Soncino Books of the Bible",
+    "enriched_author": "Abraham Cohen",
+    "existing_id": "b251bd07-e682-440d-90ff-93ea9581f798",
+    "existing_title": "The Soncino Books of the Bible",
+    "existing_author": "The Rev. Dr. A. Cohen"
+  },
+  {
+    "reason": "author similarity 0.456 < 0.75",
+    "matchedBy": "fuzzy(0.953)",
+    "score": {
+      "title": 0.9533333333333333,
+      "author": 0.45555555555555555,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Thukydides",
+    "enriched_author": "Thucydides; J. Classen",
+    "existing_id": "410bd3d8-e322-4cac-80a4-0f0df791f095",
+    "existing_title": "Thucydides",
+    "existing_author": "W. Robert Connor"
+  },
+  {
+    "reason": "title length ratio 15.57 > 1.5; title similarity 0.545 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.54521625163827,
+      "author": 0.9409090909090909,
+      "lengthRatio": 15.571428571428571
+    },
+    "enriched_title": "Studies in Honour of Gilbert Norwood. The Phoenix - Journal of the Classical Association of Canada, Supplementary",
+    "enriched_author": "Classical Association of Canada; Mary E. White",
+    "existing_id": "fd35f260-a652-4c90-8084-6678d8f074e1",
+    "existing_title": "Phoenix",
+    "existing_author": "Classical Association of Canada"
+  },
+  {
+    "reason": "title length ratio 5.11 > 1.5; title similarity 0.839 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8391304347826087,
+      "author": 0.5514623172103487,
+      "lengthRatio": 5.111111111111111
+    },
+    "enriched_title": "Tradition",
+    "enriched_author": "Jonathan Sacks; Erica Brown; Edward Reichman; Dov Finkelstein; J. Bleich; Shoshana Schechter; Pinchas Roth; Yoel Finkelman; Jeffrey Saks",
+    "existing_id": "076eb269-357d-42eb-aa47-24bbf48e862f",
+    "existing_title": "Tradition: A Journal of Orthodox Jewish Thought",
+    "existing_author": "Unknown"
+  },
+  {
+    "reason": "author similarity 0.548 < 0.75",
+    "matchedBy": "fuzzy(1.000)",
+    "score": {
+      "title": 1,
+      "author": 0.5483767277402765,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "7f21f01d-c386-4c7c-95ad-a8f6672603e6",
+    "existing_title": "The PAPERS of the BIBLIOGRAPHICAL SOCIETY of AMERICA",
+    "existing_author": "RICHARD KNOWLES, MARCUS A. McCORISON, ALAN R. YOUNG, SYDNEY J. SHEP"
+  },
+  {
+    "reason": "title length ratio 2.41 > 1.5; title similarity 0.883 < 0.92",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 0.8830188679245283,
+      "author": 0.9466666666666667,
+      "lengthRatio": 2.409090909090909
+    },
+    "enriched_title": "Gedenkausgabe der Werke, Briefe und Gespräche. 28. August 1949. Herausgegeben von Ernst Beutler. [With portraits.].",
+    "enriched_author": "Johann Wolfgang von Goethe; Ernst Beutler",
+    "existing_id": "95d4a5d3-bbb7-4178-a0bf-0fe46a3f2201",
+    "existing_title": "GEDENKAUSGABE DER WERKE, BRIEFE UND GESPRÄCHE",
+    "existing_author": "JOHANN WOLFGANG GOETHE, ERNST BEUTLER"
+  },
+  {
+    "reason": "author similarity 0.574 < 0.75",
+    "matchedBy": "fuzzy(0.950)",
+    "score": {
+      "title": 0.95,
+      "author": 0.5744949494949494,
+      "lengthRatio": 1.3333333333333333
+    },
+    "enriched_title": "Sophocles II",
+    "enriched_author": "John Moore; Michael H Jameson; David Grene",
+    "existing_id": "ad4719a0-ba9f-4880-8d94-7c648424dbce",
+    "existing_title": "SOPHOCLES",
+    "existing_author": "Sophocles, W. B. Stanford"
+  },
+  {
+    "reason": "author similarity 0.575 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.574982732819155,
+      "lengthRatio": 1
+    },
+    "enriched_title": "The Papers of the Bibliographical Society of America",
+    "enriched_author": "Bibliographical Society of America",
+    "existing_id": "b8f891de-abfd-42e1-8c58-c3fe12613c59",
+    "existing_title": "THE PAPERS OF THE BIBLIOGRAPHICAL SOCIETY OF AMERICA",
+    "existing_author": "Edward Jacobs, Antonia Forster, Ian MacPhail, Marjorie Sutton, Jay A. Gertzman"
+  },
+  {
+    "reason": "author similarity 0.356 < 0.75",
+    "matchedBy": "title+author(exact)",
+    "score": {
+      "title": 1,
+      "author": 0.35555555555555557,
+      "lengthRatio": 1
+    },
+    "enriched_title": "Plato: Protagoras",
+    "enriched_author": "Plato",
+    "existing_id": "b90aac27-ec12-41b6-b021-8ce82ede7d8f",
+    "existing_title": "Plato Protagoras",
+    "existing_author": "C.C.W.Taylor"
+  }
+]

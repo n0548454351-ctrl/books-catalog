@@ -8,12 +8,13 @@ import FilterPanel from "@/components/public/FilterPanel";
 import CategoryExplorer from "@/components/public/CategoryExplorer";
 import { getPublishedBooks } from "@/lib/db/books";
 import { getCategories } from "@/lib/db/categories";
+import { getTags, getTagBySlug } from "@/lib/db/tags";
 import type { BookFilters } from "@/types";
 
 export const metadata: Metadata = {
   title: "קטלוג ספרים אקדמי ואספני",
   description:
-    "אוסף רחב של ספרים בתחומי הלימודים הקלאסיים, היסטוריה, פילוסופיה, פילולוגיה, יהדות, שפות ומדעי הרוח. מיועד לחוקרים, סטודנטים, אספנים ומוסדות.",
+    "אוסף רחב של ספרים בתחומי הלימודים הקלאסיים, היסטוריה, פילוסופיה, פילולוגיה, יהדות, שפות ומדעי הרוח.",
 };
 
 interface Props {
@@ -24,6 +25,7 @@ interface Props {
     in_stock?: string;
     sort?: string;
     page?: string;
+    tag?: string;        // ← NEW
   }>;
 }
 
@@ -40,23 +42,31 @@ export default async function CatalogPage({ searchParams }: Props) {
     category: sp.category,
     language: sp.language,
     in_stock: sp.in_stock === "true" ? true : undefined,
+    tag:      sp.tag || undefined,           // ← NEW
     sort:     (sp.sort as BookFilters["sort"]) ?? "created_at",
     order:    "desc",
     page:     sp.page ? Number(sp.page) : 1,
     limit:    48,
   };
 
-  const [result, categories] = await Promise.all([
+  const [result, categories, tags, activeTag] = await Promise.all([
     getPublishedBooks(filters),
     getCategories(),
+    getTags(),
+    sp.tag ? getTagBySlug(sp.tag) : Promise.resolve(null),
   ]);
 
   const { data: books, total, totalPages, page } = result;
-  const hasFilters = !!(sp.search || sp.category || sp.language || sp.in_stock);
+  const hasFilters = !!(sp.search || sp.category || sp.language || sp.in_stock || sp.tag);
 
   const activeCategoryName = sp.category
     ? (categories.find((c) => c.id === sp.category)?.name_he ?? "")
     : "";
+
+  // Page title: tag > category > default
+  const pageTitle = activeTag
+    ? (activeTag.name_he ?? activeTag.name)
+    : activeCategoryName || "קטלוג הספרים";
 
   function pageUrl(p: number) {
     const next = new URLSearchParams();
@@ -64,6 +74,7 @@ export default async function CatalogPage({ searchParams }: Props) {
     if (sp.category) next.set("category", sp.category);
     if (sp.language) next.set("language", sp.language);
     if (sp.in_stock) next.set("in_stock", sp.in_stock);
+    if (sp.tag)      next.set("tag",      sp.tag);
     if (sp.sort)     next.set("sort",     sp.sort);
     next.set("page", String(p));
     return `/catalog?${next.toString()}`;
@@ -83,24 +94,56 @@ export default async function CatalogPage({ searchParams }: Props) {
           <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-3">
             <div>
               <h1 className="font-serif text-4xl font-bold text-primary mb-2">
-                {activeCategoryName || "קטלוג הספרים"}
+                {pageTitle}
               </h1>
+              {/* Tag description */}
+              {activeTag?.description && (
+                <p className="text-sm text-on-surface-variant max-w-2xl mb-2 leading-relaxed">
+                  {activeTag.description}
+                </p>
+              )}
               <p className="text-on-surface-variant text-sm">
                 {hasFilters
                   ? `${total.toLocaleString()} תוצאות נמצאו`
-                  : `עיינו באוסף לפי תחומי מחקר מרכזיים ומצאו ספרים המתאימים למחקר, הוראה ואספנות · ${total.toLocaleString()} ספרים`}
+                  : `עיינו באוסף לפי תחומי מחקר מרכזיים · ${total.toLocaleString()} ספרים`}
               </p>
             </div>
             {hasFilters && (
-              <a
-                href="/catalog"
-                className="text-xs font-bold text-accent-gold hover:underline flex items-center gap-1"
-              >
+              <a href="/catalog" className="text-xs font-bold text-accent-gold hover:underline flex items-center gap-1">
                 × נקה סינון
               </a>
             )}
           </div>
         </section>
+
+        {/* ── Tag pills (if tags exist) ── */}
+        {tags.length > 0 && (
+          <section className="mb-6 flex flex-wrap gap-2" dir="rtl">
+            <a
+              href="/catalog"
+              className={`px-4 py-1.5 text-xs font-bold uppercase tracking-widest border transition-colors
+                ${!sp.tag
+                  ? "bg-primary text-white border-primary"
+                  : "border-outline-variant text-on-surface-variant hover:border-accent-gold hover:text-accent-gold"
+                }`}
+            >
+              כל הנושאים
+            </a>
+            {tags.map(t => (
+              <a
+                key={t.id}
+                href={`/catalog?tag=${t.slug}`}
+                className={`px-4 py-1.5 text-xs font-bold uppercase tracking-widest border transition-colors
+                  ${sp.tag === t.slug
+                    ? "bg-primary text-white border-primary"
+                    : "border-outline-variant text-on-surface-variant hover:border-accent-gold hover:text-accent-gold"
+                  }`}
+              >
+                {t.name_he ?? t.name}
+              </a>
+            ))}
+          </section>
+        )}
 
         {/* ── CategoryExplorer ── */}
         <Suspense>
@@ -136,7 +179,6 @@ export default async function CatalogPage({ searchParams }: Props) {
             <p className="text-xs text-on-surface-variant/60 mb-5">
               מציג {books.length.toLocaleString()} מתוך {total.toLocaleString()} ספרים
             </p>
-
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
               {books.map((book) => (
                 <BookCard key={book.id} book={book} />

@@ -2,41 +2,32 @@
 import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
+import { useLocale } from "@/lib/i18n";
 
-const NAV_LINKS = [
-  { href: "/catalog",  label: "קטלוג" },
-  { href: "/#about",   label: "אודות" },
-  { href: "/#contact", label: "צור קשר" },
-];
-
-/* אייקון ספר SVG אלגנטי בצבעי האתר */
 function BookIcon() {
   return (
-    <svg
-      width="28" height="28"
-      viewBox="0 0 28 28"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-    >
-      {/* כריכה אחורית */}
+    <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+      xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <rect x="5" y="4" width="16" height="20" rx="1" fill="#1A365D" opacity="0.15" />
-      {/* כריכה קדמית */}
       <rect x="7" y="3" width="15" height="21" rx="1" fill="#1A365D" />
-      {/* שדרה */}
-      <rect x="5" y="3" width="3" height="21" rx="1" fill="#B8860B" />
-      {/* קו זהב עליון */}
-      <line x1="10" y1="8" x2="19" y2="8" stroke="#B8860B" strokeWidth="1" strokeOpacity="0.6" />
-      {/* שורות טקסט */}
-      <line x1="10" y1="11" x2="19" y2="11" stroke="white" strokeWidth="0.8" strokeOpacity="0.4" />
-      <line x1="10" y1="14" x2="16" y2="14" stroke="white" strokeWidth="0.8" strokeOpacity="0.4" />
+      <rect x="5" y="3" width="3"  height="21" rx="1" fill="#B8860B" />
+      <line x1="10" y1="8"  x2="19" y2="8"  stroke="#B8860B" strokeWidth="1"   strokeOpacity="0.6" />
+      <line x1="10" y1="11" x2="19" y2="11" stroke="white"   strokeWidth="0.8" strokeOpacity="0.4" />
+      <line x1="10" y1="14" x2="16" y2="14" stroke="white"   strokeWidth="0.8" strokeOpacity="0.4" />
     </svg>
   );
 }
 
 export default function Header() {
   const [open, setOpen] = useState(false);
-  const pathname = usePathname();
+  const pathname        = usePathname();
+  const { t, locale, toggle, isEn } = useLocale();
+
+  const NAV_LINKS = [
+    { href: "/catalog",  label: t.nav.catalog },
+    { href: "/#about",   label: t.nav.about   },
+    { href: "/#contact", label: t.nav.contact  },
+  ];
 
   return (
     <header className="w-full sticky top-0 z-40 bg-[#FFFDF5]/96 backdrop-blur-md border-b border-accent-gold/15">
@@ -48,16 +39,16 @@ export default function Header() {
             <BookIcon />
             <div>
               <div className="font-serif text-lg font-bold text-primary leading-tight tracking-tight group-hover:text-accent-gold transition-colors">
-                ספרים אקדמיים
+                {t.siteName}
               </div>
               <div className="text-[9px] font-bold uppercase tracking-[0.25em] text-on-surface-variant/50 leading-tight">
-                Academic Books Collection
+                {t.siteTagline}
               </div>
             </div>
           </Link>
 
           {/* ניווט Desktop */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden md:flex items-center gap-6">
             {NAV_LINKS.map(({ href, label }) => {
               const isActive = href === "/catalog" && pathname?.startsWith("/catalog");
               return (
@@ -74,13 +65,24 @@ export default function Header() {
                 </Link>
               );
             })}
+
+            {/* ── Language toggle ── */}
+            <button
+              onClick={toggle}
+              aria-label={isEn ? "Switch to Hebrew" : "Switch to English"}
+              className="text-[11px] font-bold tracking-widest border border-outline-variant px-2.5 py-1
+                         text-on-surface-variant hover:border-accent-gold hover:text-accent-gold
+                         transition-colors ml-2"
+            >
+              {isEn ? "עב" : "EN"}
+            </button>
           </nav>
 
           {/* המבורגר */}
           <button
             className="md:hidden p-2 text-on-surface-variant hover:text-primary transition-colors"
             onClick={() => setOpen(!open)}
-            aria-label="תפריט"
+            aria-label={isEn ? "Menu" : "תפריט"}
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {open
@@ -104,6 +106,15 @@ export default function Header() {
                 {label}
               </Link>
             ))}
+            {/* Language toggle mobile */}
+            <button
+              onClick={() => { toggle(); setOpen(false); }}
+              className="text-[11px] font-bold tracking-widest border border-outline-variant px-3 py-1.5
+                         text-on-surface-variant hover:border-accent-gold hover:text-accent-gold
+                         transition-colors self-start"
+            >
+              {isEn ? "עברית" : "English"}
+            </button>
           </nav>
         )}
       </div>
