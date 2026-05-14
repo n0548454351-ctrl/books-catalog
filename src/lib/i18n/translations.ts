@@ -305,6 +305,146 @@ export const translations = {
       aria: "Pages",
     },
   },
-} as const;
+};
 
-export type Translations = typeof translations.he;
+// ── Explicit interface so he/en can differ in values but not shape ──
+export interface Translations {
+  siteName:        string;
+  siteTagline:     string;
+  siteDescription: string;
+
+  nav: {
+    catalog: string;
+    about:   string;
+    contact: string;
+  };
+
+  hero: {
+    badge:       string;
+    title:       string;
+    description: string;
+    trust:       string;
+    cta:         string;
+    ctaContact:  string;
+    booksCount:  (n: number) => string;
+  };
+
+  catalog: {
+    badge:         string;
+    title:         string;
+    subtitle:      (n: number) => string;
+    resultsFound:  (n: number) => string;
+    showing:       (n: number, total: number) => string;
+    clearFilter:   string;
+    allTopics:     string;
+    noResults:     string;
+    noResultsHint: string;
+    showAll:       string;
+  };
+
+  filters: {
+    allCategories:     string;
+    allLanguages:      string;
+    allBooks:          string;
+    inStock:           string;
+    sortNewest:        string;
+    sortTitle:         string;
+    sortAuthor:        string;
+    sortYear:          string;
+    search:            string;
+    searchPlaceholder: string;
+  };
+
+  book: {
+    details:     string;
+    inquire:     string;
+    inquiry:     string;
+    multiLang:   string;
+    outOfStock:  string;
+    lowStock:    string;
+    inStock:     string;
+    language:    string;
+    year:        string;
+    publisher:   string;
+    edition:     string;
+    copies:      string;
+    description: string;
+    related:     string;
+    viewAll:     string;
+    inquiryMsg:  (title: string, author: string) => string;
+    contactForm: string;
+    shippingNote:string;
+  };
+
+  contact: {
+    title:       string;
+    subtitle:    string;
+    description: string;
+    whatsapp:    string;
+    whatsappHint:string;
+    email:       string;
+    sendMessage: string;
+    fullName:    string;
+    emailField:  string;
+    subject:     string;
+    message:     string;
+    send:        string;
+    sending:     string;
+    sent:        string;
+    sentHint:    string;
+    error:       string;
+    subjects:    string[];
+  };
+
+  about: {
+    title:  string;
+    badge:  string;
+    header: string;
+    body1:  string;
+    body2:  string;
+  };
+
+  footer: {
+    description: string;
+    nav:         string;
+    contactCol:  string;
+    shipping:    string;
+    disclaimer:  string;
+    rights:      (year: number) => string;
+  };
+
+  trust: [string, string][];
+
+  stats: {
+    books:      string;
+    timespan:   string;
+    timespanVal:string;
+    fields:     string;
+    shipping:   string;
+    shippingVal:string;
+  };
+
+  cta: {
+    title:       string;
+    description: string;
+    hint:        string;
+    whatsapp:    string;
+    email:       string;
+  };
+
+  philology: {
+    badge:    string;
+    backLink: string;
+    field:    string;
+  };
+
+  pagination: {
+    prev: string;
+    next: string;
+    aria: string;
+  };
+}
+
+// Verify both locales satisfy the interface at compile time
+const _typeCheck: Record<Locale, Translations> = translations;
+void _typeCheck;

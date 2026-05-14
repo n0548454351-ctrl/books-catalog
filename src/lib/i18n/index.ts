@@ -7,6 +7,7 @@
 // ─────────────────────────────────────────────────────────────────
 
 import { translations, type Locale, type Translations } from "./translations";
+// Translations is now an explicit interface — no literal type issues
 import { useEffect, useState } from "react";
 
 export { translations };
